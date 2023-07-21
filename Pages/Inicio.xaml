@@ -21,11 +21,11 @@
 
             <!-- Agregamos nuestro logo y definimos su orientación y tamaño -->
 
-            <Image Source="logo.png" HeightRequest="100" WidthRequest="100"  HorizontalOptions="Start"/>
+            <Image Source="logo.png" HeightRequest="130" WidthRequest="130"  HorizontalOptions="Start"/>
 
             <!-- Agregamos un label y definimos su color,tamaño,orientacion, y su propiedad text -->
 
-            <Label TextColor="#FFFFFF" Margin="5,5,5,5" FontSize="40" FontAttributes="Bold" Text="Bienvenid@" HorizontalOptions="End" VerticalOptions="Center" HeightRequest="100" />
+            <Label TextColor="#FFFFFF" Margin="4,50,4,4" FontSize="33" FontAttributes="Bold" Text="Bienvenid@" HorizontalOptions="End" VerticalOptions="Center" HeightRequest="99" />
 
         </HorizontalStackLayout>
 
@@ -39,17 +39,17 @@
 
         <HorizontalStackLayout HorizontalOptions="Center">
 
-            <Button x:Name="ButtonPlatillos" Clicked="ButtonPlatillos_Clicked" BackgroundColor="#D38B1A" Margin="10,10,20,10" Text="Platillos" HeightRequest="50" WidthRequest="150" CornerRadius="30"/>
+            <Button x:Name="ButtonPlatillos" TextColor="White" Clicked="ButtonPlatillos_Clicked" BackgroundColor="#D38B1A" Margin="10,10,20,10" Text="Platillos" HeightRequest="50" WidthRequest="150" CornerRadius="30"/>
 
-            <Button x:Name="ButtonBebidas" Clicked="ButtonBebidas_Clicked" BackgroundColor="#D38B1A" Margin="10,10,20,10" Text="Bebidas" HeightRequest="50" WidthRequest="150" CornerRadius="30"/>
+            <Button x:Name="ButtonBebidas" TextColor="White" Clicked="ButtonBebidas_Clicked" BackgroundColor="#D38B1A" Margin="10,10,20,10" Text="Bebidas" HeightRequest="50" WidthRequest="150" CornerRadius="30"/>
 
         </HorizontalStackLayout>
 
         <HorizontalStackLayout  HorizontalOptions="Center">
 
-            <Button x:Name="ButtonPostres" Clicked="ButtonPostres_Clicked" BackgroundColor="#D38B1A" Margin="10,10,20,10" Text="Postres" HeightRequest="50" WidthRequest="150" CornerRadius="30"/>
+            <Button x:Name="ButtonPostres" TextColor="White" Clicked="ButtonPostres_Clicked" BackgroundColor="#D38B1A" Margin="10,10,20,10" Text="Postres" HeightRequest="50" WidthRequest="150" CornerRadius="30"/>
 
-            <Button x:Name="ButtonBocadillos" Clicked="ButtonBocadillos_Clicked" BackgroundColor="#D38B1A" Margin="10,15,20,10" Text="Bocadillos" HeightRequest="50" WidthRequest="150" CornerRadius="30"/>
+            <Button x:Name="ButtonBocadillos" TextColor="White" Clicked="ButtonBocadillos_Clicked" BackgroundColor="#D38B1A" Margin="10,15,20,10" Text="Bocadillos" HeightRequest="50" WidthRequest="150" CornerRadius="30"/>
 
         </HorizontalStackLayout>
 

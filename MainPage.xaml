@@ -4,18 +4,21 @@
              
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
              
-           
-             
-            
              xmlns:Pages="clr-namespace:Marthas_Coffee_App_Movil.Pages"
+             
+             x:Class="Marthas_Coffee_App_Movil.MainPage"
+             
+             BarBackgroundColor="#D38B1A"
+             
+             BarTextColor="Black"
             
-            x:Class="Marthas_Coffee_App_Movil.MainPage">
-    
-    <Pages:Inicio BackgroundImageSource="sandbox.png" MenuItem.Accelerator="hdhhd"/>
+             xmlns:android="clr-namespace:Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific;assembly=Microsoft.Maui.Controls" android:TabbedPage.ToolbarPlacement="Bottom">
 
-    <Pages:Pedido BackgroundImageSource="sandbox.png"/>
+    <Pages:Inicio BackgroundColor="Black"/>
 
-    <Pages:Cuenta BackgroundImageSource="sandbox.png"/>
-    
+
+    <Pages:Pedido BackgroundColor="Black"/>
+
+    <Pages:Cuenta BackgroundColor="Black"/>
 
 </TabbedPage>

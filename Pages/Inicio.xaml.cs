@@ -11,9 +11,7 @@ public partial class Inicio : ContentPage
         InitializeComponent();
 
     }
-
   
-
     private void ButtonPlatillos_Clicked(object sender, EventArgs e)
 
     {
@@ -26,15 +24,15 @@ public partial class Inicio : ContentPage
 
     {
 
-
+        Navigation.PushModalAsync(new Bebidas());
 
     }
 
-    private void ButtonPostres_Clicked(object sender, EventArgs e)
+        private void ButtonPostres_Clicked(object sender, EventArgs e)
 
     {
 
-
+        Navigation.PushModalAsync(new Postres());
 
     }
 
@@ -42,7 +40,7 @@ public partial class Inicio : ContentPage
 
     {
 
-
+        Navigation.PushModalAsync(new Bocadillos());
 
     }
 
