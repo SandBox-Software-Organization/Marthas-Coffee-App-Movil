@@ -8,12 +8,9 @@
              
              Title="Inicio">
 
-
-
     <!-- Definimos el margen del VerticalStackLayout -->
 
     <VerticalStackLayout Margin="10,10,10,10">
-
 
         <!-- Definimos el padding del HorizontalStackLayou t-->
 
@@ -29,12 +26,13 @@
 
         </HorizontalStackLayout>
 
+
         <!-- Agregamos un label y definimos su color,tamaño,orientacion, y su propiedad text -->
 
         <Label TextColor="#FFFFFF" FontSize="20" HorizontalOptions="Center" Text="Ofertas del dia"/>
 
         <!-- Agregamos un label y definimos su color,tamaño,orientacion, y su propiedad text -->
-        
+
         <Label TextColor="#FFFFFF" FontSize="20" HorizontalOptions="Center" Text="Categorias"/>
 
         <HorizontalStackLayout HorizontalOptions="Center">

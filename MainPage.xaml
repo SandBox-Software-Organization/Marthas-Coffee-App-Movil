@@ -7,18 +7,21 @@
              xmlns:Pages="clr-namespace:Marthas_Coffee_App_Movil.Pages"
              
              x:Class="Marthas_Coffee_App_Movil.MainPage"
-             
-             BarBackgroundColor="#D38B1A"
-             
-             BarTextColor="Black"
             
-             xmlns:android="clr-namespace:Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific;assembly=Microsoft.Maui.Controls" android:TabbedPage.ToolbarPlacement="Bottom">
+             xmlns:android="clr-namespace:Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific;assembly=Microsoft.Maui.Controls" android:TabbedPage.ToolbarPlacement="Bottom"
 
-    <Pages:Inicio BackgroundColor="Black"/>
+             BarBackgroundColor="#6A4512"
+             
+             BarTextColor="#FFFFFF"
+             
+             UnselectedTabColor="#D38B1A"
+             
+             SelectedTabColor="#6D6C6C">
 
+    <Pages:Inicio BackgroundColor="#6A4512"/>
 
-    <Pages:Pedido BackgroundColor="Black"/>
+    <Pages:Pedido BackgroundColor="#6A4512"/>
 
-    <Pages:Cuenta BackgroundColor="Black"/>
+    <Pages:Cuenta BackgroundColor="#6A4512"/>
 
 </TabbedPage>
