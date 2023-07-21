@@ -11,7 +11,7 @@
     <!-- Definimos el margen del VerticalStackLayout -->
 
     <VerticalStackLayout Margin="10,10,10,10">
-
+          
         <!-- Definimos el padding del HorizontalStackLayou t-->
 
         <HorizontalStackLayout Padding="10,10,10,10">
@@ -22,32 +22,32 @@
 
             <!-- Agregamos un label y definimos su color,tamaño,orientacion, y su propiedad text -->
 
-            <Label TextColor="#FFFFFF" Margin="4,50,4,4" FontSize="33" FontAttributes="Bold" Text="Bienvenid@" HorizontalOptions="End" VerticalOptions="Center" HeightRequest="99" />
+            <Label FontFamily="raleway-boldf" TextColor="#FFFFFF" Margin="4,50,4,4" FontSize="33" FontAttributes="Bold" Text="Bienvenid@" HorizontalOptions="End" VerticalOptions="Center" HeightRequest="99" />
 
         </HorizontalStackLayout>
 
 
         <!-- Agregamos un label y definimos su color,tamaño,orientacion, y su propiedad text -->
 
-        <Label TextColor="#FFFFFF" FontSize="20" HorizontalOptions="Center" Text="Ofertas del dia"/>
+        <Label FontFamily="raleway-boldf" TextColor="#FFFFFF" FontSize="20" HorizontalOptions="Center" FontAttributes="Bold" Text="Ofertas del dia"/>
 
         <!-- Agregamos un label y definimos su color,tamaño,orientacion, y su propiedad text -->
 
-        <Label TextColor="#FFFFFF" FontSize="20" HorizontalOptions="Center" Text="Categorias"/>
+        <Label FontFamily="raleway-boldf" TextColor="#FFFFFF" FontSize="20" HorizontalOptions="Center" FontAttributes="Bold" Text="Categorias"/>
 
         <HorizontalStackLayout HorizontalOptions="Center">
 
-            <Button x:Name="ButtonPlatillos" TextColor="White" Clicked="ButtonPlatillos_Clicked" BackgroundColor="#D38B1A" Margin="10,10,20,10" Text="Platillos" HeightRequest="50" WidthRequest="150" CornerRadius="30"/>
+            <Button FontFamily="raleway-boldf" x:Name="ButtonPlatillos" TextColor="White" Clicked="ButtonPlatillos_Clicked" BackgroundColor="#D38B1A" Margin="10,10,20,10" Text="Platillos" HeightRequest="50" WidthRequest="150" CornerRadius="30"/>
 
-            <Button x:Name="ButtonBebidas" TextColor="White" Clicked="ButtonBebidas_Clicked" BackgroundColor="#D38B1A" Margin="10,10,20,10" Text="Bebidas" HeightRequest="50" WidthRequest="150" CornerRadius="30"/>
+            <Button FontFamily="raleway-boldf" x:Name="ButtonBebidas" TextColor="White" Clicked="ButtonBebidas_Clicked" BackgroundColor="#D38B1A" Margin="10,10,20,10" Text="Bebidas" HeightRequest="50" WidthRequest="150" CornerRadius="30"/>
 
         </HorizontalStackLayout>
 
         <HorizontalStackLayout  HorizontalOptions="Center">
 
-            <Button x:Name="ButtonPostres" TextColor="White" Clicked="ButtonPostres_Clicked" BackgroundColor="#D38B1A" Margin="10,10,20,10" Text="Postres" HeightRequest="50" WidthRequest="150" CornerRadius="30"/>
+            <Button FontFamily="raleway-boldf" x:Name="ButtonPostres" TextColor="White" Clicked="ButtonPostres_Clicked" BackgroundColor="#D38B1A" Margin="10,10,20,10" Text="Postres" HeightRequest="50" WidthRequest="150" CornerRadius="30"/>
 
-            <Button x:Name="ButtonBocadillos" TextColor="White" Clicked="ButtonBocadillos_Clicked" BackgroundColor="#D38B1A" Margin="10,15,20,10" Text="Bocadillos" HeightRequest="50" WidthRequest="150" CornerRadius="30"/>
+            <Button FontFamily="raleway-boldf" x:Name="ButtonBocadillos" TextColor="White" Clicked="ButtonBocadillos_Clicked" BackgroundColor="#D38B1A" Margin="10,15,20,10" Text="Bocadillos" HeightRequest="50" WidthRequest="150" CornerRadius="30"/>
 
         </HorizontalStackLayout>
 

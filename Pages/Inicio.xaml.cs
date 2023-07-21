@@ -1,3 +1,5 @@
+using System.ComponentModel;
+
 namespace Marthas_Coffee_App_Movil.Pages;
 
 public partial class Inicio : ContentPage
@@ -11,7 +13,7 @@ public partial class Inicio : ContentPage
         InitializeComponent();
 
     }
-  
+
     private void ButtonPlatillos_Clicked(object sender, EventArgs e)
 
     {
