@@ -3,10 +3,110 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Marthas_Coffee_App_Movil.Pages.Postres"
              Title="Postres">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+    <VerticalStackLayout BackgroundColor="#6A4512" >
+        <HorizontalStackLayout Padding="10,10,10,10">
+
+            <!-- Agregamos nuestro logo y definimos su orientación y tamaño -->
+
+            <Image Source="logo.png" HeightRequest="100" WidthRequest="100"  HorizontalOptions="Start"/>
+
+            <!-- Agregamos un label y definimos su color,tamaño,orientacion, y su propiedad text -->
+
+            <Label FontFamily="raleway-boldf" TextColor="#FFFFFF" Margin="40,50,4,4" FontSize="40" FontAttributes="Bold" Text="Postres"  VerticalOptions="Center" HeightRequest="100" />
+
+        </HorizontalStackLayout>
+        <Label TextColor="LemonChiffon" HorizontalOptions="Center" FontSize="20" Text="Frios" FontAttributes="Bold"/>
+        <Label/>
+
+        <HorizontalStackLayout>
+            <ImageButton Source="pastel.jpg"
+                         WidthRequest="90"
+                         HeightRequest="90"
+                         CornerRadius="20"
+                         Margin="10,10,10,10"
+                       
+                         />
+
+            <ImageButton x:Name="Mochi" Clicked="ImageButtonMochi_Clicked" Source="mochi.jpg"
+                         WidthRequest="90"
+                         HeightRequest="90" 
+                         CornerRadius="20"
+                         Margin="10,10,10,10"/>
+
+            <ImageButton Source="sandwich.jpg"
+                         WidthRequest="90"
+                         HeightRequest="90" 
+                         CornerRadius="20"
+                         Margin="10,10,10,10"/>
+
+            <ImageButton Source="tresleches.jpg"
+                         WidthRequest="90"
+                         HeightRequest="90"
+                         CornerRadius="20"
+                         Margin="10,10,10,10"
+                         />
+        </HorizontalStackLayout>
+        <Label/>
+        <Label TextColor="LemonChiffon" HorizontalOptions="Center" FontSize="20" Text="Calientes" FontAttributes="Bold"/>
+        <Label/>
+
+        <HorizontalStackLayout>
+            <ImageButton Source="empanadas.jpg"
+                         WidthRequest="90"
+                         HeightRequest="90"
+                         CornerRadius="20"
+                         Margin="10,10,10,10"
+                         />
+
+            <ImageButton Source="arle.jpg"
+                           WidthRequest="90"
+                         HeightRequest="90"
+                         CornerRadius="20"
+                         Margin="10,10,10,10"/>
+
+            <ImageButton Source="pie.jpg"
+                         WidthRequest="90"
+                         HeightRequest="90"
+                         CornerRadius="20"
+                         Margin="10,10,10,10"/>
+
+            <ImageButton Source="bubu.jpg"
+                         WidthRequest="90"
+                         HeightRequest="90"
+                         CornerRadius="20"
+                         Margin="10,10,10,10"/>
+        </HorizontalStackLayout>
+
+        <Label/>
+        <Label TextColor="LemonChiffon" HorizontalOptions="Center" FontSize="20" Text="Dulces" FontAttributes="Bold"/>
+        <Label/>
+
+        <HorizontalStackLayout>
+            <ImageButton Source="choco.jpg"
+                         WidthRequest="90"
+                         HeightRequest="90"
+                         CornerRadius="20"
+                         Margin="10,10,10,10"
+                         />
+
+            <ImageButton Source="dulcemilk.jpg"
+                         WidthRequest="90"
+                         HeightRequest="90"
+                         CornerRadius="20"
+                         Margin="10,10,10,10"/>
+
+            <ImageButton Source="alfajores.jpg"
+                         WidthRequest="90"
+                         HeightRequest="90"
+                         CornerRadius="20"
+                         Margin="10,10,10,10"/>
+
+            <ImageButton Source="donas.jpg"
+                         WidthRequest="90"
+                         HeightRequest="90"
+                         CornerRadius="20"
+                         Margin="10,10,10,10"/>
+        </HorizontalStackLayout>
     </VerticalStackLayout>
+
 </ContentPage>

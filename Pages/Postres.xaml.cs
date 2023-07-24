@@ -6,4 +6,8 @@ public partial class Postres : ContentPage
 	{
 		InitializeComponent();
 	}
+	private void ImageButtonMochi_Clicked (object sender, EventArgs e)
+	{
+		Navigation.PushModalAsync(new mochi());
+	}
 }
