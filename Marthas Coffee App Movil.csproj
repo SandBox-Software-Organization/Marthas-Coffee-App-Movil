@@ -48,6 +48,23 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <AndroidResource Remove="Resources\Images\Bocadillos\**" />
+	  <AndroidResource Remove="Resources\Images\Platillos\**" />
+	  <Compile Remove="Resources\Images\Bocadillos\**" />
+	  <Compile Remove="Resources\Images\Platillos\**" />
+	  <EmbeddedResource Remove="Resources\Images\Bocadillos\**" />
+	  <EmbeddedResource Remove="Resources\Images\Platillos\**" />
+	  <MauiCss Remove="Resources\Images\Bocadillos\**" />
+	  <MauiCss Remove="Resources\Images\Platillos\**" />
+	  <MauiImage Remove="Resources\Images\Bocadillos\**" />
+	  <MauiImage Remove="Resources\Images\Platillos\**" />
+	  <MauiXaml Remove="Resources\Images\Bocadillos\**" />
+	  <MauiXaml Remove="Resources\Images\Platillos\**" />
+	  <None Remove="Resources\Images\Bocadillos\**" />
+	  <None Remove="Resources\Images\Platillos\**" />
+	</ItemGroup>
+
+	<ItemGroup>
 	  <None Remove="Resources\Images\SandBox.png" />
 	  <None Remove="Resources\Images\sansan.png" />
 	</ItemGroup>
@@ -57,16 +74,16 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="Pages\Categorias\Bebidas.xaml">
+	  <MauiXaml Update="Pages\Bebidas.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Pages\Categorias\Bocadillos.xaml">
+	  <MauiXaml Update="Pages\Bocadillos.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Pages\Categorias\Cuenta\CrearCuenta.xaml">
+	  <MauiXaml Update="Pages\CrearCuenta.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Pages\Categorias\Postres\Mochi.xaml">
+	  <MauiXaml Update="Pages\Mochi.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Pages\Cuenta.xaml">
@@ -78,20 +95,12 @@
 	  <MauiXaml Update="Pages\Pedido.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Pages\Categorias\Platillos.xaml">
+	  <MauiXaml Update="Pages\Platillos.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Pages\Categorias\Postres.xaml">
+	  <MauiXaml Update="Pages\Postres.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	</ItemGroup>
-
-	<ItemGroup>
-	  <Folder Include="Pages\Categorias\Bebidas\" />
-	  <Folder Include="Pages\Categorias\Bocadillos\" />
-	  <Folder Include="Pages\Categorias\Platillos\" />
-	  <Folder Include="Resources\Images\Bocadillos\" />
-	  <Folder Include="Resources\Images\Platillos\" />
 	</ItemGroup>
 
 </Project>
