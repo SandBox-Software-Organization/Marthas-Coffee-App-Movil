@@ -215,6 +215,24 @@
                 <Label TextColor="#FFFFFF" FontSize="10"  Text="00.00"  Margin="2,0,0,0" FontAttributes="Bold" />
 
             </HorizontalStackLayout>
+            
+        </VerticalStackLayout>
+        
+        <VerticalStackLayout>
+
+            <HorizontalStackLayout HorizontalOptions="CenterAndExpand" Margin="0,40,0,0">
+
+                <Button FontFamily="raleway-boldf" x:Name="Orden" TextColor="White" BackgroundColor="#D38B1A" Margin="10,10,10,10" Text="AGREGAR A LA ORDEN" HeightRequest="45" WidthRequest="190" CornerRadius="30"/>
+
+                <Button FontFamily="raleway-boldf" x:Name="Mas" TextColor="White" BackgroundColor="#D38B1A" Margin="0,0,0,0" Text="+" HeightRequest="40" WidthRequest="40" CornerRadius="60" FontAttributes="Bold"/>
+
+                <Label Margin="10,0,10,0" HorizontalOptions="Center" VerticalOptions="Center" Text="0" FontAttributes="Bold"/>
+
+                <Button FontFamily="raleway-boldf" x:Name="Menos" TextColor="White" BackgroundColor="#D38B1A" Margin="0,0,10,0" Text="-" HeightRequest="40" WidthRequest="40" CornerRadius="60" FontAttributes="Bold"/>
+
+
+            </HorizontalStackLayout>
+
         </VerticalStackLayout>
 
     </VerticalStackLayout>
