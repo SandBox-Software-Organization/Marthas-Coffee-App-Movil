@@ -237,8 +237,8 @@
         <VerticalStackLayout>
 
             <HorizontalStackLayout HorizontalOptions="CenterAndExpand" Padding="10,10,10,10">
-
-                <Button Text="AGREGAR A LA ORDEN" TextColor="Black" CornerRadius="10" />
+                
+                <Button Text="AGREGAR A LA ORDEN" TextColor="Black" CornerRadius="20" />
                 <Button Text="+" Margin="10,10,10,10"/>
                 <Label HorizontalOptions="Center" VerticalOptions="Center" Text="?"/>
                 <Button Text="--" Margin="10,10,10,10" FontAttributes="Bold"/>
