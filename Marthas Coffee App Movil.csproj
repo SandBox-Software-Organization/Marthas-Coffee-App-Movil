@@ -57,10 +57,16 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="Pages\Bebidas.xaml">
+	  <MauiXaml Update="Pages\Categorias\Bebidas.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Pages\Bocadillos.xaml">
+	  <MauiXaml Update="Pages\Categorias\Bocadillos.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\Categorias\Cuenta\CrearCuenta.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\Categorias\Postres\Mochi.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Pages\Cuenta.xaml">
@@ -69,18 +75,23 @@
 	  <MauiXaml Update="Pages\Inicio.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Pages\mochi.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
 	  <MauiXaml Update="Pages\Pedido.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Pages\Platillos.xaml">
+	  <MauiXaml Update="Pages\Categorias\Platillos.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Pages\Postres.xaml">
+	  <MauiXaml Update="Pages\Categorias\Postres.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Pages\Categorias\Bebidas\" />
+	  <Folder Include="Pages\Categorias\Bocadillos\" />
+	  <Folder Include="Pages\Categorias\Platillos\" />
+	  <Folder Include="Resources\Images\Bocadillos\" />
+	  <Folder Include="Resources\Images\Platillos\" />
 	</ItemGroup>
 
 </Project>
