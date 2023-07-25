@@ -10,11 +10,11 @@
 
     <!-- Definimos el color de fondo de nuestra pagina -->
 
-    <VerticalStackLayout Padding="10,10,10,10" BackgroundColor="#6A4512" >
+    <VerticalStackLayout Padding="5,5,5,5" BackgroundColor="#6A4512" >
 
         <!-- Definimos la orientacion y el margin de nuestro VerticalStackLayout -->
 
-        <VerticalStackLayout HorizontalOptions="StartAndExpand" Margin="10,5,10,0">
+        <VerticalStackLayout HorizontalOptions="StartAndExpand" Margin="5,5,5,5">
 
             <HorizontalStackLayout>
 
@@ -32,7 +32,7 @@
 
         <!-- Creamos un VerticalStackLayout y definimos su orientación y padding -->
 
-        <VerticalStackLayout HorizontalOptions="CenterAndExpand" Padding="10,0,10,10">
+        <VerticalStackLayout HorizontalOptions="CenterAndExpand" Padding="1,1,1,10">
 
             <!-- Agregamos un label y definimos su color,fuente,tamaño,sus atributos, y su propiedad text -->
 
@@ -42,7 +42,7 @@
 
         <!-- Creamos un VerticalStackLayout y definimos su orientación y su padding -->
 
-        <VerticalStackLayout Padding="10,1,10,10" HorizontalOptions="CenterAndExpand">
+        <VerticalStackLayout HorizontalOptions="CenterAndExpand">
 
             <HorizontalStackLayout>
 
@@ -66,7 +66,7 @@
 
         </VerticalStackLayout>
 
-        <VerticalStackLayout Padding="10,1,10,10" HorizontalOptions="CenterAndExpand">
+        <VerticalStackLayout Padding="1,1,1,1" HorizontalOptions="CenterAndExpand">
 
             <HorizontalStackLayout>
 
@@ -82,7 +82,7 @@
 
         </VerticalStackLayout>
 
-        <VerticalStackLayout Padding="10,1,10,10" HorizontalOptions="CenterAndExpand">
+        <VerticalStackLayout HorizontalOptions="CenterAndExpand">
 
             <HorizontalStackLayout>
 
@@ -106,7 +106,7 @@
 
         </VerticalStackLayout>
 
-        <VerticalStackLayout HorizontalOptions="CenterAndExpand" Padding="10,0,10,10">
+        <VerticalStackLayout Padding="1,10,1,10" HorizontalOptions="CenterAndExpand">
 
             <!-- Agregamos un label y definimos su color,fuente,tamaño,sus atributos, y su propiedad text -->
 
@@ -114,7 +114,7 @@
 
         </VerticalStackLayout>
 
-        <VerticalStackLayout HorizontalOptions="CenterAndExpand" Padding="10,1,10,10">
+        <VerticalStackLayout HorizontalOptions="CenterAndExpand">
 
             <HorizontalStackLayout>
 
@@ -130,9 +130,9 @@
 
         </VerticalStackLayout>
 
-        <VerticalStackLayout HorizontalOptions="CenterAndExpand" Padding="10,1,10,10">
+        <VerticalStackLayout HorizontalOptions="CenterAndExpand">
 
-            <HorizontalStackLayout Margin="10,0,10,10">
+            <HorizontalStackLayout>
 
                 <Label TextColor="#FFFFFF"  FontSize="10" Text="Pastel de helado"  Margin="0,0,0,0" FontAttributes="Bold"/>
 
@@ -146,7 +146,7 @@
 
         </VerticalStackLayout>
 
-        <VerticalStackLayout HorizontalOptions="CenterAndExpand" Padding="10,1,10,10">
+        <VerticalStackLayout HorizontalOptions="CenterAndExpand">
 
             <HorizontalStackLayout>
 
@@ -170,7 +170,7 @@
 
         </VerticalStackLayout>
 
-        <VerticalStackLayout HorizontalOptions="CenterAndExpand" Padding="10,5,10,10">
+        <VerticalStackLayout HorizontalOptions="CenterAndExpand" Padding="1,10,1,10">
 
             <!-- Agregamos un label y definimos su color,fuente,tamaño,sus atributos, y su propiedad text -->
 
@@ -178,7 +178,7 @@
 
         </VerticalStackLayout>
 
-        <VerticalStackLayout HorizontalOptions="CenterAndExpand" Padding="10,0,10,10">
+        <VerticalStackLayout HorizontalOptions="CenterAndExpand">
 
             <HorizontalStackLayout>
 
@@ -194,9 +194,10 @@
 
         </VerticalStackLayout>
 
-        <VerticalStackLayout HorizontalOptions="CenterAndExpand" Padding="10,0,10,10">
+        <VerticalStackLayout HorizontalOptions="CenterAndExpand">
 
-            <HorizontalStackLayout Margin="10,0,10,10">
+            <HorizontalStackLayout>
+                
                 <Label TextColor="#FFFFFF"  FontSize="10" Text="Pastel de chocolate"  Margin="0,0,0,0" FontAttributes="Bold"/>
 
                 <Label TextColor="#FFFFFF"  FontSize="10"  Text="Pastel de dulce"  Margin="10,0,0,0" FontAttributes="Bold" />
@@ -209,7 +210,7 @@
 
         </VerticalStackLayout>
 
-        <VerticalStackLayout HorizontalOptions="CenterAndExpand" Padding="10,0,10,10">
+        <VerticalStackLayout HorizontalOptions="CenterAndExpand">
 
             <HorizontalStackLayout>
 
@@ -231,6 +232,19 @@
 
             </HorizontalStackLayout>
 
+        </VerticalStackLayout>
+
+        <VerticalStackLayout>
+
+            <HorizontalStackLayout HorizontalOptions="CenterAndExpand" Padding="10,10,10,10">
+
+                <Button Text="AGREGAR A LA ORDEN" TextColor="Black" CornerRadius="10" />
+                <Button Text="+" Margin="10,10,10,10"/>
+                <Label HorizontalOptions="Center" VerticalOptions="Center" Text="?"/>
+                <Button Text="--" Margin="10,10,10,10" FontAttributes="Bold"/>
+
+            </HorizontalStackLayout>                   
+            
         </VerticalStackLayout>
 
     </VerticalStackLayout>
