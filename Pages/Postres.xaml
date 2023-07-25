@@ -197,13 +197,13 @@
         <VerticalStackLayout HorizontalOptions="CenterAndExpand" Padding="10,0,10,10">
 
             <HorizontalStackLayout Margin="10,0,10,10">
-                <Label TextColor="#FFFFFF"  FontSize="10" Text="Pastel de cholate"  Margin="0,0,0,0" FontAttributes="Bold"/>
+                <Label TextColor="#FFFFFF"  FontSize="10" Text="Pastel de chocolate"  Margin="0,0,0,0" FontAttributes="Bold"/>
 
-                <Label TextColor="#FFFFFF"  FontSize="10"  Text="Pastel de dulce"  Margin="30,0,0,0" FontAttributes="Bold" />
+                <Label TextColor="#FFFFFF"  FontSize="10"  Text="Pastel de dulce"  Margin="10,0,0,0" FontAttributes="Bold" />
 
-                <Label TextColor="#FFFFFF"  FontSize="10"  Text="Alfajores"  Margin="54,0,0,0" FontAttributes="Bold"/>
+                <Label TextColor="#FFFFFF"  FontSize="10"  Text="Alfajores"  Margin="40,0,0,0" FontAttributes="Bold"/>
 
-                <Label TextColor="#FFFFFF"  FontSize="10"  Text="Donas"  Margin="55,0,0,0" FontAttributes="Bold"/>
+                <Label TextColor="#FFFFFF"  FontSize="10"  Text="Donas"  Margin="40,0,0,0" FontAttributes="Bold"/>
 
             </HorizontalStackLayout>
 

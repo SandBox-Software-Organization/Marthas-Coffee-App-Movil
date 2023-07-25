@@ -49,9 +49,47 @@
                          CornerRadius="20"
                          Margin="10,10,10,10"/>
         </HorizontalStackLayout>
+
+
+        <HorizontalStackLayout Margin="10,0,10,10">
+
+            <Label TextColor="#FFFFFF"  FontSize="10" Text="Horchata de Banana"  Margin="0,0,0,0" FontAttributes="Bold"/>
+
+            <Label TextColor="#FFFFFF"  FontSize="10"  Text="Frape de Fresa"  Margin="28,0,0,0" FontAttributes="Bold"/>
+
+            <Label TextColor="#FFFFFF"  FontSize="10"  Text="Limonada de Fresa"  Margin="32,0,0,0" FontAttributes="Bold"/>
+
+            <Label TextColor="#FFFFFF"  FontSize="10"  Text="licuado de frutos rojos"  Margin="16,0,0,0" FontAttributes="Bold"/>
+
+        </HorizontalStackLayout>
+
+        <VerticalStackLayout HorizontalOptions="CenterAndExpand" Padding="10,0,10,10">
+            <HorizontalStackLayout>
+
+                <Label TextColor="#FFFFFF" FontSize="10"  Text="$:"  Margin="1,0,0,0" FontAttributes="Bold"/>
+
+                <Label TextColor="#FFFFFF" FontSize="10"  Text="00.00"  Margin="1,0,0,0" FontAttributes="Bold"/>
+
+                <Label TextColor="#FFFFFF" FontSize="10"  Text="$:"  Margin="60,0,0,0" FontAttributes="Bold"/>
+
+                <Label TextColor="#FFFFFF" FontSize="10"  Text="00.00"  Margin="2,0,0,0" FontAttributes="Bold"/>
+
+                <Label TextColor="#FFFFFF" FontSize="10"  Text="$:"  Margin="60,0,0,0" FontAttributes="Bold"/>
+
+                <Label TextColor="#FFFFFF" FontSize="10"  Text="00.00"  Margin="2,0,0,0" FontAttributes="Bold"/>
+
+                <Label TextColor="#FFFFFF" FontSize="10"  Text="$:"  Margin="50,0,0,0" FontAttributes="Bold"/>
+
+                <Label TextColor="#FFFFFF" FontSize="10"  Text="00.00"  Margin="2,0,0,0" FontAttributes="Bold" />
+
+            </HorizontalStackLayout>
+        </VerticalStackLayout>
+
+
         <Label/>
         <Label TextColor="LemonChiffon" HorizontalOptions="Center" FontSize="20" Text="Calientes" FontAttributes="Bold"/>
         <Label/>
+
 
         <HorizontalStackLayout>
             <ImageButton Source="capu.jpg"
@@ -76,9 +114,43 @@
             <ImageButton Source="cherry.jpg"
                          WidthRequest="90"
                          HeightRequest="90"
-                         CornerRadius="20"
+                         CornerRadius="20" 
                          Margin="10,10,10,10"/>
         </HorizontalStackLayout>
+
+        <HorizontalStackLayout Margin="10,0,10,10">
+
+            <Label TextColor="#FFFFFF"  FontSize="10" Text="Capuchino de Matcha" Margin="0,0,0,0" FontAttributes="Bold"/>
+
+            <Label TextColor="#FFFFFF"  FontSize="10"  Text="Moca" Margin="45,0,0,0" FontAttributes="Bold"/>
+
+            <Label TextColor="#FFFFFF"  FontSize="10"  Text="Atol de Elote"  Margin="66,0,0,0" FontAttributes="Bold"/>
+
+            <Label TextColor="#FFFFFF"  FontSize="10"  Text="Moca de Cereza"  Margin="39,0,0,0" FontAttributes="Bold"/>
+
+        </HorizontalStackLayout>
+
+        <VerticalStackLayout HorizontalOptions="CenterAndExpand" Padding="10,0,10,10">
+            <HorizontalStackLayout>
+
+                <Label TextColor="#FFFFFF" FontSize="10"  Text="$:"  Margin="10,0,0,0" FontAttributes="Bold"/>
+
+                <Label TextColor="#FFFFFF" FontSize="10"  Text="00.00"  Margin="2,0,0,0" FontAttributes="Bold"/>
+
+                <Label TextColor="#FFFFFF" FontSize="10"  Text="$:"  Margin="60,0,0,0" FontAttributes="Bold"/>
+
+                <Label TextColor="#FFFFFF" FontSize="10"  Text="00.00"  Margin="2,0,0,0" FontAttributes="Bold"/>
+
+                <Label TextColor="#FFFFFF" FontSize="10"  Text="$:"  Margin="60,0,0,0" FontAttributes="Bold"/>
+
+                <Label TextColor="#FFFFFF" FontSize="10"  Text="00.00"  Margin="2,0,0,0" FontAttributes="Bold"/>
+
+                <Label TextColor="#FFFFFF" FontSize="10"  Text="$:"  Margin="50,0,0,0" FontAttributes="Bold"/>
+
+                <Label TextColor="#FFFFFF" FontSize="10"  Text="00.00"  Margin="2,0,0,0" FontAttributes="Bold" />
+
+            </HorizontalStackLayout>
+        </VerticalStackLayout>
 
         <Label/>
         <Label TextColor="LemonChiffon" HorizontalOptions="Center" FontSize="20" Text="Naturales" FontAttributes="Bold"/>
@@ -110,6 +182,40 @@
                          CornerRadius="20"
                          Margin="10,10,10,10"/>
         </HorizontalStackLayout>
+
+        <HorizontalStackLayout Margin="10,0,10,10">
+
+            <Label TextColor="#FFFFFF"  FontSize="10" Text="Jugo de Mnadarina" Margin="0,0,0,0" FontAttributes="Bold"/>
+
+            <Label TextColor="#FFFFFF"  FontSize="10"  Text="Jugo de Naranja" Margin="26,0,0,0" FontAttributes="Bold"/>
+
+            <Label TextColor="#FFFFFF"  FontSize="10"  Text="Jugo de Jamica"  Margin="32,0,0,0" FontAttributes="Bold"/>
+
+            <Label TextColor="#FFFFFF"  FontSize="10"  Text="Jugo de Mango"  Margin="42,0,0,0" FontAttributes="Bold"/>
+
+        </HorizontalStackLayout>
+
+        <VerticalStackLayout HorizontalOptions="CenterAndExpand" Padding="10,0,10,10">
+            <HorizontalStackLayout>
+
+                <Label TextColor="#FFFFFF" FontSize="10"  Text="$:"  Margin="10,0,0,0" FontAttributes="Bold"/>
+
+                <Label TextColor="#FFFFFF" FontSize="10"  Text="00.00"  Margin="2,0,0,0" FontAttributes="Bold"/>
+
+                <Label TextColor="#FFFFFF" FontSize="10"  Text="$:"  Margin="60,0,0,0" FontAttributes="Bold"/>
+
+                <Label TextColor="#FFFFFF" FontSize="10"  Text="00.00"  Margin="2,0,0,0" FontAttributes="Bold"/>
+
+                <Label TextColor="#FFFFFF" FontSize="10"  Text="$:"  Margin="60,0,0,0" FontAttributes="Bold"/>
+
+                <Label TextColor="#FFFFFF" FontSize="10"  Text="00.00"  Margin="2,0,0,0" FontAttributes="Bold"/>
+
+                <Label TextColor="#FFFFFF" FontSize="10"  Text="$:"  Margin="50,0,0,0" FontAttributes="Bold"/>
+
+                <Label TextColor="#FFFFFF" FontSize="10"  Text="00.00"  Margin="2,0,0,0" FontAttributes="Bold" />
+
+            </HorizontalStackLayout>
+        </VerticalStackLayout>
 
     </VerticalStackLayout>
 
