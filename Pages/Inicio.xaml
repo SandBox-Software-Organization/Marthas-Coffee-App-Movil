@@ -30,17 +30,6 @@
 
         </VerticalStackLayout>
 
-        <VerticalStackLayout HorizontalOptions="CenterAndExpand" Padding="10,10,10,10">
-
-            <HorizontalStackLayout>
-                
-                
-            </HorizontalStackLayout>
-            
-            <ImageButton x:Name="PastelHeladoBanner" Source="pastelheladobanner.jpg" WidthRequest="299" HeightRequest="200" CornerRadius="25" Margin="0,2,2,5"/>
-            
-        </VerticalStackLayout>
-
         <!-- Creamos un VerticalStackLayout y definimos su orientación -->
 
         <VerticalStackLayout HorizontalOptions="CenterAndExpand">
