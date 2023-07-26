@@ -12,9 +12,7 @@
             <Label FontFamily="raleway-boldf" TextColor="#FFFFFF" Margin="4,50,4,4" FontSize="33" FontAttributes="Bold" Text="Bienvenid@" HorizontalOptions="End" VerticalOptions="Center" HeightRequest="99" />
 
         </HorizontalStackLayout>
-        <!-- Agregamos un label y definimos su color,tamaño,orientacion, y su propiedad text -->
 
-        <Label FontFamily="raleway-boldf" TextColor="#FFFFFF" FontSize="20" HorizontalOptions="Center" FontAttributes="Bold" Text="Estado actual de la orden"/>
 
         <HorizontalStackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
           
@@ -67,7 +65,6 @@
 
                             </Grid>
     
-        </HorizontalStackLayout>
 
     </VerticalStackLayout>
 </ContentPage>
