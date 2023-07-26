@@ -134,13 +134,13 @@
 
             <HorizontalStackLayout>
 
-                <Label TextColor="#FFFFFF"  FontSize="10" Text="Pastel de helado"  Margin="0,0,0,0" FontAttributes="Bold"/>
+                <Label TextColor="#FFFFFF"  FontSize="10" Text="Postre 1"  Margin="0,0,18,0" FontAttributes="Bold"/>
 
-                <Label TextColor="#FFFFFF"  FontSize="10"  Text="Mochi"  Margin="36,0,0,0" FontAttributes="Bold"/>
+                <Label TextColor="#FFFFFF"  FontSize="10"  Text="Postre 2"  Margin="36,0,0,0" FontAttributes="Bold"/>
 
-                <Label TextColor="#FFFFFF"  FontSize="10"  Text="Sandwhic de helado"  Margin="33,0,0,0" FontAttributes="Bold"/>
+                <Label TextColor="#FFFFFF"  FontSize="10"  Text="Postre 3"  Margin="40,0,0,0" FontAttributes="Bold"/>
 
-                <Label TextColor="#FFFFFF"  FontSize="10"  Text="Tres leches"  Margin="20,0,0,0" FontAttributes="Bold"/>
+                <Label TextColor="#FFFFFF"  FontSize="10"  Text="Postre 4"  Margin="50,0,0,0" FontAttributes="Bold"/>
 
             </HorizontalStackLayout>
 
@@ -198,13 +198,13 @@
 
             <HorizontalStackLayout>
                 
-                <Label TextColor="#FFFFFF"  FontSize="10" Text="Pastel de chocolate"  Margin="0,0,0,0" FontAttributes="Bold"/>
+                <Label TextColor="#FFFFFF"  FontSize="10" Text="Postre 1"  Margin="0,0,18,0" FontAttributes="Bold"/>
 
-                <Label TextColor="#FFFFFF"  FontSize="10"  Text="Pastel de dulce"  Margin="10,0,0,0" FontAttributes="Bold" />
+                <Label TextColor="#FFFFFF"  FontSize="10"  Text="Postre 2"  Margin="36,0,0,0" FontAttributes="Bold" />
 
-                <Label TextColor="#FFFFFF"  FontSize="10"  Text="Alfajores"  Margin="40,0,0,0" FontAttributes="Bold"/>
+                <Label TextColor="#FFFFFF"  FontSize="10"  Text="Postre 3"  Margin="40,0,0,0" FontAttributes="Bold"/>
 
-                <Label TextColor="#FFFFFF"  FontSize="10"  Text="Donas"  Margin="40,0,0,0" FontAttributes="Bold"/>
+                <Label TextColor="#FFFFFF"  FontSize="10"  Text="Postre 4"  Margin="50,0,0,0" FontAttributes="Bold"/>
 
             </HorizontalStackLayout>
 
