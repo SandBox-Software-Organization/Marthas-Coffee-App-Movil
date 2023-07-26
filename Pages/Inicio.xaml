@@ -30,6 +30,16 @@
 
         </VerticalStackLayout>
 
+        <VerticalStackLayout HorizontalOptions="CenterAndExpand" Padding="10,10,10,10">
+
+            <HorizontalStackLayout>
+
+
+            </HorizontalStackLayout>
+
+            <ImageButton x:Name="Pasteldefresa" Source="titi.jpg" WidthRequest="200" HeightRequest="200" CornerRadius="37" Margin="0,2,2,5"/>
+
+        </VerticalStackLayout>
         <!-- Creamos un VerticalStackLayout y definimos su orientación -->
 
         <VerticalStackLayout HorizontalOptions="CenterAndExpand">
