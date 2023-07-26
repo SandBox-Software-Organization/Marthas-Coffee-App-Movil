@@ -238,7 +238,7 @@
 
                 <Button FontFamily="raleway-boldf" x:Name="Mas" TextColor="White" BackgroundColor="#D38B1A" Margin="0,0,0,0" Text="+" HeightRequest="40" WidthRequest="40" CornerRadius="60" FontAttributes="Bold"/>
 
-                <Label Margin="10,0,10,0" HorizontalOptions="Center" VerticalOptions="Center" Text="0" FontAttributes="Bold"/>
+                <Label Margin="10,0,10,0" HorizontalOptions="Center" TextColor="#FFFFFF" VerticalOptions="Center" Text="0" FontAttributes="Bold"/>
 
                 <Button FontFamily="raleway-boldf" x:Name="Menos" TextColor="White" BackgroundColor="#D38B1A" Margin="0,0,10,0" Text="-" HeightRequest="40" WidthRequest="40" CornerRadius="60" FontAttributes="Bold"/>
 

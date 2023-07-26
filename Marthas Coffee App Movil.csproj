@@ -65,8 +65,20 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\bibimbap.jpg" />
+	  <None Remove="Resources\Images\carne.jpg" />
+	  <None Remove="Resources\Images\crema.jpg" />
+	  <None Remove="Resources\Images\ensa.jpg" />
+	  <None Remove="Resources\Images\ensalada.jpg" />
+	  <None Remove="Resources\Images\ensaladapollo.jpg" />
+	  <None Remove="Resources\Images\kimchi.jpg" />
+	  <None Remove="Resources\Images\kimkim.jpg" />
+	  <None Remove="Resources\Images\pan.jpg" />
+	  <None Remove="Resources\Images\rollitos.jpg" />
 	  <None Remove="Resources\Images\SandBox.png" />
 	  <None Remove="Resources\Images\sansan.png" />
+	  <None Remove="Resources\Images\sasa.jpg" />
+	  <None Remove="Resources\Images\sushi.jpg" />
 	</ItemGroup>
 
 	<ItemGroup>

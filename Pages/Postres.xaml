@@ -70,13 +70,13 @@
 
             <HorizontalStackLayout>
 
-                <Label TextColor="#FFFFFF" FontSize="10" Text="Pastel de helado"  Margin="0,0,0,0" FontAttributes="Bold"/>
+                <Label TextColor="#FFFFFF" FontSize="10" Text="Postre 1"  Margin="0,0,19,0" FontAttributes="Bold"/>
 
-                <Label TextColor="#FFFFFF" FontSize="10"  Text="Mochi"  Margin="36,0,0,0" FontAttributes="Bold"/>
+                <Label TextColor="#FFFFFF" FontSize="10"  Text="Postre 2"  Margin="36,0,0,0" FontAttributes="Bold"/>
 
-                <Label TextColor="#FFFFFF" FontSize="10"  Text="Sandwhic de helado"  Margin="33,0,0,0" FontAttributes="Bold"/>
+                <Label TextColor="#FFFFFF" FontSize="10"  Text="Postre 3"  Margin="40,0,0,0" FontAttributes="Bold"/>
 
-                <Label TextColor="#FFFFFF" FontSize="10"  Text="Tres leches"  Margin="20,0,0,0" FontAttributes="Bold"/>
+                <Label TextColor="#FFFFFF" FontSize="10"  Text="Postre 4"  Margin="55,0,0,0" FontAttributes="Bold"/>
 
             </HorizontalStackLayout>
 
@@ -242,7 +242,7 @@
 
                 <Button FontFamily="raleway-boldf" x:Name="Mas" TextColor="White" BackgroundColor="#D38B1A" Margin="0,0,0,0" Text="+" HeightRequest="40" WidthRequest="40" CornerRadius="60" FontAttributes="Bold"/>
 
-                <Label Margin="10,0,10,0" HorizontalOptions="Center" VerticalOptions="Center" Text="0" FontAttributes="Bold"/>
+                <Label Margin="10,0,10,0" HorizontalOptions="Center" VerticalOptions="Center"  TextColor="#FFFFFF" Text="0" FontAttributes="Bold"/>
 
                 <Button FontFamily="raleway-boldf" x:Name="Menos" TextColor="White" BackgroundColor="#D38B1A" Margin="0,0,10,0" Text="-" HeightRequest="40" WidthRequest="40" CornerRadius="60" FontAttributes="Bold"/>
 
