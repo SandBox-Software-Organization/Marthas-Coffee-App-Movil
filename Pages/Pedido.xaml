@@ -6,22 +6,41 @@
     <VerticalStackLayout>
         <!-- Definimos el padding del HorizontalStackLayou-->
 
-        <HorizontalStackLayout Padding="10,10,10,10">
-            <!-- Agregamos un label y definimos su color,tamaño,orientacion, y su propiedad text -->
+        <VerticalStackLayout HorizontalOptions="StartAndExpand" Margin="5,5,5,5">
 
-            <Label FontFamily="raleway-boldf" TextColor="#FFFFFF" Margin="4,50,4,4" FontSize="33" FontAttributes="Bold" Text="Bienvenid@" HorizontalOptions="End" VerticalOptions="Center" HeightRequest="99" />
+            <HorizontalStackLayout>
 
-        </HorizontalStackLayout>
+                <!-- Agregamos nuestro logo y definimos su tamaño -->
+
+                <Image Source="logo.png" HeightRequest="90" WidthRequest="90"/>
+
+                <!-- Agregamos un label y definimos su color,fuente,tamaño,su margen,orientacion, sus atributos, y su propiedad text -->
+
+                <Label TextColor="#FFFFFF"  FontFamily="raleway-boldf" FontSize="30"  Margin="5,2,0,0" VerticalOptions="Center" HeightRequest="35" FontAttributes="Bold" Text="Pedido"/>
+
+            </HorizontalStackLayout>
+
+        </VerticalStackLayout>
+
+        <VerticalStackLayout HorizontalOptions="CenterAndExpand" Padding="1,1,1,10">
+
+            <!-- Agregamos un label y definimos su color,fuente,tamaño,sus atributos, y su propiedad text -->
+
+            <Label TextColor="#FFFFFF" FontSize="20" FontAttributes="Bold" Text="Estado actual de la orden" />
+
+        </VerticalStackLayout>
 
 
         <HorizontalStackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+            <VerticalStackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
           
-                            <Grid>
+                            <Grid VerticalOptions="CenterAndExpand" WidthRequest="450" HeightRequest="200" HorizontalOptions="CenterAndExpand">
                                 <Grid.RowDefinitions>
                                     <RowDefinition Height="Auto"/>
                                     <RowDefinition Height="Auto"/>
                                 </Grid.RowDefinitions>
-                <ListView ItemsSource="{Binding ListProducts}" HeightRequest="450" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" SeparatorVisibility="Default"
+                <ListView ItemsSource="{Binding ListProducts}" HeightRequest="400"  VerticalOptions="CenterAndExpand" 
+                          HorizontalOptions="CenterAndExpand" SeparatorVisibility="Default"
                                   SeparatorColor="#6A4512" Grid.Row="1">
                                     <ListView.Header>
                         <Grid BackgroundColor="#D38B1A" HorizontalOptions="CenterAndExpand" ColumnSpacing="10" Padding="10"  VerticalOptions="CenterAndExpand">
@@ -64,7 +83,71 @@
                                 </ListView>
 
                             </Grid>
-    
+    </VerticalStackLayout>
+    </HorizontalStackLayout>
+
+
+        <VerticalStackLayout>
+
+            <HorizontalStackLayout HorizontalOptions="CenterAndExpand" Margin="0,40,0,0">
+
+                <Button FontFamily="raleway-boldf" x:Name="Mas" TextColor="White" BackgroundColor="#D38B1A" Margin="0,0,0,0" Text="+" HeightRequest="40" WidthRequest="40" CornerRadius="60" FontAttributes="Bold"/>
+
+                <Label Margin="10,0,10,0" HorizontalOptions="Center" VerticalOptions="Center" Text="0" FontAttributes="Bold"/>
+
+                <Button FontFamily="raleway-boldf" x:Name="Menos" TextColor="White" BackgroundColor="#D38B1A" Margin="0,0,10,0" Text="-" HeightRequest="40" WidthRequest="40" CornerRadius="60" FontAttributes="Bold"/>
+
+
+            </HorizontalStackLayout>
+
+        </VerticalStackLayout>
+
+        
+        <VerticalStackLayout HorizontalOptions="CenterAndExpand" Padding="1,1,1,10">
+
+            <HorizontalStackLayout>
+            <!-- Agregamos un label y definimos su color,fuente,tamaño,sus atributos, y su propiedad text -->
+
+            <Label TextColor="#FFFFFF" FontSize="20" FontAttributes="Bold" Text="Rellene los campos" />
+
+
+            </HorizontalStackLayout>
+        </VerticalStackLayout>
+
+        <VerticalStackLayout HorizontalOptions="CenterAndExpand" Padding="1,1,1,10">
+
+            <HorizontalStackLayout>
+                <!-- Agregamos un label y definimos su color,fuente,tamaño,sus atributos, y su propiedad text -->
+
+                <Label TextColor="#FFFFFF" FontSize="20" FontAttributes="Bold" Margin="0,0,10,10" Text="Nombre" />
+                <Entry Placeholder="Digite su nombre"  Margin="11,0,10,10"  x:Name="NombreCli"/>
+
+             
+            </HorizontalStackLayout>
+        </VerticalStackLayout>
+        <VerticalStackLayout HorizontalOptions="CenterAndExpand" Padding="1,1,1,10" VerticalOptions="CenterAndExpand">
+
+            <HorizontalStackLayout>
+                <!-- Agregamos un label y definimos su color,fuente,tamaño,sus atributos, y su propiedad text -->
+
+
+                <Label HorizontalOptions="StartAndExpand"  Margin="0,0,0,0" TextColor="#FFFFFF" FontSize="20" FontAttributes="Bold" Text="N° de tarjeta" />
+                <Entry HorizontalOptions="EndAndExpand" Margin="10,10,10,10"  Keyboard="Numeric" Placeholder="Tarjeta de credito" x:Name="Tarjeta"/>
+
+
+            </HorizontalStackLayout>
+        </VerticalStackLayout>
+
+        <VerticalStackLayout>
+
+            <HorizontalStackLayout HorizontalOptions="CenterAndExpand" Margin="0,40,0,0">
+
+                <Button FontFamily="raleway-boldf" x:Name="pedido" TextColor="White" BackgroundColor="#D38B1A" Margin="10,10,10,10" Text="REALIZAR ORDEN" FontAttributes="Bold" HeightRequest="45" WidthRequest="190" CornerRadius="30"/>
+
+            </HorizontalStackLayout>
+
+        </VerticalStackLayout>
+
 
     </VerticalStackLayout>
 </ContentPage>
