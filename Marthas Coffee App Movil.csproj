@@ -48,6 +48,23 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <AndroidResource Remove="Resources\Images\Bocadillos\**" />
+	  <AndroidResource Remove="Resources\Images\Platillos\**" />
+	  <Compile Remove="Resources\Images\Bocadillos\**" />
+	  <Compile Remove="Resources\Images\Platillos\**" />
+	  <EmbeddedResource Remove="Resources\Images\Bocadillos\**" />
+	  <EmbeddedResource Remove="Resources\Images\Platillos\**" />
+	  <MauiCss Remove="Resources\Images\Bocadillos\**" />
+	  <MauiCss Remove="Resources\Images\Platillos\**" />
+	  <MauiImage Remove="Resources\Images\Bocadillos\**" />
+	  <MauiImage Remove="Resources\Images\Platillos\**" />
+	  <MauiXaml Remove="Resources\Images\Bocadillos\**" />
+	  <MauiXaml Remove="Resources\Images\Platillos\**" />
+	  <None Remove="Resources\Images\Bocadillos\**" />
+	  <None Remove="Resources\Images\Platillos\**" />
+	</ItemGroup>
+
+	<ItemGroup>
 	  <None Remove="Resources\Images\SandBox.png" />
 	  <None Remove="Resources\Images\sansan.png" />
 	</ItemGroup>
@@ -62,6 +79,12 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Pages\Bocadillos.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\CrearCuenta.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\Mochi.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Pages\Cuenta.xaml">

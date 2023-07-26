@@ -4,7 +4,7 @@ namespace Marthas_Coffee_App_Movil.Pages;
 
 public partial class Inicio : ContentPage
 
-{ 
+{
 
     public Inicio()
 
@@ -30,7 +30,7 @@ public partial class Inicio : ContentPage
 
     }
 
-        private void ButtonPostres_Clicked(object sender, EventArgs e)
+    private void ButtonPostres_Clicked(object sender, EventArgs e)
 
     {
 
