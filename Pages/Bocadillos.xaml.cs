@@ -6,4 +6,10 @@ public partial class Bocadillos : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private void RegresoInicio_Clicked(object sender, EventArgs e)
+    {
+
+        Navigation.PushModalAsync(new MainPage());
+    }
 }

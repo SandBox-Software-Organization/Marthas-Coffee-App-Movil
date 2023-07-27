@@ -8,11 +8,16 @@
 
     <VerticalStackLayout Padding="5,5,5,5" BackgroundColor="#6A4512" >
 
+        
         <!-- Definimos la orientacion y el margin de nuestro VerticalStackLayout -->
 
         <VerticalStackLayout HorizontalOptions="StartAndExpand" Margin="5,5,5,5">
 
             <HorizontalStackLayout>
+
+                <Button Clicked="RegresoInicio_Clicked" FontFamily="raleway-boldf" x:Name="RegeresoInicio" TextColor="White" BackgroundColor="#D38B1A" Margin="10,10,10,10" Text="←" HeightRequest="50" WidthRequest="50" CornerRadius="60" FontAttributes="Bold" />
+
+
 
                 <!-- Agregamos nuestro logo y definimos su tamaño -->
 

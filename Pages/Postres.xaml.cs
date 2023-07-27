@@ -14,6 +14,12 @@ public partial class Postres : ContentPage
 
     }
 
+    private void RegresoInicio_Clicked(object sender, EventArgs e)
+    {
+
+        Navigation.PushModalAsync(new MainPage());
+    }
+
     private void ImageButtonPastel_Clicked(object sender, EventArgs e)
 
     {

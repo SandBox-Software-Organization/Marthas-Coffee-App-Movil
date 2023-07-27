@@ -6,6 +6,8 @@
              
              x:Class="Marthas_Coffee_App_Movil.Pages.Inicio"
              
+             IconImageSource="iconoinicio"
+             
              Title="Inicio">
 
     <!-- Definimos el padding del VerticalStackLayout -->
