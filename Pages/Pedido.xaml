@@ -110,7 +110,7 @@
         </VerticalStackLayout>
 
         
-        <VerticalStackLayout HorizontalOptions="CenterAndExpand" Padding="1,1,1,10">
+        <VerticalStackLayout HorizontalOptions="CenterAndExpand" Padding="0,20,0,20">
 
             <HorizontalStackLayout>
             <!-- Agregamos un label y definimos su color,fuente,tamaño,sus atributos, y su propiedad text -->
@@ -121,25 +121,25 @@
             </HorizontalStackLayout>
         </VerticalStackLayout>
 
-        <VerticalStackLayout HorizontalOptions="CenterAndExpand" Padding="1,1,1,10">
-
-            <HorizontalStackLayout>
-                <!-- Agregamos un label y definimos su color,fuente,tamaño,sus atributos, y su propiedad text -->
-
-                <Label TextColor="#FFFFFF" FontSize="20" FontAttributes="Bold" Margin="0,0,10,10" Text="Nombre" />
-                <Entry Placeholder="Digite su nombre"  Margin="11,0,10,10"  x:Name="NombreCli"/>
-
-             
-            </HorizontalStackLayout>
-        </VerticalStackLayout>
         <VerticalStackLayout HorizontalOptions="CenterAndExpand" Padding="1,1,1,10" VerticalOptions="CenterAndExpand">
 
             <HorizontalStackLayout>
                 <!-- Agregamos un label y definimos su color,fuente,tamaño,sus atributos, y su propiedad text -->
 
+                <Label HorizontalTextAlignment="Start" TextColor="#FFFFFF" FontSize="20" FontAttributes="Bold" Margin="0,0,50,0" Text="Nombre:"  VerticalOptions="CenterAndExpand"/>
+                <Entry BackgroundColor="#D38B1A" Placeholder="Digite su nombre"  Margin="10,0,10,10"  x:Name="NombreCli" VerticalOptions="CenterAndExpand" HorizontalOptions="EndAndExpand" WidthRequest="300" HeightRequest="10"/>
 
-                <Label HorizontalOptions="StartAndExpand"  Margin="0,0,0,0" TextColor="#FFFFFF" FontSize="20" FontAttributes="Bold" Text="N° de tarjeta" />
-                <Entry HorizontalOptions="EndAndExpand" Margin="10,10,10,10"  Keyboard="Numeric" Placeholder="Tarjeta de credito" x:Name="Tarjeta"/>
+             
+            </HorizontalStackLayout>
+        </VerticalStackLayout>
+        <VerticalStackLayout HorizontalOptions="CenterAndExpand" Padding="0,1,1,0" VerticalOptions="CenterAndExpand">
+
+            <HorizontalStackLayout>
+                <!-- Agregamos un label y definimos su color,fuente,tamaño,sus atributos, y su propiedad text -->
+
+
+                <Label  HorizontalTextAlignment="Start" VerticalOptions="CenterAndExpand" TextColor="#FFFFFF" FontSize="20" FontAttributes="Bold" Text="N° de tarjeta:"  />
+                <Entry  BackgroundColor="#D38B1A" HorizontalOptions="EndAndExpand" Margin="20,10,10,10"  Keyboard="Numeric" Placeholder="Tarjeta de credito" x:Name="Tarjeta" VerticalOptions="CenterAndExpand"  WidthRequest="300" HeightRequest="10"/>
 
 
             </HorizontalStackLayout>
