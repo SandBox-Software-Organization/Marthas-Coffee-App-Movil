@@ -32,7 +32,6 @@
 
 	<ItemGroup>
 		<!-- App Icon -->
-		<MauiIcon Include="Resources\AppIcon\appicon.svg" ForegroundFile="Resources\AppIcon\appiconfg.svg" Color="#512BD4" />
 
 		<!-- Splash Screen -->
 
@@ -64,6 +63,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\AppIcon\iconlog.png" />
 	  <None Remove="Resources\Images\bibimbap.jpg" />
 	  <None Remove="Resources\Images\carne.jpg" />
 	  <None Remove="Resources\Images\crema.jpg" />
@@ -79,6 +79,10 @@
 	  <None Remove="Resources\Images\sasa.jpg" />
 	  <None Remove="Resources\Images\sushi.jpg" />
 	  <None Remove="Resources\Splash\splog.png" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiIcon Include="Resources\AppIcon\iconlog.png"  Color="Black"/>
 	</ItemGroup>
 
 	<ItemGroup>
@@ -118,6 +122,10 @@
 	  <MauiXaml Update="Pages\Postres.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Update="Resources\AppIcon\appicon.svg" ForegroundFile="Resources\AppIcon\appiconfg.svg" Color="#512BD4" />
 	</ItemGroup>
 
 </Project>
