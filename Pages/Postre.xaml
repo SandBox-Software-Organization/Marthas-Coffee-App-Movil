@@ -4,7 +4,7 @@
              
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              
-             x:Class="Marthas_Coffee_App_Movil.Pages.Postres"
+             x:Class="Marthas_Coffee_App_Movil.Pages.Postre"
              
              Title="Postres">
 
@@ -201,7 +201,7 @@
         <VerticalStackLayout HorizontalOptions="CenterAndExpand">
 
             <HorizontalStackLayout>
-                
+
                 <Label TextColor="#FFFFFF"  FontSize="10" Text="Postre 1"  Margin="0,0,18,0" FontAttributes="Bold"/>
 
                 <Label TextColor="#FFFFFF"  FontSize="10"  Text="Postre 2"  Margin="36,0,0,0" FontAttributes="Bold" />
@@ -251,8 +251,8 @@
                 <Button FontFamily="raleway-boldf" x:Name="Menos" TextColor="White" BackgroundColor="#D38B1A" Margin="0,0,10,0" Text="-" HeightRequest="40" WidthRequest="40" CornerRadius="60" FontAttributes="Bold"/>
 
 
-            </HorizontalStackLayout>                   
-            
+            </HorizontalStackLayout>
+
         </VerticalStackLayout>
 
     </VerticalStackLayout>

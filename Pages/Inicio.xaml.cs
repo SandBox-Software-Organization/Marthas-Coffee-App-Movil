@@ -34,7 +34,7 @@ public partial class Inicio : ContentPage
 
     {
 
-        Navigation.PushModalAsync(new Postres());
+        Navigation.PushModalAsync(new Postre());
 
     }
 

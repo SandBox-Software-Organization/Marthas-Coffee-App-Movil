@@ -2,11 +2,11 @@ using Marthas_Coffee_App_Movil.Pages.Categorias.Postres;
 
 namespace Marthas_Coffee_App_Movil.Pages;
 
-public partial class Postres : ContentPage
+public partial class Postre : ContentPage
 
 {
 
-    public Postres()
+    public Postre()
 
     {
 

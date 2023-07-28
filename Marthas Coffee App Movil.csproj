@@ -82,7 +82,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiIcon Include="Resources\AppIcon\iconlog.png"  Color="Black"/>
+	  <MauiIcon Include="Resources\AppIcon\iconlog.png" Color="Black" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -119,7 +119,7 @@
 	  <MauiXaml Update="Pages\Platillos.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Pages\Postres.xaml">
+	  <MauiXaml Update="Pages\Postre.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>
