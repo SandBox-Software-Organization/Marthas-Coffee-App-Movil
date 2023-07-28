@@ -8,7 +8,7 @@
 
     <VerticalStackLayout Padding="5,5,5,5" BackgroundColor="#6A4512" >
 
-        
+
         <!-- Definimos la orientacion y el margin de nuestro VerticalStackLayout -->
 
         <VerticalStackLayout HorizontalOptions="StartAndExpand" Margin="5,5,5,5">
@@ -25,7 +25,7 @@
 
                 <!-- Agregamos un label y definimos su color,fuente,tamaño,su margen,orientacion, sus atributos, y su propiedad text -->
 
-                <Label TextColor="#FFFFFF"  FontFamily="raleway-boldf" FontSize="30"  Margin="5,2,0,0" VerticalOptions="Center" HeightRequest="35" FontAttributes="Bold" Text="Postres"/>
+                <Label TextColor="#FFFFFF"  FontFamily="raleway-boldf" FontSize="30"  Margin="5,2,0,0" VerticalOptions="Center" HeightRequest="35" FontAttributes="Bold" Text="Bocadillos"/>
 
             </HorizontalStackLayout>
 
@@ -37,7 +37,7 @@
 
             <!-- Agregamos un label y definimos su color,fuente,tamaño,sus atributos, y su propiedad text -->
 
-            <Label TextColor="#FFFFFF" FontSize="20" FontAttributes="Bold" Text="Frios" />
+            <Label TextColor="#FFFFFF" FontSize="20" FontAttributes="Bold" Text="Dulces" />
 
         </VerticalStackLayout>
 
@@ -49,19 +49,19 @@
 
                 <!-- Creamos un ImageButton y definimos sus propiedades -->
 
-                <ImageButton x:Name="Pastel"  Source="pastel.jpg" WidthRequest="80" HeightRequest="80" CornerRadius="20" Margin="5,2,2,5"/>
+                <ImageButton x:Name="chocolat"  Source="chocolat.jpg" WidthRequest="80" HeightRequest="80" CornerRadius="20" Margin="5,2,2,5"/>
 
                 <!-- Creamos un ImageButton y definimos sus propiedades -->
 
-                <ImageButton x:Name="Mochi"  Source="mochi.jpg" WidthRequest="80" HeightRequest="80" CornerRadius="20" Margin="5,2,2,5"/>
+                <ImageButton x:Name="coco"  Source="coco.jpg" WidthRequest="80" HeightRequest="80" CornerRadius="20" Margin="5,2,2,5"/>
 
                 <!-- Creamos un ImageButton y definimos sus propiedades -->
 
-                <ImageButton x:Name="Sandwich" Source="sandwich.jpg" WidthRequest="80" HeightRequest="80" CornerRadius="20" Margin="5,2,2,5"/>
+                <ImageButton x:Name="tartaleta" Source="tartaleta.jpg" WidthRequest="80" HeightRequest="80" CornerRadius="20" Margin="5,2,2,5"/>
 
                 <!-- Creamos un ImageButton y definimos sus propiedades -->
 
-                <ImageButton x:Name="TresLeches" Source="tresleches.jpg" WidthRequest="80" HeightRequest="80" CornerRadius="20" Margin="5,2,2,5"/>
+                <ImageButton x:Name="brownie" Source="brownie.jpg" WidthRequest="80" HeightRequest="80" CornerRadius="20" Margin="5,2,2,5"/>
 
             </HorizontalStackLayout>
 
@@ -71,13 +71,13 @@
 
             <HorizontalStackLayout>
 
-                <Label TextColor="#FFFFFF" FontSize="10" Text="Pastel de helado"  Margin="0,0,0,0" FontAttributes="Bold"/>
+                <Label TextColor="#FFFFFF" FontSize="10" Text="Bocadillo 1"  Margin="0,0,42,0" FontAttributes="Bold"/>
 
-                <Label TextColor="#FFFFFF" FontSize="10"  Text="Mochi"  Margin="36,0,0,0" FontAttributes="Bold"/>
+                <Label TextColor="#FFFFFF" FontSize="10"  Text="Bocadillo 2"  Margin="0,0,30,0" FontAttributes="Bold"/>
 
-                <Label TextColor="#FFFFFF" FontSize="10"  Text="Sandwhic de helado"  Margin="33,0,0,0" FontAttributes="Bold"/>
+                <Label TextColor="#FFFFFF" FontSize="10"  Text="Bocadillo 3"  Margin="7,0,0,0" FontAttributes="Bold"/>
 
-                <Label TextColor="#FFFFFF" FontSize="10"  Text="Tres leches"  Margin="20,0,0,0" FontAttributes="Bold"/>
+                <Label TextColor="#FFFFFF" FontSize="10"  Text="Bocadillo 4"  Margin="45,0,0,0" FontAttributes="Bold"/>
 
             </HorizontalStackLayout>
 
@@ -111,7 +111,7 @@
 
             <!-- Agregamos un label y definimos su color,fuente,tamaño,sus atributos, y su propiedad text -->
 
-            <Label TextColor="#FFFFFF" FontSize="20" FontAttributes="Bold" Text="Calientes" />
+            <Label TextColor="#FFFFFF" FontSize="20" FontAttributes="Bold" Text="Salados" />
 
         </VerticalStackLayout>
 
@@ -119,13 +119,13 @@
 
             <HorizontalStackLayout>
 
-                <ImageButton Source="empanadas.jpg" WidthRequest="80" HeightRequest="80" CornerRadius="20" Margin="5,2,2,5"/>
+                <ImageButton Source="deditos.jpg" WidthRequest="80" HeightRequest="80" CornerRadius="20" Margin="5,2,2,5"/>
 
-                <ImageButton Source="arle.jpg" WidthRequest="80" HeightRequest="80" CornerRadius="20" Margin="5,2,2,5"/>
+                <ImageButton Source="mangoverd.jpg" WidthRequest="80" HeightRequest="80" CornerRadius="20" Margin="5,2,2,5"/>
 
-                <ImageButton Source="pie.jpg" WidthRequest="80" HeightRequest="80" CornerRadius="20" Margin="5,2,2,5"/>
+                <ImageButton Source="galletas.jpg" WidthRequest="80" HeightRequest="80" CornerRadius="20" Margin="5,2,2,5"/>
 
-                <ImageButton Source="bubu.jpg" WidthRequest="80" HeightRequest="80" CornerRadius="20" Margin="5,2,2,5"/>
+                <ImageButton Source="mani.jpg" WidthRequest="80" HeightRequest="80" CornerRadius="20" Margin="5,2,2,5"/>
 
             </HorizontalStackLayout>
 
@@ -135,13 +135,13 @@
 
             <HorizontalStackLayout>
 
-                <Label TextColor="#FFFFFF"  FontSize="10" Text="Pastel de helado"  Margin="0,0,0,0" FontAttributes="Bold"/>
+                <Label TextColor="#FFFFFF"  FontSize="10" Text="Bocadillo 1"  Margin="0,0,42,0" FontAttributes="Bold"/>
 
-                <Label TextColor="#FFFFFF"  FontSize="10"  Text="Mochi"  Margin="36,0,0,0" FontAttributes="Bold"/>
+                <Label TextColor="#FFFFFF"  FontSize="10"  Text="Bocadillo 2"  Margin="0,0,30,0" FontAttributes="Bold"/>
 
-                <Label TextColor="#FFFFFF"  FontSize="10"  Text="Sandwhic de helado"  Margin="33,0,0,0" FontAttributes="Bold"/>
+                <Label TextColor="#FFFFFF"  FontSize="10"  Text="Bocadillo 3"  Margin="7,0,0,0" FontAttributes="Bold"/>
 
-                <Label TextColor="#FFFFFF"  FontSize="10"  Text="Tres leches"  Margin="20,0,0,0" FontAttributes="Bold"/>
+                <Label TextColor="#FFFFFF"  FontSize="10"  Text="Bocadillo 4"  Margin="45,0,0,0" FontAttributes="Bold"/>
 
             </HorizontalStackLayout>
 
@@ -175,7 +175,7 @@
 
             <!-- Agregamos un label y definimos su color,fuente,tamaño,sus atributos, y su propiedad text -->
 
-            <Label TextColor="#FFFFFF" FontSize="20" FontAttributes="Bold" Text="Dulces" />
+            <Label TextColor="#FFFFFF" FontSize="20" FontAttributes="Bold" Text="Acidos" />
 
         </VerticalStackLayout>
 
@@ -183,13 +183,13 @@
 
             <HorizontalStackLayout>
 
-                <ImageButton Source="choco.jpg" WidthRequest="80" HeightRequest="80" CornerRadius="20" Margin="5,2,2,5"/>
+                <ImageButton Source="gomitas.jpg" WidthRequest="80" HeightRequest="80" CornerRadius="20" Margin="5,2,2,5"/>
 
-                <ImageButton Source="dulcemilk.jpg" WidthRequest="80" HeightRequest="80" CornerRadius="20" Margin="5,2,2,5"/>
+                <ImageButton Source="mangoverd.jpg" WidthRequest="80" HeightRequest="80" CornerRadius="20" Margin="5,2,2,5"/>
 
-                <ImageButton Source="alfajores.jpg" WidthRequest="80" HeightRequest="80" CornerRadius="20" Margin="5,2,2,5"/>
+                <ImageButton Source="mani.jpg" WidthRequest="80" HeightRequest="80" CornerRadius="20" Margin="5,2,2,5"/>
 
-                <ImageButton Source="donas.jpg" WidthRequest="80" HeightRequest="80" CornerRadius="20" Margin="5,2,2,5"/>
+                <ImageButton Source="kiwi.jpg" WidthRequest="80" HeightRequest="80" CornerRadius="20" Margin="5,2,2,5"/>
 
             </HorizontalStackLayout>
 
@@ -199,13 +199,13 @@
 
             <HorizontalStackLayout>
 
-                <Label TextColor="#FFFFFF"  FontSize="10" Text="Pastel de chocolate"  Margin="0,0,0,0" FontAttributes="Bold"/>
+                <Label TextColor="#FFFFFF"  FontSize="10" Text="Bocadillo 1"  Margin="0,0,42,0" FontAttributes="Bold"/>
 
-                <Label TextColor="#FFFFFF"  FontSize="10"  Text="Pastel de dulce"  Margin="10,0,0,0" FontAttributes="Bold" />
+                <Label TextColor="#FFFFFF"  FontSize="10"  Text="Bocadillo 2"  Margin="0,0,30,0" FontAttributes="Bold" />
 
-                <Label TextColor="#FFFFFF"  FontSize="10"  Text="Alfajores"  Margin="40,0,0,0" FontAttributes="Bold"/>
+                <Label TextColor="#FFFFFF"  FontSize="10"  Text="Bocadillo 3"  Margin="7,0,0,0" FontAttributes="Bold"/>
 
-                <Label TextColor="#FFFFFF"  FontSize="10"  Text="Donas"  Margin="40,0,0,0" FontAttributes="Bold"/>
+                <Label TextColor="#FFFFFF"  FontSize="10"  Text="Bocadillo 4"  Margin="45,0,0,0" FontAttributes="Bold"/>
 
             </HorizontalStackLayout>
 
