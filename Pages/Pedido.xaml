@@ -41,7 +41,7 @@
         <HorizontalStackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
             <VerticalStackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
           
-                            <Grid VerticalOptions="CenterAndExpand" WidthRequest="450" HeightRequest="200" HorizontalOptions="CenterAndExpand">
+                            <Grid VerticalOptions="CenterAndExpand" WidthRequest="450" HeightRequest="195" HorizontalOptions="CenterAndExpand">
                                 <Grid.RowDefinitions>
                                     <RowDefinition Height="Auto"/>
                                     <RowDefinition Height="Auto"/>
@@ -127,7 +127,7 @@
                 <!-- Agregamos un label y definimos su color,fuente,tamaño,sus atributos, y su propiedad text -->
 
                 <Label HorizontalTextAlignment="Start" TextColor="#FFFFFF" FontSize="20" FontAttributes="Bold" Margin="0,0,50,0" Text="Nombre:"  VerticalOptions="CenterAndExpand"/>
-                <Entry BackgroundColor="#D38B1A" Placeholder="Digite su nombre"  Margin="10,0,10,10"  x:Name="NombreCli" VerticalOptions="CenterAndExpand" HorizontalOptions="EndAndExpand" WidthRequest="200" HeightRequest="40" PlaceholderColor="White"/>
+                <Entry BackgroundColor="#D38B1A" Placeholder="Digite su nombre"  Margin="10,0,10,10"  x:Name="NombreCli" VerticalOptions="CenterAndExpand" HorizontalOptions="EndAndExpand" WidthRequest="200" HeightRequest="35" PlaceholderColor="White"/>
 
              
             </HorizontalStackLayout>
@@ -139,7 +139,7 @@
 
 
                 <Label  HorizontalTextAlignment="Start" VerticalOptions="CenterAndExpand" TextColor="#FFFFFF" FontSize="20" FontAttributes="Bold" Text="N° de tarjeta:"  />
-                <Entry  BackgroundColor="#D38B1A" HorizontalOptions="EndAndExpand" Margin="20,10,10,10"  Keyboard="Numeric" Placeholder="Tarjeta de credito" x:Name="Tarjeta" VerticalOptions="CenterAndExpand"  WidthRequest="200" HeightRequest="40" PlaceholderColor="White"/>
+                <Entry  BackgroundColor="#D38B1A" HorizontalOptions="EndAndExpand" Margin="20,10,10,10"  Keyboard="Numeric" Placeholder="Tarjeta de credito" x:Name="Tarjeta" VerticalOptions="CenterAndExpand"  WidthRequest="200" HeightRequest="35" PlaceholderColor="White"/>
 
 
             </HorizontalStackLayout>
