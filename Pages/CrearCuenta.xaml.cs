@@ -6,4 +6,10 @@ public partial class CrearCuenta : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private void RegresoCuenta_Clicked(object sender, EventArgs e)
+    {
+
+        Navigation.PushModalAsync(new MainPage());
+    }
 }
