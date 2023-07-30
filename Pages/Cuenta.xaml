@@ -4,10 +4,89 @@
              x:Class="Marthas_Coffee_App_Movil.Pages.Cuenta"
              IconImageSource="cuentaicono"
              Title="Cuenta">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+    <VerticalStackLayout BackgroundColor="#6A4512" Padding="10,10,10,10">
+
+        <!-- Definimos el padding del VerticalStackLayout -->
+
+        <VerticalStackLayout Padding="0,0,0,0">
+
+            <!-- Creamos un VerticalStackLayout y definimos su orientación -->
+
+            <VerticalStackLayout HorizontalOptions="StartAndExpand">
+
+                <HorizontalStackLayout>
+
+                    <!-- Agregamos nuestro logo y definimos tamaño -->
+
+                    <Image Source="logo.png" HeightRequest="100" WidthRequest="100"/>
+
+                    <!-- Agregamos un label y definimos su color,tamaño,maregen y sus propiedades text,HeightRequest  -->
+
+                    <Label TextColor="#FFFFFF" Margin="4,50,4,4" FontSize="30" FontAttributes="Bold" Text="Cuenta" HeightRequest="99"/>
+
+                </HorizontalStackLayout>
+
+
+                <VerticalStackLayout HorizontalOptions="Center" >
+
+                    <HorizontalStackLayout>
+                        <Label Text="RELLENE LOS CAMPOS" FontAttributes="Bold" TextColor="White" FontSize="15" Margin="30,50,0,0" />
+                    </HorizontalStackLayout>
+                </VerticalStackLayout>
+     
+
+                <VerticalStackLayout>
+
+                    <HorizontalStackLayout>
+
+
+                        <Label Text="Credenciales" TextColor="White" FontAttributes="Italic" FontSize="20" Margin="30,50,0,30"/>
+
+                        <Entry x:Name="credenciales" VerticalOptions="Center"/>
+
+                    </HorizontalStackLayout>
+
+                </VerticalStackLayout>
+
+                <VerticalStackLayout>
+
+                    <HorizontalStackLayout>
+                        <Label Text="Contraseña" TextColor="White" FontAttributes="Italic" FontSize="20" Margin="30,50,0,0"/>
+                        <Entry x:Name="contra" VerticalOptions="Center"/>
+
+                    </HorizontalStackLayout>
+
+                </VerticalStackLayout>
+
+
+                <VerticalStackLayout Padding="0,0,0,0">
+
+                    <Label Text="REESTABLECER CONTRASEÑA" TextColor="White" FontAttributes="Bold" FontSize="10" Margin="50,50,0,20" />
+
+                </VerticalStackLayout>
+
+                <VerticalStackLayout Margin="0,0,0,0">
+
+                    <Button Text="Iniciar sesion" x:Name="sesion" TextColor="White" BackgroundColor="#D38B1A" 
+                   FontAttributes="Bold" HeightRequest="50" WidthRequest="150" CornerRadius="25" Clicked="sesion_Clicked"/>
+
+                </VerticalStackLayout>
+
+                <VerticalStackLayout Margin="0,0,0,0">
+
+                    <Label Text="¿NO TIENES UNA CUENTA?" TextColor="White" FontAttributes="Bold" FontSize="10" Margin="50,50,0,20" />
+
+                </VerticalStackLayout>
+
+
+                <VerticalStackLayout Padding="0,0,0,0" HorizontalOptions="CenterAndExpand">
+
+                    <Button Text="Crear cuenta"  x:Name="Crear" TextColor="White" BackgroundColor="#D38B1A" 
+                FontAttributes="Bold" HeightRequest="50" WidthRequest="150" CornerRadius="35" Clicked="Crear_Clicked"/>
+
+                </VerticalStackLayout>
+            </VerticalStackLayout>
+        </VerticalStackLayout>
+
     </VerticalStackLayout>
 </ContentPage>
