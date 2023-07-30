@@ -1,78 +1,97 @@
 <?xml version="1.0" encoding="utf-8" ?>
+    
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             
              x:Class="Marthas_Coffee_App_Movil.Pages.Categorias.Cuenta.CrearCuenta"
+             
              Title="CrearCuenta">
-    <VerticalStackLayout  Padding="5,5,5,5" BackgroundColor="#6A4512" >
-
-        <!-- Definimos la orientacion y el margin de nuestro VerticalStackLayout -->
+    
+    <VerticalStackLayout  Padding="10,10,10,10" BackgroundColor="#6A4512" >
 
             <VerticalStackLayout HorizontalOptions="StartAndExpand" Margin="5,5,5,5">
 
                 <HorizontalStackLayout>
 
-                    <Button Clicked="RegresoCuenta_Clicked" FontFamily="raleway-boldf" x:Name="RegeresoInicio" TextColor="White" BackgroundColor="#D38B1A" Margin="10,10,10,10" Text="←" HeightRequest="50" WidthRequest="50" CornerRadius="60" FontAttributes="Bold" />
+                <Button Clicked="RegresoCuenta_Clicked" FontFamily="raleway-boldf" x:Name="RegeresoInicio" TextColor="White" BackgroundColor="#D38B1A" Margin="10,10,10,10" Text="←" HeightRequest="50" WidthRequest="50" CornerRadius="60" FontAttributes="Bold" />
 
+                <Image Source="logo.png" HeightRequest="90" WidthRequest="90"/>
 
-                    <!-- Agregamos nuestro logo y definimos su tamaño -->
-
-                    <Image Source="logo.png" HeightRequest="90" WidthRequest="90"/>
-
-                    <!-- Agregamos un label y definimos su color,fuente,tamaño,su margen,orientacion, sus atributos, y su propiedad text -->
-
-                    <Label TextColor="#FFFFFF"  FontFamily="raleway-boldf" FontSize="30"  Margin="5,2,0,0" VerticalOptions="Center" HeightRequest="35" FontAttributes="Bold" Text="Crear cuenta"/>
+                <Label TextColor="#FFFFFF"  FontFamily="raleway-boldf" FontSize="30"  Margin="5,2,0,0" VerticalOptions="Center" HeightRequest="35" FontAttributes="Bold" Text="Crear cuenta"/>
 
                 </HorizontalStackLayout>
 
             </VerticalStackLayout>
 
-        <VerticalStackLayout>
-            <Label TextColor="#ffffff" Text="Rellene los campos" HorizontalOptions="CenterAndExpand" Margin="10,10,10,10" FontSize="20" FontAttributes="Bold"></Label>
+        <VerticalStackLayout HorizontalOptions="CenterAndExpand" Padding="10,20,10,10">
+
+            <Label Text="Rellene los campos" FontSize="20" FontAttributes="Bold" TextColor="#ffffff"></Label>
+
         </VerticalStackLayout>
 
-        <VerticalStackLayout>
+        <VerticalStackLayout HorizontalOptions="CenterAndExpand" Padding="10,10,10,10">
 
-            <HorizontalStackLayout HorizontalOptions="CenterAndExpand">
+            <HorizontalStackLayout>
 
-                <Label Text="Nombres:" HorizontalOptions="StartAndExpand"> </Label>
+                <Label Text="Nombre:" TextColor="White" FontAttributes="Bold" FontSize="15" HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand"/>
 
-                <Entry HorizontalOptions="EndAndExpand"></Entry>
+
+                <Entry VerticalOptions="EndAndExpand" BackgroundColor="#D38B1A" HorizontalOptions="EndAndExpand" Margin="90,10,10,10" Placeholder="Ingrese sus nombres" WidthRequest="200" HeightRequest="10" PlaceholderColor="White" FontSize="15"/>
+
+
             </HorizontalStackLayout>
+
         </VerticalStackLayout>
 
-        <VerticalStackLayout>
+        <VerticalStackLayout HorizontalOptions="CenterAndExpand" Padding="10,10,10,10">
 
-            <HorizontalStackLayout HorizontalOptions="CenterAndExpand">
+            <HorizontalStackLayout>
 
-                <Label Text="Nombres:" HorizontalOptions="StartAndExpand"></Label>
+                <Label Text="Apellidos:" TextColor="White" FontAttributes="Bold" HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand" FontSize="15"/>
 
-                <Entry HorizontalOptions="EndAndExpand"></Entry>
+
+                <Entry VerticalOptions="EndAndExpand" BackgroundColor="#D38B1A" HorizontalOptions="EndAndExpand" Margin="85,10,10,10" Placeholder="Ingrese sus apellidos" WidthRequest="200" HeightRequest="10" PlaceholderColor="White" FontSize="15"/>
+
+
             </HorizontalStackLayout>
+
         </VerticalStackLayout>
 
-        <VerticalStackLayout>
+        <VerticalStackLayout HorizontalOptions="CenterAndExpand" Padding="10,10,10,10">
 
-            <HorizontalStackLayout HorizontalOptions="CenterAndExpand">
+            <HorizontalStackLayout>
 
-                <Label Text="Nombres:" HorizontalOptions="StartAndExpand"></Label>
+                <Label Text="Correo electronico:" TextColor="White" FontAttributes="Bold" FontSize="15" HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand"/>
 
-                <Entry HorizontalOptions="EndAndExpand"></Entry>
+
+                <Entry VerticalOptions="EndAndExpand" BackgroundColor="#D38B1A" HorizontalOptions="EndAndExpand" Margin="20,10,10,10" Placeholder="Ingrese su correo electronico" WidthRequest="200" HeightRequest="10" PlaceholderColor="White" FontSize="15"/>
+
+
             </HorizontalStackLayout>
+
         </VerticalStackLayout>
 
-        <VerticalStackLayout>
+        <VerticalStackLayout HorizontalOptions="CenterAndExpand" Padding="10,10,10,10">
 
-            <HorizontalStackLayout HorizontalOptions="CenterAndExpand">
+            <HorizontalStackLayout>
 
-                <Label Text="Nombres:" HorizontalOptions="StartAndExpand"></Label>
+                <Label Text="Número telefónico:" TextColor="White" FontAttributes="Bold" FontSize="15" HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand"/>
 
-                <Entry HorizontalOptions="EndAndExpand"></Entry>
+
+                <Entry VerticalOptions="EndAndExpand" BackgroundColor="#D38B1A" HorizontalOptions="EndAndExpand" Margin="20,10,10,10" Placeholder="Ingrese su numero telefónico" WidthRequest="200" HeightRequest="10" PlaceholderColor="White" FontSize="15"/>
+
+
             </HorizontalStackLayout>
+
         </VerticalStackLayout>
 
-        <VerticalStackLayout HorizontalOptions="CenterAndExpand"
-                             >
-            <Button Text="Crear cuenta"></Button>
+        <VerticalStackLayout HorizontalOptions="CenterAndExpand" Padding="10,10,10,10">
+
+            <Button Text="Crear cuenta" TextColor="White" BackgroundColor="#D38B1A" FontAttributes="Bold" HeightRequest="50" WidthRequest="150" CornerRadius="25"/>
+
         </VerticalStackLayout>
+        
     </VerticalStackLayout>
+    
 </ContentPage>

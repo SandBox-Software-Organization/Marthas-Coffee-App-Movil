@@ -1,92 +1,89 @@
 <?xml version="1.0" encoding="utf-8" ?>
+
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             
              x:Class="Marthas_Coffee_App_Movil.Pages.Cuenta"
+             
              IconImageSource="cuentaicono"
+             
              Title="Cuenta">
+
     <VerticalStackLayout BackgroundColor="#6A4512" Padding="10,10,10,10">
 
-        <!-- Definimos el padding del VerticalStackLayout -->
+        <VerticalStackLayout>
 
-        <VerticalStackLayout Padding="0,0,0,0">
+            <HorizontalStackLayout HorizontalOptions="StartAndExpand">
 
-            <!-- Creamos un VerticalStackLayout y definimos su orientación -->
+                <Image Source="logo.png" HeightRequest="100" WidthRequest="100"/>
 
-            <VerticalStackLayout HorizontalOptions="StartAndExpand">
+                <Label TextColor="#FFFFFF" Margin="4,50,4,4" FontSize="30" FontAttributes="Bold" Text="Cuenta" HeightRequest="99"/>
 
-                <HorizontalStackLayout>
+            </HorizontalStackLayout>
 
-                    <!-- Agregamos nuestro logo y definimos tamaño -->
+            <VerticalStackLayout>
 
-                    <Image Source="logo.png" HeightRequest="100" WidthRequest="100"/>
+                <VerticalStackLayout HorizontalOptions="CenterAndExpand" Padding="10,10,10,10">
 
-                    <!-- Agregamos un label y definimos su color,tamaño,maregen y sus propiedades text,HeightRequest  -->
+                    <Label Text="Rellene los campos" FontSize="20" FontAttributes="Bold" TextColor="#ffffff"></Label>
 
-                    <Label TextColor="#FFFFFF" Margin="4,50,4,4" FontSize="30" FontAttributes="Bold" Text="Cuenta" HeightRequest="99"/>
-
-                </HorizontalStackLayout>
-
-
-                <VerticalStackLayout HorizontalOptions="Center" >
-
-                    <HorizontalStackLayout>
-                        <Label Text="RELLENE LOS CAMPOS" FontAttributes="Bold" TextColor="White" FontSize="15" Margin="30,50,0,0" />
-                    </HorizontalStackLayout>
                 </VerticalStackLayout>
-     
 
-                <VerticalStackLayout>
+                <VerticalStackLayout HorizontalOptions="CenterAndExpand" Padding="10,10,10,10">
 
                     <HorizontalStackLayout>
 
+                        <Label Text="Credenciales" TextColor="White" FontAttributes="Bold" FontSize="20" HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand"/>
 
-                        <Label Text="Credenciales" TextColor="White" FontAttributes="Italic" FontSize="20" Margin="30,50,0,30"/>
 
-                        <Entry x:Name="credenciales" VerticalOptions="Center"/>
+                        <Entry x:Name="credenciales" VerticalOptions="EndAndExpand" BackgroundColor="#D38B1A" HorizontalOptions="EndAndExpand" Margin="20,10,10,10"  Keyboard="Numeric" Placeholder="Ingrese su correo o numero" WidthRequest="200" HeightRequest="35" PlaceholderColor="White"/>
+
 
                     </HorizontalStackLayout>
 
                 </VerticalStackLayout>
 
-                <VerticalStackLayout>
+                <VerticalStackLayout HorizontalOptions="CenterAndExpand">
 
                     <HorizontalStackLayout>
-                        <Label Text="Contraseña" TextColor="White" FontAttributes="Italic" FontSize="20" Margin="30,50,0,0"/>
-                        <Entry x:Name="contra" VerticalOptions="Center"/>
+
+                        <Label HorizontalOptions="StartAndExpand" Text="Contraseña" TextColor="White" FontAttributes="Bold" FontSize="20" VerticalOptions="CenterAndExpand"/>
+
+                        <Entry x:Name="contra" VerticalOptions="EndAndExpand" BackgroundColor="#D38B1A" HorizontalOptions="EndAndExpand" Margin="30,10,10,10" Placeholder="Ingrese su contraseña" WidthRequest="200" HeightRequest="35" PlaceholderColor="#ffffff"/>
 
                     </HorizontalStackLayout>
 
                 </VerticalStackLayout>
 
+                <VerticalStackLayout HorizontalOptions="CenterAndExpand" Padding="0,30,10,0">
 
-                <VerticalStackLayout Padding="0,0,0,0">
-
-                    <Label Text="REESTABLECER CONTRASEÑA" TextColor="White" FontAttributes="Bold" FontSize="10" Margin="50,50,0,20" />
-
-                </VerticalStackLayout>
-
-                <VerticalStackLayout Margin="0,0,0,0">
-
-                    <Button Text="Iniciar sesion" x:Name="sesion" TextColor="White" BackgroundColor="#D38B1A" 
-                   FontAttributes="Bold" HeightRequest="50" WidthRequest="150" CornerRadius="25" Clicked="sesion_Clicked"/>
+                    <Label Text="Restablecer contraseña" TextColor="White" FontAttributes="Bold" FontSize="15"/>
 
                 </VerticalStackLayout>
 
-                <VerticalStackLayout Margin="0,0,0,0">
+                <VerticalStackLayout Padding="10,10,10,10" HorizontalOptions="CenterAndExpand">
 
-                    <Label Text="¿NO TIENES UNA CUENTA?" TextColor="White" FontAttributes="Bold" FontSize="10" Margin="50,50,0,20" />
+                    <Button Text="Iniciar sesion" x:Name="sesion" TextColor="White" BackgroundColor="#D38B1A" FontAttributes="Bold" HeightRequest="50" WidthRequest="150" CornerRadius="25" Clicked="sesion_Clicked"/>
+
+                </VerticalStackLayout>
+
+                <VerticalStackLayout HorizontalOptions="CenterAndExpand">
+
+                    <Label Text="¿No tienes una cuenta?" TextColor="White" FontAttributes="Bold" FontSize="15"/>
 
                 </VerticalStackLayout>
 
+                <VerticalStackLayout HorizontalOptions="CenterAndExpand" Padding="10,10,10,10">
 
-                <VerticalStackLayout Padding="0,0,0,0" HorizontalOptions="CenterAndExpand">
-
-                    <Button Text="Crear cuenta"  x:Name="Crear" TextColor="White" BackgroundColor="#D38B1A" 
-                FontAttributes="Bold" HeightRequest="50" WidthRequest="150" CornerRadius="35" Clicked="Crear_Clicked"/>
+                    <Button Text="Crear cuenta"  x:Name="Crear" TextColor="White" BackgroundColor="#D38B1A" FontAttributes="Bold" HeightRequest="50" WidthRequest="150" CornerRadius="25" Clicked="Crear_Clicked"/>
 
                 </VerticalStackLayout>
+
             </VerticalStackLayout>
+
         </VerticalStackLayout>
 
     </VerticalStackLayout>
+
 </ContentPage>
