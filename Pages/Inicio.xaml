@@ -10,6 +10,8 @@
              
              Title="Inicio">
 
+    <ScrollView>
+
     <!-- Definimos el padding del VerticalStackLayout -->
 
     <VerticalStackLayout Padding="10,10,10,10">
@@ -66,16 +68,18 @@
 
         <VerticalStackLayout>
 
-            <HorizontalStackLayout  HorizontalOptions="CenterAndExpand">
+                <HorizontalStackLayout  HorizontalOptions="CenterAndExpand">
 
-                <Button FontFamily="raleway-boldf" x:Name="ButtonPostres" TextColor="White" Clicked="ButtonPostres_Clicked" BackgroundColor="#D38B1A" Margin="10,10,20,10" Text="Postres" HeightRequest="50" WidthRequest="150" CornerRadius="30"/>
+                    <Button FontFamily="raleway-boldf" x:Name="ButtonPostres" TextColor="White" Clicked="ButtonPostres_Clicked" BackgroundColor="#D38B1A" Margin="10,10,20,10" Text="Postres" HeightRequest="50" WidthRequest="150" CornerRadius="30"/>
 
-                <Button FontFamily="raleway-boldf" x:Name="ButtonBocadillos" TextColor="White" Clicked="ButtonBocadillos_Clicked" BackgroundColor="#D38B1A" Margin="10,15,20,10" Text="Bocadillos" HeightRequest="50" WidthRequest="150" CornerRadius="30"/>
+                    <Button FontFamily="raleway-boldf" x:Name="ButtonBocadillos" TextColor="White" Clicked="ButtonBocadillos_Clicked" BackgroundColor="#D38B1A" Margin="10,15,20,10" Text="Bocadillos" HeightRequest="50" WidthRequest="150" CornerRadius="30"/>
 
-            </HorizontalStackLayout>
+                </HorizontalStackLayout>
 
-        </VerticalStackLayout>
+            </VerticalStackLayout>
 
     </VerticalStackLayout>
+
+    </ScrollView>
 
 </ContentPage>

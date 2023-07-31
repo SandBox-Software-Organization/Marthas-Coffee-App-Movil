@@ -7,7 +7,8 @@
              x:Class="Marthas_Coffee_App_Movil.Pages.Categorias.Cuenta.CrearCuenta"
              
              Title="CrearCuenta">
-    
+
+    <ScrollView>
     <VerticalStackLayout  Padding="10,10,10,10" BackgroundColor="#6A4512" >
 
             <VerticalStackLayout HorizontalOptions="StartAndExpand" Margin="5,5,5,5">
@@ -93,5 +94,7 @@
         </VerticalStackLayout>
         
     </VerticalStackLayout>
+
+    </ScrollView>
     
 </ContentPage>

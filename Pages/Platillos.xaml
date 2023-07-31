@@ -3,6 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Marthas_Coffee_App_Movil.Pages.Platillos"
              Title="Platillos">
+
+    <ScrollView>
     <!-- Definimos el color de fondo de nuestra pagina -->
 
     <VerticalStackLayout Padding="5,5,5,5" BackgroundColor="#6A4512" >
@@ -249,5 +251,7 @@
 
             </VerticalStackLayout>
         </VerticalStackLayout>
+
+    </ScrollView>
 
 </ContentPage>

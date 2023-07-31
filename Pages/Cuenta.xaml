@@ -10,6 +10,8 @@
              
              Title="Cuenta">
 
+    <Grid>
+
     <VerticalStackLayout BackgroundColor="#6A4512" Padding="10,10,10,10">
 
         <VerticalStackLayout>
@@ -34,10 +36,10 @@
 
                     <HorizontalStackLayout>
 
-                        <Label Text="Credenciales" TextColor="White" FontAttributes="Bold" FontSize="20" HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand"/>
+                        <Label Text="Credenciales" TextColor="White" FontAttributes="Bold" FontSize="15" HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand"/>
 
 
-                        <Entry x:Name="credenciales" VerticalOptions="EndAndExpand" BackgroundColor="#D38B1A" HorizontalOptions="EndAndExpand" Margin="20,10,10,10"  Keyboard="Numeric" Placeholder="Ingrese su correo o numero" WidthRequest="200" HeightRequest="35" PlaceholderColor="White"/>
+                        <Entry FontSize="15" x:Name="credenciales" VerticalOptions="EndAndExpand" BackgroundColor="#D38B1A" HorizontalOptions="EndAndExpand" Margin="20,10,10,10" Placeholder="Ingrese su correo o numero" WidthRequest="200" HeightRequest="35" PlaceholderColor="White"/>
 
 
                     </HorizontalStackLayout>
@@ -48,9 +50,9 @@
 
                     <HorizontalStackLayout>
 
-                        <Label HorizontalOptions="StartAndExpand" Text="Contraseña" TextColor="White" FontAttributes="Bold" FontSize="20" VerticalOptions="CenterAndExpand"/>
+                        <Label FontSize="15" HorizontalOptions="StartAndExpand" Text="Contraseña" TextColor="White" FontAttributes="Bold" VerticalOptions="CenterAndExpand"/>
 
-                        <Entry x:Name="contra" VerticalOptions="EndAndExpand" BackgroundColor="#D38B1A" HorizontalOptions="EndAndExpand" Margin="30,10,10,10" Placeholder="Ingrese su contraseña" WidthRequest="200" HeightRequest="35" PlaceholderColor="#ffffff"/>
+                        <Entry x:Name="contra" VerticalOptions="EndAndExpand" BackgroundColor="#D38B1A" HorizontalOptions="EndAndExpand" Margin="30,10,10,10" Placeholder="Ingrese su contraseña"  WidthRequest="200" HeightRequest="35" PlaceholderColor="#ffffff"/>
 
                     </HorizontalStackLayout>
 
@@ -85,5 +87,7 @@
         </VerticalStackLayout>
 
     </VerticalStackLayout>
+
+    </Grid>
 
 </ContentPage>

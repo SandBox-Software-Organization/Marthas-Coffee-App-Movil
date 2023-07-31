@@ -9,8 +9,10 @@
              IconImageSource="pedidoicono"
              
              Title="Pedido">
+
+    <ScrollView>
     
-    <VerticalStackLayout>
+    <VerticalStackLayout Padding="10,10,10,10">
         <!-- Definimos el padding del HorizontalStackLayou-->
 
         <VerticalStackLayout HorizontalOptions="StartAndExpand" Margin="5,5,5,5">
@@ -157,4 +159,7 @@
 
 
     </VerticalStackLayout>
+
+    </ScrollView>
+    
 </ContentPage>
