@@ -7,25 +7,17 @@
     <ScrollView>
     <!-- Definimos el color de fondo de nuestra pagina -->
 
-    <VerticalStackLayout Padding="5,5,5,5" BackgroundColor="#6A4512" >
+    <VerticalStackLayout Padding="5,5,5,5">
 
-        
-        <!-- Definimos la orientacion y el margin de nuestro VerticalStackLayout -->
 
         <VerticalStackLayout HorizontalOptions="StartAndExpand" Margin="5,5,5,5">
 
             <HorizontalStackLayout>
 
-                <Button Clicked="RegresoInicio_Clicked" FontFamily="raleway-boldf" x:Name="RegeresoInicio" TextColor="White" BackgroundColor="#D38B1A" Margin="10,10,10,10" Text="←" HeightRequest="50" WidthRequest="50" CornerRadius="60" FontAttributes="Bold" />
+                    <Button Clicked="RegresoInicio_Clicked" x:Name="RegeresoInicio"  Margin="10,10,10,10" Text="↩"  FontSize="20" VerticalOptions="Center" CornerRadius="60" FontAttributes="Bold" />
+                    <!-- Agregamos un label y definimos su color,fuente,tamaño,su margen,orientacion, sus atributos, y su propiedad text -->
 
-
-                <!-- Agregamos nuestro logo y definimos su tamaño -->
-
-                <Image Source="logo.png" HeightRequest="90" WidthRequest="90"/>
-
-                <!-- Agregamos un label y definimos su color,fuente,tamaño,su margen,orientacion, sus atributos, y su propiedad text -->
-
-                <Label TextColor="#FFFFFF"  FontFamily="raleway-boldf" FontSize="30"  Margin="5,2,0,0" VerticalOptions="Center" HeightRequest="35" FontAttributes="Bold" Text="Platillos"/>
+                <Label FontSize="30" VerticalOptions="Center" FontAttributes="Bold" Text="Platillos"/>
 
             </HorizontalStackLayout>
 
@@ -37,7 +29,7 @@
 
             <!-- Agregamos un label y definimos su color,fuente,tamaño,sus atributos, y su propiedad text -->
 
-            <Label TextColor="#FFFFFF" FontSize="20" FontAttributes="Bold" Text="Ensaladas" />
+            <Label FontSize="20" FontAttributes="Bold" Text="Ensaladas" />
 
         </VerticalStackLayout>
 
@@ -71,13 +63,13 @@
 
             <HorizontalStackLayout>
 
-                <Label TextColor="#FFFFFF" FontSize="10" Text="Ensalada 1"  Margin="8,0,28,0" FontAttributes="Bold"/>
+                <Label FontSize="10" Text="Ensalada 1"  Margin="8,0,28,0" FontAttributes="Bold"/>
 
-                <Label TextColor="#FFFFFF" FontSize="10"  Text="Ensalada 2" Margin="13,0,26,0" FontAttributes="Bold"/>
+                <Label FontSize="10"  Text="Ensalada 2" Margin="13,0,26,0" FontAttributes="Bold"/>
 
-                <Label TextColor="#FFFFFF" FontSize="10"  Text="Ensalada 3"  Margin="15,0,15,0" FontAttributes="Bold"/>
+                <Label FontSize="10"  Text="Ensalada 3"  Margin="15,0,15,0" FontAttributes="Bold"/>
 
-                <Label TextColor="#FFFFFF" FontSize="10"  Text="Ensalada 4"  Margin="18,0,15,0" FontAttributes="Bold"/>
+                <Label FontSize="10"  Text="Ensalada 4"  Margin="18,0,15,0" FontAttributes="Bold"/>
 
             </HorizontalStackLayout>
 
@@ -87,21 +79,21 @@
 
             <HorizontalStackLayout>
 
-                <Label TextColor="#FFFFFF"  FontSize="10"  Text="$:"  Margin="10,0,0,0" FontAttributes="Bold"/>
+                <Label FontSize="10"  Text="$:"  Margin="10,0,0,0" FontAttributes="Bold"/>
 
-                <Label TextColor="#FFFFFF"  FontSize="10"  Text="00.00"  Margin="0,0,1,0" FontAttributes="Bold"/>
+                <Label FontSize="10"  Text="00.00"  Margin="0,0,1,0" FontAttributes="Bold"/>
 
-                <Label TextColor="#FFFFFF"  FontSize="10"  Text="$:"  Margin="60,0,0,0" FontAttributes="Bold"/>
+                <Label FontSize="10"  Text="$:"  Margin="60,0,0,0" FontAttributes="Bold"/>
 
-                <Label TextColor="#FFFFFF"  FontSize="10"  Text="00.00"  Margin="2,0,0,0" FontAttributes="Bold"/>
+                <Label FontSize="10"  Text="00.00"  Margin="2,0,0,0" FontAttributes="Bold"/>
 
-                <Label TextColor="#FFFFFF"  FontSize="10"  Text="$:"  Margin="60,0,0,0" FontAttributes="Bold"/>
+                <Label FontSize="10"  Text="$:"  Margin="60,0,0,0" FontAttributes="Bold"/>
 
-                <Label TextColor="#FFFFFF"  FontSize="10"  Text="00.00"  Margin="2,0,0,0" FontAttributes="Bold" />
+                <Label FontSize="10"  Text="00.00"  Margin="2,0,0,0" FontAttributes="Bold" />
 
-                <Label TextColor="#FFFFFF"  FontSize="10"  Text="$:"  Margin="50,0,0,0" FontAttributes="Bold"/>
+                <Label FontSize="10"  Text="$:"  Margin="50,0,0,0" FontAttributes="Bold"/>
 
-                <Label TextColor="#FFFFFF"  FontSize="10"  Text="00.00"  Margin="2,0,0,0" FontAttributes="Bold"/>
+                <Label FontSize="10"  Text="00.00"  Margin="2,0,0,0" FontAttributes="Bold"/>
 
             </HorizontalStackLayout>
 
@@ -111,7 +103,7 @@
 
             <!-- Agregamos un label y definimos su color,fuente,tamaño,sus atributos, y su propiedad text -->
 
-            <Label TextColor="#FFFFFF" FontSize="20" FontAttributes="Bold" Text="Entradas" />
+            <Label FontSize="20" FontAttributes="Bold" Text="Entradas" />
 
         </VerticalStackLayout>
 
@@ -135,13 +127,13 @@
 
             <HorizontalStackLayout>
 
-                <Label TextColor="#FFFFFF"  FontSize="10" Text="Entrada 1"  Margin="0,0,0,0" FontAttributes="Bold"/>
+                <Label FontSize="10" Text="Entrada 1"  Margin="0,0,0,0" FontAttributes="Bold"/>
 
-                <Label TextColor="#FFFFFF"  FontSize="10"  Text="Entrada 2"  Margin="39,0,0,0" FontAttributes="Bold"/>
+                <Label FontSize="10"  Text="Entrada 2"  Margin="39,0,0,0" FontAttributes="Bold"/>
 
-                <Label TextColor="#FFFFFF"  FontSize="10"  Text="Entrada 3"  Margin="48,0,23,0" FontAttributes="Bold"/>
+                <Label FontSize="10"  Text="Entrada 3"  Margin="48,0,23,0" FontAttributes="Bold"/>
 
-                <Label TextColor="#FFFFFF"  FontSize="10"  Text="Entrada 4"  Margin="27,0,0,0" FontAttributes="Bold"/>
+                <Label FontSize="10"  Text="Entrada 4"  Margin="27,0,0,0" FontAttributes="Bold"/>
 
             </HorizontalStackLayout>
 
@@ -151,21 +143,21 @@
 
             <HorizontalStackLayout>
 
-                <Label TextColor="#FFFFFF"  FontSize="10"  Text="$:"  Margin="10,0,0,0" FontAttributes="Bold"/>
+                <Label FontSize="10"  Text="$:"  Margin="10,0,0,0" FontAttributes="Bold"/>
 
-                <Label TextColor="#FFFFFF"  FontSize="10"  Text="00.00"  Margin="2,0,0,0" FontAttributes="Bold"/>
+                <Label FontSize="10"  Text="00.00"  Margin="2,0,0,0" FontAttributes="Bold"/>
 
-                <Label TextColor="#FFFFFF"  FontSize="10"  Text="$:"  Margin="60,0,0,0" FontAttributes="Bold"/>
+                <Label FontSize="10"  Text="$:"  Margin="60,0,0,0" FontAttributes="Bold"/>
 
-                <Label TextColor="#FFFFFF"  FontSize="10"  Text="00.00"  Margin="2,0,0,0" FontAttributes="Bold"/>
+                <Label FontSize="10"  Text="00.00"  Margin="2,0,0,0" FontAttributes="Bold"/>
 
-                <Label TextColor="#FFFFFF"  FontSize="10"  Text="$:"  Margin="60,0,0,0" FontAttributes="Bold"/>
+                <Label FontSize="10"  Text="$:"  Margin="60,0,0,0" FontAttributes="Bold"/>
 
-                <Label TextColor="#FFFFFF"  FontSize="10"  Text="00.00"  Margin="2,0,0,0" FontAttributes="Bold" />
+                <Label FontSize="10"  Text="00.00"  Margin="2,0,0,0" FontAttributes="Bold" />
 
-                <Label TextColor="#FFFFFF"  FontSize="10"  Text="$:"  Margin="50,0,0,0" FontAttributes="Bold"/>
+                <Label FontSize="10"  Text="$:"  Margin="50,0,0,0" FontAttributes="Bold"/>
 
-                <Label TextColor="#FFFFFF"  FontSize="10"  Text="00.00"  Margin="2,0,0,0" FontAttributes="Bold"/>
+                <Label FontSize="10"  Text="00.00"  Margin="2,0,0,0" FontAttributes="Bold"/>
 
             </HorizontalStackLayout>
 
@@ -175,7 +167,7 @@
 
             <!-- Agregamos un label y definimos su color,fuente,tamaño,sus atributos, y su propiedad text -->
 
-            <Label TextColor="#FFFFFF" FontSize="20" FontAttributes="Bold" Text="Platos Fuertes" />
+            <Label FontSize="20" FontAttributes="Bold" Text="Platos Fuertes" />
 
         </VerticalStackLayout>
 
@@ -199,13 +191,13 @@
 
             <HorizontalStackLayout>
 
-                <Label TextColor="#FFFFFF"  FontSize="10" Text="Plato 1"  Margin="18,0,55,0" FontAttributes="Bold"/>
+                <Label FontSize="10" Text="Plato 1"  Margin="18,0,55,0" FontAttributes="Bold"/>
 
-                <Label TextColor="#FFFFFF"  FontSize="10"  Text="Plato 2"  Margin="2,0,20,0" FontAttributes="Bold" />
+                <Label FontSize="10"  Text="Plato 2"  Margin="2,0,20,0" FontAttributes="Bold" />
 
-                <Label TextColor="#FFFFFF"  FontSize="10"  Text="Plato 3"  Margin="30,0,35,0" FontAttributes="Bold"/>
+                <Label FontSize="10"  Text="Plato 3"  Margin="30,0,35,0" FontAttributes="Bold"/>
 
-                <Label TextColor="#FFFFFF"  FontSize="10"  Text="Plato 4"  Margin="20,0,25,0" FontAttributes="Bold"/>
+                <Label FontSize="10"  Text="Plato 4"  Margin="20,0,25,0" FontAttributes="Bold"/>
 
             </HorizontalStackLayout>
 
@@ -215,21 +207,21 @@
 
             <HorizontalStackLayout>
 
-                <Label TextColor="#FFFFFF" FontSize="10"  Text="$:"  Margin="10,0,0,0" FontAttributes="Bold"/>
+                <Label FontSize="10"  Text="$:"  Margin="10,0,0,0" FontAttributes="Bold"/>
 
-                <Label TextColor="#FFFFFF" FontSize="10"  Text="00.00"  Margin="2,0,0,0" FontAttributes="Bold"/>
+                <Label FontSize="10"  Text="00.00"  Margin="2,0,0,0" FontAttributes="Bold"/>
 
-                <Label TextColor="#FFFFFF" FontSize="10"  Text="$:"  Margin="60,0,0,0" FontAttributes="Bold"/>
+                <Label FontSize="10"  Text="$:"  Margin="60,0,0,0" FontAttributes="Bold"/>
 
-                <Label TextColor="#FFFFFF" FontSize="10"  Text="00.00"  Margin="2,0,0,0" FontAttributes="Bold"/>
+                <Label FontSize="10"  Text="00.00"  Margin="2,0,0,0" FontAttributes="Bold"/>
 
-                <Label TextColor="#FFFFFF" FontSize="10"  Text="$:"  Margin="60,0,0,0" FontAttributes="Bold"/>
+                <Label FontSize="10"  Text="$:"  Margin="60,0,0,0" FontAttributes="Bold"/>
 
-                <Label TextColor="#FFFFFF" FontSize="10"  Text="00.00"  Margin="2,0,0,0" FontAttributes="Bold"/>
+                <Label FontSize="10"  Text="00.00"  Margin="2,0,0,0" FontAttributes="Bold"/>
 
-                <Label TextColor="#FFFFFF" FontSize="10"  Text="$:"  Margin="50,0,0,0" FontAttributes="Bold"/>
+                <Label FontSize="10"  Text="$:"  Margin="50,0,0,0" FontAttributes="Bold"/>
 
-                <Label TextColor="#FFFFFF" FontSize="10"  Text="00.00"  Margin="2,0,0,0" FontAttributes="Bold" />
+                <Label FontSize="10"  Text="00.00"  Margin="2,0,0,0" FontAttributes="Bold" />
 
             </HorizontalStackLayout>
         </VerticalStackLayout>
@@ -238,13 +230,13 @@
 
                 <HorizontalStackLayout HorizontalOptions="CenterAndExpand" Margin="0,40,0,0">
 
-                    <Button FontFamily="raleway-boldf" x:Name="Orden" TextColor="White" BackgroundColor="#D38B1A" Margin="10,10,10,10" Text="AGREGAR A LA ORDEN" HeightRequest="45" WidthRequest="190" CornerRadius="30"/>
+                    <Button FontFamily="raleway-boldf" x:Name="Orden"  Margin="10,10,10,10" Text="AGREGAR A LA ORDEN" HeightRequest="45" WidthRequest="190" CornerRadius="30"/>
 
-                    <Button FontFamily="raleway-boldf" x:Name="Mas" TextColor="White" BackgroundColor="#D38B1A" Margin="0,0,0,0" Text="+" HeightRequest="40" WidthRequest="40" CornerRadius="60" FontAttributes="Bold"/>
+                    <Button FontFamily="raleway-boldf" x:Name="Mas"    Margin="0,0,0,0" Text="+" HeightRequest="40" WidthRequest="40" CornerRadius="60" FontAttributes="Bold"/>
 
-                <Label Margin="10,0,10,0" HorizontalOptions="Center" TextColor="#FFFFFF" VerticalOptions="Center" Text="0" FontAttributes="Bold"/>
+                <Label Margin="10,0,10,0" HorizontalOptions="Center" VerticalOptions="Center" Text="0" FontAttributes="Bold"/>
 
-                    <Button FontFamily="raleway-boldf" x:Name="Menos" TextColor="White" BackgroundColor="#D38B1A" Margin="0,0,10,0" Text="-" HeightRequest="40" WidthRequest="40" CornerRadius="60" FontAttributes="Bold"/>
+                    <Button FontFamily="raleway-boldf" x:Name="Menos" Margin="0,0,10,0" Text="-" HeightRequest="40" WidthRequest="40" CornerRadius="60" FontAttributes="Bold"/>
 
 
                 </HorizontalStackLayout>

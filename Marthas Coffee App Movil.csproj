@@ -91,11 +91,11 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiIcon Include="Resources\AppIcon\iconlog.png" Color="Black" />
+		<MauiIcon Include="Resources\AppIcon\iconlog.png" color="553d2a" />
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiSplashScreen Include="Resources\Splash\splog.png" Color="#111010" />
+	  <MauiSplashScreen Include="Resources\Splash\splog.png" Color="#553d2a" />
 	</ItemGroup>
 
 	<ItemGroup>

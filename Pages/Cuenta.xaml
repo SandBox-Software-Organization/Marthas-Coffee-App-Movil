@@ -10,75 +10,74 @@
              
              Title="Cuenta">
 
+    <ScrollView>
+
     <Grid>
 
-    <VerticalStackLayout BackgroundColor="#6A4512" Padding="10,10,10,10">
+    <VerticalStackLayout Padding="10,10,10,10">
 
         <VerticalStackLayout>
 
-            <HorizontalStackLayout HorizontalOptions="StartAndExpand">
+                <HorizontalStackLayout HorizontalOptions="StartAndExpand">
 
-                <Image Source="logo.png" HeightRequest="100" WidthRequest="100"/>
-
-                <Label TextColor="#FFFFFF" Margin="4,50,4,4" FontSize="30" FontAttributes="Bold" Text="Cuenta" HeightRequest="99"/>
+                    <Label  FontSize="40" FontAttributes="Bold" Text="Cuenta"/>
 
             </HorizontalStackLayout>
 
             <VerticalStackLayout>
 
-                <VerticalStackLayout HorizontalOptions="CenterAndExpand" Padding="10,10,10,10">
+                <VerticalStackLayout HorizontalOptions="CenterAndExpand" Padding="10,50,10,50">
 
-                    <Label Text="Rellene los campos" FontSize="20" FontAttributes="Bold" TextColor="#ffffff"></Label>
+                        <Label Text="Rellene los campos" FontSize="20" FontAttributes="Bold"/>
 
-                </VerticalStackLayout>
+                    </VerticalStackLayout>
 
                 <VerticalStackLayout HorizontalOptions="CenterAndExpand" Padding="10,10,10,10">
 
                     <HorizontalStackLayout>
 
-                        <Label Text="Credenciales" TextColor="White" FontAttributes="Bold" FontSize="15" HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand"/>
+                        <Label Text="Credenciales" FontAttributes="Bold" FontSize="15" HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand"/>
 
 
-                        <Entry FontSize="15" x:Name="credenciales" VerticalOptions="EndAndExpand" BackgroundColor="#D38B1A" HorizontalOptions="EndAndExpand" Margin="20,10,10,10" Placeholder="Ingrese su correo o numero" WidthRequest="200" HeightRequest="35" PlaceholderColor="White"/>
+                        <Entry FontSize="15" x:Name="credenciales" VerticalOptions="EndAndExpand" HorizontalOptions="EndAndExpand" Margin="20,10,10,10" Placeholder="Ingrese sus credenciales" WidthRequest="200" HeightRequest="35"/>
 
 
                     </HorizontalStackLayout>
-
                 </VerticalStackLayout>
 
                 <VerticalStackLayout HorizontalOptions="CenterAndExpand">
 
                     <HorizontalStackLayout>
 
-                        <Label FontSize="15" HorizontalOptions="StartAndExpand" Text="Contraseña" TextColor="White" FontAttributes="Bold" VerticalOptions="CenterAndExpand"/>
+                        <Label FontSize="15" HorizontalOptions="StartAndExpand" Text="Contraseña" FontAttributes="Bold" VerticalOptions="CenterAndExpand"/>
 
-                        <Entry x:Name="contra" VerticalOptions="EndAndExpand" BackgroundColor="#D38B1A" HorizontalOptions="EndAndExpand" Margin="30,10,10,10" Placeholder="Ingrese su contraseña"  WidthRequest="200" HeightRequest="35" PlaceholderColor="#ffffff"/>
+                        <Entry x:Name="contra" VerticalOptions="EndAndExpand" HorizontalOptions="EndAndExpand" Margin="30,10,10,10" Placeholder="Ingrese su contraseña"  WidthRequest="200" HeightRequest="35"/>
 
                     </HorizontalStackLayout>
 
                 </VerticalStackLayout>
 
-                <VerticalStackLayout HorizontalOptions="CenterAndExpand" Padding="0,30,10,0">
+                <VerticalStackLayout HorizontalOptions="CenterAndExpand" Padding="10,50,10,10">
 
-                    <Label Text="Restablecer contraseña" TextColor="White" FontAttributes="Bold" FontSize="15"/>
+                    <Label Text="Restablecer contraseña" FontAttributes="Bold" FontSize="15"/>
 
                 </VerticalStackLayout>
 
                 <VerticalStackLayout Padding="10,10,10,10" HorizontalOptions="CenterAndExpand">
 
-                    <Button Text="Iniciar sesion" x:Name="sesion" TextColor="White" BackgroundColor="#D38B1A" FontAttributes="Bold" HeightRequest="50" WidthRequest="150" CornerRadius="25" Clicked="sesion_Clicked"/>
+                    <Button Text="Iniciar sesion" x:Name="sesion" FontAttributes="Bold" HeightRequest="50" WidthRequest="150" CornerRadius="25" Clicked="sesion_Clicked"/>
 
                 </VerticalStackLayout>
 
-                <VerticalStackLayout HorizontalOptions="CenterAndExpand">
+                <VerticalStackLayout HorizontalOptions="CenterAndExpand" Margin="10,10,10,10">
 
-                    <Label Text="¿No tienes una cuenta?" TextColor="White" FontAttributes="Bold" FontSize="15"/>
+                    <Label Text="¿No tienes una cuenta?" FontAttributes="Bold" FontSize="15"/>
 
                 </VerticalStackLayout>
 
                 <VerticalStackLayout HorizontalOptions="CenterAndExpand" Padding="10,10,10,10">
 
-                    <Button Text="Crear cuenta"  x:Name="Crear" TextColor="White" BackgroundColor="#D38B1A" FontAttributes="Bold" HeightRequest="50" WidthRequest="150" CornerRadius="25" Clicked="Crear_Clicked"/>
+                    <Button Text="Crear cuenta"  x:Name="Crear" FontAttributes="Bold" HeightRequest="50" WidthRequest="150" CornerRadius="25" Clicked="Crear_Clicked"/>
 
                 </VerticalStackLayout>
 
@@ -89,5 +88,7 @@
     </VerticalStackLayout>
 
     </Grid>
+    
+    </ScrollView>
 
 </ContentPage>
