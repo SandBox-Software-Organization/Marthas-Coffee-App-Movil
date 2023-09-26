@@ -12,83 +12,62 @@
 
     <ScrollView>
 
-    <Grid>
+        <VerticalStackLayout Padding="10,10,10,10">
 
-    <VerticalStackLayout Padding="10,10,10,10">
+            <Grid RowSpacing="20" ColumnSpacing="20">
 
-        <VerticalStackLayout>
+                <Grid.RowDefinitions>
 
-                <HorizontalStackLayout HorizontalOptions="StartAndExpand">
+                    <RowDefinition/>
 
-                    <Label  FontSize="40" FontAttributes="Bold" Text="Cuenta"/>
+                    <RowDefinition/>
 
-            </HorizontalStackLayout>
+                    <RowDefinition/>
 
-            <VerticalStackLayout>
+                    <RowDefinition/>
 
-                <VerticalStackLayout HorizontalOptions="CenterAndExpand" Padding="10,50,10,50">
+                    <RowDefinition/>
 
-                        <Label Text="Rellene los campos" FontSize="20" FontAttributes="Bold"/>
+                    <RowDefinition/>
 
-                    </VerticalStackLayout>
+                    <RowDefinition/>
 
-                <VerticalStackLayout HorizontalOptions="CenterAndExpand" Padding="10,10,10,10">
+                    <RowDefinition/>
 
-                    <HorizontalStackLayout>
+                </Grid.RowDefinitions>
 
-                        <Label Text="Credenciales" FontAttributes="Bold" FontSize="15" HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand"/>
+                <Grid.ColumnDefinitions>
 
+                    <ColumnDefinition Width="100"/>
 
-                        <Entry FontSize="15" x:Name="credenciales" VerticalOptions="EndAndExpand" HorizontalOptions="EndAndExpand" Margin="20,10,10,10" Placeholder="Ingrese sus credenciales" WidthRequest="200" HeightRequest="35"/>
+                    <ColumnDefinition/>
 
+                </Grid.ColumnDefinitions>
 
-                    </HorizontalStackLayout>
-                </VerticalStackLayout>
+                <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" FontSize="40" FontAttributes="Bold" Text="Cuenta"/>
 
-                <VerticalStackLayout HorizontalOptions="CenterAndExpand">
+                <Label Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" HorizontalOptions="Center" Text="Rellene los campos" FontSize="20" FontAttributes="Bold"/>
 
-                    <HorizontalStackLayout>
+                <Label Grid.Row="2" Grid.Column="0" Text="Credenciales" FontAttributes="Bold" VerticalOptions="CenterAndExpand"/>
 
-                        <Label FontSize="15" HorizontalOptions="StartAndExpand" Text="Contraseña" FontAttributes="Bold" VerticalOptions="CenterAndExpand"/>
+                <Entry Grid.Row="2" Grid.Column="1" x:Name="credenciales" Placeholder="Ingrese sus credenciales"/>
 
-                        <Entry x:Name="contra" VerticalOptions="EndAndExpand" HorizontalOptions="EndAndExpand" Margin="30,10,10,10" Placeholder="Ingrese su contraseña"  WidthRequest="200" HeightRequest="35"/>
+                <Label Grid.Row="3" Grid.Column="0" Text="Contraseña" FontAttributes="Bold" VerticalOptions="Center"/>
 
-                    </HorizontalStackLayout>
+                <Entry Grid.Row="3" Grid.Column="1" x:Name="contra" VerticalOptions="EndAndExpand" Placeholder="Ingrese su contraseña"/>
 
-                </VerticalStackLayout>
+                <Label Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2" HorizontalOptions="Center" Text="Restablecer contraseña" FontAttributes="Bold" FontSize="15"/>
 
-                <VerticalStackLayout HorizontalOptions="CenterAndExpand" Padding="10,50,10,10">
+                <Button Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="2" Text="Iniciar sesion" x:Name="sesion" FontAttributes="Bold" CornerRadius="25" Clicked="sesion_Clicked"/>
+ 
+                <Label  Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="2" HorizontalOptions="Center" Text="¿No tienes una cuenta?" FontAttributes="Bold"/>
+                
+                <Button Grid.Row="7" Grid.Column="0" Grid.ColumnSpan="2" Text="Crear cuenta"  x:Name="Crear" FontAttributes="Bold" CornerRadius="25" Clicked="Crear_Clicked"/>
 
-                    <Label Text="Restablecer contraseña" FontAttributes="Bold" FontSize="15"/>
-
-                </VerticalStackLayout>
-
-                <VerticalStackLayout Padding="10,10,10,10" HorizontalOptions="CenterAndExpand">
-
-                    <Button Text="Iniciar sesion" x:Name="sesion" FontAttributes="Bold" HeightRequest="50" WidthRequest="150" CornerRadius="25" Clicked="sesion_Clicked"/>
-
-                </VerticalStackLayout>
-
-                <VerticalStackLayout HorizontalOptions="CenterAndExpand" Margin="10,10,10,10">
-
-                    <Label Text="¿No tienes una cuenta?" FontAttributes="Bold" FontSize="15"/>
-
-                </VerticalStackLayout>
-
-                <VerticalStackLayout HorizontalOptions="CenterAndExpand" Padding="10,10,10,10">
-
-                    <Button Text="Crear cuenta"  x:Name="Crear" FontAttributes="Bold" HeightRequest="50" WidthRequest="150" CornerRadius="25" Clicked="Crear_Clicked"/>
-
-                </VerticalStackLayout>
+            </Grid>
 
             </VerticalStackLayout>
 
-        </VerticalStackLayout>
-
-    </VerticalStackLayout>
-
-    </Grid>
-    
     </ScrollView>
 
 </ContentPage>

@@ -9,89 +9,64 @@
              Title="CrearCuenta">
 
     <ScrollView>
-    <VerticalStackLayout  Padding="10,10,10,10">
-
-            <VerticalStackLayout HorizontalOptions="StartAndExpand" Margin="5,5,5,5">
-
-                <HorizontalStackLayout>
-
-                    <Button Clicked="RegresoCuenta_Clicked" x:Name="RegeresoInicio"  Margin="10,10,10,10" Text="↩"  FontSize="20" VerticalOptions="Center" CornerRadius="60" FontAttributes="Bold" />
-
-                    <Label FontSize="30" VerticalOptions="Center" FontAttributes="Bold" Text="Crear cuenta"/>
-
-                </HorizontalStackLayout>
-
-            </VerticalStackLayout>
-
-        <VerticalStackLayout HorizontalOptions="CenterAndExpand" Padding="10,50,10,50">
-
-            <Label Text="Rellene los campos" FontSize="20" FontAttributes="Bold"></Label>
-
-        </VerticalStackLayout>
-
-        <VerticalStackLayout HorizontalOptions="CenterAndExpand" Padding="10,10,10,10">
-
-            <HorizontalStackLayout>
-
-                <Label Text="Nombres:" FontAttributes="Bold" FontSize="15" HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand"/>
-
-
-                <Entry VerticalOptions="EndAndExpand" HorizontalOptions="EndAndExpand" Margin="80,10,10,10" Placeholder="Ingrese sus nombres" WidthRequest="175" HeightRequest="35" FontSize="15"/>
-
-
-            </HorizontalStackLayout>
-
-        </VerticalStackLayout>
-
-        <VerticalStackLayout HorizontalOptions="CenterAndExpand" Padding="10,10,10,10">
-
-            <HorizontalStackLayout>
-
-                <Label Text="Apellidos:" FontAttributes="Bold" HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand" FontSize="15"/>
-
-
-                <Entry VerticalOptions="EndAndExpand" HorizontalOptions="EndAndExpand" Margin="80,10,10,10" Placeholder="Ingrese sus apellidos" WidthRequest="175" HeightRequest="35" FontSize="15"/>
-
-
-            </HorizontalStackLayout>
-
-        </VerticalStackLayout>
-
-        <VerticalStackLayout HorizontalOptions="CenterAndExpand" Padding="10,10,10,10">
-
-            <HorizontalStackLayout>
-
-                <Label Text="Correo electronico:" FontAttributes="Bold" FontSize="15" HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand"/>
-
-
-                <Entry VerticalOptions="EndAndExpand" HorizontalOptions="EndAndExpand" Margin="20,10,10,10" Placeholder="Ingrese su correo" WidthRequest="175" HeightRequest="35" FontSize="15"/>
-
-
-            </HorizontalStackLayout>
-
-        </VerticalStackLayout>
-
-        <VerticalStackLayout HorizontalOptions="CenterAndExpand" Padding="10,10,10,10">
-
-            <HorizontalStackLayout>
-
-                <Label Text="Número telefónico:" FontAttributes="Bold" FontSize="15" HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand"/>
-
-
-                <Entry VerticalOptions="EndAndExpand" HorizontalOptions="EndAndExpand" Margin="20,10,10,10" Placeholder="Ingrese su número" WidthRequest="175" HeightRequest="35" FontSize="15"/>
-
-
-            </HorizontalStackLayout>
-
-        </VerticalStackLayout>
-
-        <VerticalStackLayout HorizontalOptions="CenterAndExpand" Padding="10,50,10,10">
-
-            <Button Text="Crear cuenta" FontAttributes="Bold" HeightRequest="50" WidthRequest="150" CornerRadius="25"/>
-
-        </VerticalStackLayout>
         
-    </VerticalStackLayout>
+        <VerticalStackLayout  Padding="10,10,10,10">
+
+            <Grid RowSpacing="20" ColumnSpacing="20">
+
+                <Grid.RowDefinitions>
+
+                    <RowDefinition/>
+
+                    <RowDefinition/>
+
+                    <RowDefinition/>
+
+                    <RowDefinition/>
+
+                    <RowDefinition/>
+
+                    <RowDefinition/>
+
+                    <RowDefinition/>
+    
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+
+                    <ColumnDefinition Width="130"/>
+
+                    <ColumnDefinition/>
+
+                </Grid.ColumnDefinitions>
+
+                <Button  Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Clicked="RegresoCuenta_Clicked" x:Name="RegeresoInicio" Text="↩"  FontSize="20" VerticalOptions="Center" CornerRadius="60" FontAttributes="Bold" HorizontalOptions="Start"/>
+
+                <Label   Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" FontSize="30" VerticalOptions="Center" FontAttributes="Bold" Text="Crear cuenta" HorizontalOptions="Center"/>
+
+                <Label   Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" HorizontalOptions="CenterAndExpand" Text="Rellene los campos" FontSize="20" FontAttributes="Bold"/>
+
+                <Label   Grid.Row="2" Grid.Column="0" Text="Nombres:" FontAttributes="Bold" VerticalOptions="Center"/>
+                         
+                <Entry   Grid.Row="2" Grid.Column="1" Placeholder="Ingrese sus nombres"/>
+                         
+                <Label   Grid.Row="3" Grid.Column="0" Text="Apellidos:" FontAttributes="Bold" VerticalOptions="Center"/>
+                         
+                <Entry   Grid.Row="3" Grid.Column="1" Placeholder="Ingrese sus apellidos"/>
+                         
+                <Label   Grid.Row="4" Grid.Column="0" Text="Correo electronico:" FontAttributes="Bold" VerticalOptions="CenterAndExpand"/>
+                         
+                <Entry   Grid.Row="4" Grid.Column="1" Placeholder="Ingrese su correo"/>
+                         
+                <Label   Grid.Row="5" Grid.Column="0" Text="Número telefónico:" FontAttributes="Bold" VerticalOptions="Center"/>
+                         
+                <Entry   Grid.Row="5" Grid.Column="1" Placeholder="Ingrese su número"/>
+                         
+                <Button  Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="2" Text="Crear cuenta" FontAttributes="Bold" CornerRadius="25"/>
+
+            </Grid>
+
+        </VerticalStackLayout>
 
     </ScrollView>
     

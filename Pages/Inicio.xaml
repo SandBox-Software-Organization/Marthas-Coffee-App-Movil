@@ -12,74 +12,51 @@
 
     <ScrollView>
 
-    <!-- Definimos el padding del VerticalStackLayout -->
+        <VerticalStackLayout Padding="10,10,10,10">
 
-    <VerticalStackLayout Padding="10,10,10,10">
+            <Grid RowSpacing="5" ColumnSpacing="5">
 
-        <!-- Creamos un VerticalStackLayout y definimos su orientación -->
+                <Grid.RowDefinitions>
 
-        <VerticalStackLayout HorizontalOptions="StartAndExpand">
+                    <RowDefinition/>
 
-                <HorizontalStackLayout>
+                    <RowDefinition/>
 
-                <Image Source="logo.png" HeightRequest="100" WidthRequest="100"/>
+                    <RowDefinition/>
 
+                    <RowDefinition/>
+
+                    <RowDefinition/>
+
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+
+                    <ColumnDefinition/>
+
+                    <ColumnDefinition/>
+
+                </Grid.ColumnDefinitions>
+
+                <Image       Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Source="logo.png" HeightRequest="100" WidthRequest="100" HorizontalOptions="Start"/>
+
+                <Label       Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" FontSize="40" FontAttributes="Bold" Text="Bienvenid@" VerticalOptions="Center" HorizontalOptions="End"/>
+
+                <ImageButton Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" HorizontalOptions="Center" x:Name="Pasteldefresa" Source="titi.jpg" CornerRadius="25"/>
+
+                <Label       Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" HorizontalOptions="Center" FontSize="20" Text="Categorias"  FontAttributes="Bold" Padding="2,2,2,2"/>
+
+                <Button      Grid.Row="3" Grid.Column="0" x:Name="ButtonPlatillos"  Clicked="ButtonPlatillos_Clicked"   Text="Platillos"   CornerRadius="25"/>
+                                                                                                                                                         
+                <Button      Grid.Row="3" Grid.Column="1" x:Name="ButtonBebidas"    Clicked="ButtonBebidas_Clicked"     Text="Bebidas"     CornerRadius="25"/>
+                                                                                                                                                         
+                <Button      Grid.Row="4" Grid.Column="0" x:Name="ButtonPostres"    Clicked="ButtonPostres_Clicked"     Text="Postres"     CornerRadius="25"/>
+                                                                                                                                                         
+                <Button      Grid.Row="4" Grid.Column="1" x:Name="ButtonBocadillos" Clicked="ButtonBocadillos_Clicked"  Text="Bocadillos"  CornerRadius="25"/>
+
+            </Grid>
                
-
-                <Label FontSize="40" FontAttributes="Bold" Text="Bienvenid@" VerticalOptions="Center"/>
-
-                </HorizontalStackLayout>
-
-
-            </VerticalStackLayout>
-
-        <VerticalStackLayout HorizontalOptions="CenterAndExpand" Padding="10,50,10,20">
-
-            <HorizontalStackLayout>
-
-                    <ImageButton x:Name="Pasteldefresa" Source="titi.jpg" WidthRequest="200" HeightRequest="200" CornerRadius="37" />
-
-
-                </HorizontalStackLayout>
-
-           
-
         </VerticalStackLayout>
-        <!-- Creamos un VerticalStackLayout y definimos su orientación -->
-
-        <VerticalStackLayout HorizontalOptions="CenterAndExpand">
-
-            <!-- Agregamos un label y definimos su fuente color,tamaño, y sus propiedades text,FontAttributes  -->
-
-            <Label FontSize="20" Text="Categorias"  FontAttributes="Bold" Padding="10,10,10,20"/>
-
-        </VerticalStackLayout>
-
-        <VerticalStackLayout>
-
-            <HorizontalStackLayout HorizontalOptions="CenterAndExpand">
-
-                <Button x:Name="ButtonPlatillos"  Clicked="ButtonPlatillos_Clicked" Margin="10,10,20,10" Text="Platillos" HeightRequest="50" WidthRequest="150" CornerRadius="30"/>
-
-                <Button x:Name="ButtonBebidas"    Clicked="ButtonBebidas_Clicked"   Margin="10,10,20,10" Text="Bebidas"   HeightRequest="50" WidthRequest="150" CornerRadius="30"/>
-
-            </HorizontalStackLayout>
-
-        </VerticalStackLayout>
-
-        <VerticalStackLayout>
-
-                <HorizontalStackLayout  HorizontalOptions="CenterAndExpand">
-
-                    <Button x:Name="ButtonPostres"    Clicked="ButtonPostres_Clicked"    Margin="10,10,20,10" Text="Postres"    HeightRequest="50" WidthRequest="150" CornerRadius="30"/>
-
-                    <Button x:Name="ButtonBocadillos" Clicked="ButtonBocadillos_Clicked" Margin="10,15,20,10" Text="Bocadillos" HeightRequest="50" WidthRequest="150" CornerRadius="30"/>
-
-                </HorizontalStackLayout>
-
-            </VerticalStackLayout>
-
-    </VerticalStackLayout>
 
     </ScrollView>
 
