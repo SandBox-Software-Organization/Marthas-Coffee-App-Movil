@@ -1,252 +1,170 @@
 <?xml version="1.0" encoding="utf-8" ?>
+    
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             
              x:Class="Marthas_Coffee_App_Movil.Pages.Bocadillos"
+             
              Title="Bocadillos">
 
     <ScrollView>
 
-    <!-- Definimos el color de fondo de nuestra pagina -->
+        <VerticalStackLayout Padding="10,10,10,10">
 
-    <VerticalStackLayout Padding="5,5,5,5">
+            <Grid ColumnSpacing="5">
 
+                <Grid.RowDefinitions>
 
-        <!-- Definimos la orientacion y el margin de nuestro VerticalStackLayout -->
+                    <RowDefinition/>
 
-        <VerticalStackLayout HorizontalOptions="StartAndExpand" Margin="5,5,5,5">
+                    <RowDefinition Height="20"/>
 
-            <HorizontalStackLayout>
+                    <RowDefinition Height="200"/>
 
-                    <Button Clicked="RegresoInicio_Clicked" x:Name="RegeresoInicio"  Margin="10,10,10,10" Text="↩"  FontSize="20" VerticalOptions="Center" CornerRadius="60" FontAttributes="Bold" />
+                    <RowDefinition Height="20"/>
 
-                    <!-- Agregamos un label y definimos su color,fuente,tamaño,su margen,orientacion, sus atributos, y su propiedad text -->
+                    <RowDefinition Height="20"/>
 
-                <Label FontSize="30"  Margin="5,2,0,0" VerticalOptions="Center" HeightRequest="35" FontAttributes="Bold" Text="Bocadillos"/>
+                    <RowDefinition Height="20"/>
 
-            </HorizontalStackLayout>
+                    <RowDefinition Height="200"/>
 
-        </VerticalStackLayout>
+                    <RowDefinition Height="20"/>
 
-        <!-- Creamos un VerticalStackLayout y definimos su orientación y padding -->
+                    <RowDefinition Height="20"/>
 
-        <VerticalStackLayout HorizontalOptions="CenterAndExpand" Padding="1,1,1,10">
+                    <RowDefinition Height="20"/>
 
-            <!-- Agregamos un label y definimos su color,fuente,tamaño,sus atributos, y su propiedad text -->
+                    <RowDefinition Height="200"/>
 
-            <Label FontSize="20" FontAttributes="Bold" Text="Dulces" />
+                    <RowDefinition Height="20"/>
 
-        </VerticalStackLayout>
+                    <RowDefinition Height="20"/>
 
-        <!-- Creamos un VerticalStackLayout y definimos su orientación y su padding -->
+                    <RowDefinition Height="20"/>
 
-        <VerticalStackLayout HorizontalOptions="CenterAndExpand">
+                </Grid.RowDefinitions>
 
-            <HorizontalStackLayout>
+                <Grid.ColumnDefinitions>
 
-                <!-- Creamos un ImageButton y definimos sus propiedades -->
+                    <ColumnDefinition/>
 
-                <ImageButton x:Name="chocolat"  Source="chocolat.jpg" WidthRequest="80" HeightRequest="80" CornerRadius="20" Margin="5,2,2,5"/>
+                    <ColumnDefinition/>
 
-                <!-- Creamos un ImageButton y definimos sus propiedades -->
+                    <ColumnDefinition/>
 
-                <ImageButton x:Name="coco"  Source="coco.jpg" WidthRequest="80" HeightRequest="80" CornerRadius="20" Margin="5,2,2,5"/>
+                </Grid.ColumnDefinitions>
 
-                <!-- Creamos un ImageButton y definimos sus propiedades -->
+                <!-- Fila 0 -->
 
-                <ImageButton x:Name="tartaleta" Source="tartaleta.jpg" WidthRequest="80" HeightRequest="80" CornerRadius="20" Margin="5,2,2,5"/>
+                <Button Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" Clicked="RegresoInicio_Clicked" x:Name="RegeresoInicio" Text="↩"  FontSize="20" VerticalOptions="Center" HorizontalOptions="Start" CornerRadius="60" FontAttributes="Bold" />
 
-                <!-- Creamos un ImageButton y definimos sus propiedades -->
+                <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" FontSize="30" VerticalOptions="Center" HorizontalOptions="Center" FontAttributes="Bold" Text="Bocadillos"/>
 
-                <ImageButton x:Name="brownie" Source="brownie.jpg" WidthRequest="80" HeightRequest="80" CornerRadius="20" Margin="5,2,2,5"/>
+                <!-- Fila 1 -->
 
-            </HorizontalStackLayout>
+                <Label Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="4" HorizontalOptions="Center" FontSize="20" FontAttributes="Bold" Text="Dulces"/>
 
-        </VerticalStackLayout>
+                <!-- Fila 2 -->
 
-        <VerticalStackLayout Padding="1,1,1,1" HorizontalOptions="CenterAndExpand">
+                <ImageButton Grid.Row="2" Grid.Column="0" x:Name="chocolat"  Source="chocolat.png"/>
 
-            <HorizontalStackLayout>
+                <ImageButton Grid.Row="2" Grid.Column="1" x:Name="coco"  Source="coco.png"/>
 
-                <Label FontSize="10" Text="Bocadillo 1"  Margin="0,0,42,0" FontAttributes="Bold"/>
+                <ImageButton Grid.Row="2" Grid.Column="2" x:Name="tartaleta" Source="tartaleta.png"/>
 
-                <Label FontSize="10"  Text="Bocadillo 2"  Margin="0,0,30,0" FontAttributes="Bold"/>
+                <!-- Fila 3 -->
 
-                <Label FontSize="10"  Text="Bocadillo 3"  Margin="7,0,0,0" FontAttributes="Bold"/>
+                <Label Grid.Row="3" Grid.Column="0"  FontSize="10" HorizontalOptions="Center" Text="Bocadillo 1"  FontAttributes="Bold"/>
 
-                <Label FontSize="10"  Text="Bocadillo 4"  Margin="45,0,0,0" FontAttributes="Bold"/>
+                <Label Grid.Row="3" Grid.Column="1"  FontSize="10" HorizontalOptions="Center" Text="Bocadillo 2"  FontAttributes="Bold"/>
 
-            </HorizontalStackLayout>
+                <Label Grid.Row="3" Grid.Column="2"  FontSize="10" HorizontalOptions="Center" Text="Bocadillo 3"  FontAttributes="Bold"/>
 
-        </VerticalStackLayout>
+                <!-- Fila 4 -->
 
-        <VerticalStackLayout HorizontalOptions="CenterAndExpand">
+                <Label Grid.Row="4" Grid.Column="0" HorizontalOptions="Start" FontSize="10"  Text="$:" FontAttributes="Bold"/>
 
-            <HorizontalStackLayout>
+                <Label Grid.Row="4" Grid.Column="0" HorizontalOptions="Center" FontSize="10"  Text="00.00"  FontAttributes="Bold"/>
 
-                <Label FontSize="10"  Text="$:"  Margin="10,0,0,0" FontAttributes="Bold"/>
+                <Label Grid.Row="4" Grid.Column="1" HorizontalOptions="Start" FontSize="10"  Text="$:"     FontAttributes="Bold"/>
 
-                <Label FontSize="10"  Text="00.00"  Margin="2,0,0,0" FontAttributes="Bold"/>
+                <Label Grid.Row="4" Grid.Column="1" HorizontalOptions="Center" FontSize="10"  Text="00.00"  FontAttributes="Bold"/>
 
-                <Label FontSize="10"  Text="$:"  Margin="60,0,0,0" FontAttributes="Bold"/>
+                <Label Grid.Row="4" Grid.Column="2" HorizontalOptions="Start" FontSize="10"  Text="$:"     FontAttributes="Bold"/>
 
-                <Label FontSize="10"  Text="00.00"  Margin="2,0,0,0" FontAttributes="Bold"/>
+                <Label Grid.Row="4" Grid.Column="2" HorizontalOptions="Center" FontSize="10"  Text="00.00"  FontAttributes="Bold"/>
 
-                <Label FontSize="10"  Text="$:"  Margin="60,0,0,0" FontAttributes="Bold"/>
+                <!-- Fila 5 -->
 
-                <Label FontSize="10"  Text="00.00"  Margin="2,0,0,0" FontAttributes="Bold" />
+                <Label Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="4" HorizontalOptions="Center" FontSize="20" FontAttributes="Bold" Text="Salados"/>
 
-                <Label FontSize="10"  Text="$:"  Margin="50,0,0,0" FontAttributes="Bold"/>
+                <!-- Fila 6 -->
 
-                <Label FontSize="10"  Text="00.00"  Margin="2,0,0,0" FontAttributes="Bold"/>
+                <ImageButton Grid.Row="6" Grid.Column="0" Source="deditos.png"/>
 
-            </HorizontalStackLayout>
+                <ImageButton Grid.Row="6" Grid.Column="1" Source="mangoverd.png"/>
 
-        </VerticalStackLayout>
+                <ImageButton Grid.Row="6" Grid.Column="2" Source="galletas.png"/>
 
-        <VerticalStackLayout Padding="1,10,1,10" HorizontalOptions="CenterAndExpand">
+                <!-- Fila 7 -->
 
-            <!-- Agregamos un label y definimos su color,fuente,tamaño,sus atributos, y su propiedad text -->
+                <Label Grid.Row="7" Grid.Column="0" FontSize="10" Text="Bocadillo 1"   HorizontalOptions="Center" FontAttributes="Bold"/>
 
-            <Label FontSize="20" FontAttributes="Bold" Text="Salados" />
+                <Label Grid.Row="7" Grid.Column="1" FontSize="10"  Text="Bocadillo 2"  HorizontalOptions="Center" FontAttributes="Bold"/>
 
-        </VerticalStackLayout>
+                <Label Grid.Row="7" Grid.Column="2" FontSize="10"  Text="Bocadillo 3" HorizontalOptions="Center" FontAttributes="Bold"/>
 
-        <VerticalStackLayout HorizontalOptions="CenterAndExpand">
+                <!-- Fila 8 -->
 
-            <HorizontalStackLayout>
+                <Label Grid.Row="8" Grid.Column="0" HorizontalOptions="Start" FontSize="10"  Text="$:" FontAttributes="Bold"/>
 
-                <ImageButton Source="deditos.jpg" WidthRequest="80" HeightRequest="80" CornerRadius="20" Margin="5,2,2,5"/>
+                <Label Grid.Row="8" Grid.Column="0" HorizontalOptions="Center" FontSize="10"  Text="00.00"  FontAttributes="Bold"/>
 
-                <ImageButton Source="mangoverd.jpg" WidthRequest="80" HeightRequest="80" CornerRadius="20" Margin="5,2,2,5"/>
+                <Label Grid.Row="8" Grid.Column="1" HorizontalOptions="Start" FontSize="10"  Text="$:"     FontAttributes="Bold"/>
 
-                <ImageButton Source="galletas.jpg" WidthRequest="80" HeightRequest="80" CornerRadius="20" Margin="5,2,2,5"/>
+                <Label Grid.Row="8" Grid.Column="1" HorizontalOptions="Center" FontSize="10"  Text="00.00"  FontAttributes="Bold"/>
 
-                <ImageButton Source="mani.jpg" WidthRequest="80" HeightRequest="80" CornerRadius="20" Margin="5,2,2,5"/>
+                <Label Grid.Row="8" Grid.Column="2" HorizontalOptions="Start" FontSize="10"  Text="$:"     FontAttributes="Bold"/>
 
-            </HorizontalStackLayout>
+                <Label Grid.Row="8" Grid.Column="2" HorizontalOptions="Center" FontSize="10"  Text="00.00"  FontAttributes="Bold"/>
 
-        </VerticalStackLayout>
+                <!-- Fila 9 -->
 
-        <VerticalStackLayout HorizontalOptions="CenterAndExpand">
+                <Label Grid.Row="9" Grid.Column="0" Grid.ColumnSpan="4" VerticalOptions="Center" HorizontalOptions="Center" FontSize="20" FontAttributes="Bold" Text="Acidos"/>
 
-            <HorizontalStackLayout>
+                <!-- Fila 10 -->
 
-                <Label FontSize="10" Text="Bocadillo 1"  Margin="0,0,42,0" FontAttributes="Bold"/>
+                <ImageButton Grid.Row="10" Grid.Column="0" Source="gomitas.png"/>
 
-                <Label FontSize="10"  Text="Bocadillo 2"  Margin="0,0,30,0" FontAttributes="Bold"/>
+                <ImageButton Grid.Row="10" Grid.Column="1" Source="mani.png"/>
 
-                <Label FontSize="10"  Text="Bocadillo 3"  Margin="7,0,0,0" FontAttributes="Bold"/>
+                <ImageButton Grid.Row="10" Grid.Column="2" Source="kiwi.png"/>
 
-                <Label FontSize="10"  Text="Bocadillo 4"  Margin="45,0,0,0" FontAttributes="Bold"/>
+                <!-- Fila 11 -->
 
-            </HorizontalStackLayout>
+                <Label Grid.Row="11" Grid.Column="0" HorizontalOptions="Center" FontSize="10" Text="Bocadillo 1"  FontAttributes="Bold"/>
 
-        </VerticalStackLayout>
+                <Label Grid.Row="11" Grid.Column="1" HorizontalOptions="Center" FontSize="10"  Text="Bocadillo 2" FontAttributes="Bold" />
 
-        <VerticalStackLayout HorizontalOptions="CenterAndExpand">
+                <Label Grid.Row="11" Grid.Column="2" HorizontalOptions="Center" FontSize="10"  Text="Bocadillo 3"  FontAttributes="Bold"/>
 
-            <HorizontalStackLayout>
+                <!-- Fila 12 -->
 
-                <Label FontSize="10"  Text="$:"  Margin="10,0,0,0" FontAttributes="Bold"/>
+                <Label Grid.Row="12" Grid.Column="0" HorizontalOptions="Start" FontSize="10"  Text="$:" FontAttributes="Bold"/>
 
-                <Label FontSize="10"  Text="00.00"  Margin="2,0,0,0" FontAttributes="Bold"/>
+                <Label Grid.Row="12" Grid.Column="0" HorizontalOptions="Center" FontSize="10"  Text="00.00"  FontAttributes="Bold"/>
 
-                <Label FontSize="10"  Text="$:"  Margin="60,0,0,0" FontAttributes="Bold"/>
+                <Label Grid.Row="12" Grid.Column="1" HorizontalOptions="Start" FontSize="10"  Text="$:"     FontAttributes="Bold"/>
 
-                <Label FontSize="10"  Text="00.00"  Margin="2,0,0,0" FontAttributes="Bold"/>
+                <Label Grid.Row="12" Grid.Column="1" HorizontalOptions="Center" FontSize="10"  Text="00.00"  FontAttributes="Bold"/>
 
-                <Label FontSize="10"  Text="$:"  Margin="60,0,0,0" FontAttributes="Bold"/>
+                <Label Grid.Row="12" Grid.Column="2" HorizontalOptions="Start" FontSize="10"  Text="$:"     FontAttributes="Bold"/>
 
-                <Label FontSize="10"  Text="00.00"  Margin="2,0,0,0" FontAttributes="Bold" />
+                <Label Grid.Row="12" Grid.Column="2" HorizontalOptions="Center" FontSize="10"  Text="00.00"  FontAttributes="Bold"/>
 
-                <Label FontSize="10"  Text="$:"  Margin="50,0,0,0" FontAttributes="Bold"/>
-
-                <Label FontSize="10"  Text="00.00"  Margin="2,0,0,0" FontAttributes="Bold"/>
-
-            </HorizontalStackLayout>
-
-        </VerticalStackLayout>
-
-        <VerticalStackLayout HorizontalOptions="CenterAndExpand" Padding="1,10,1,10">
-
-            <!-- Agregamos un label y definimos su color,fuente,tamaño,sus atributos, y su propiedad text -->
-
-            <Label FontSize="20" FontAttributes="Bold" Text="Acidos" />
-
-        </VerticalStackLayout>
-
-        <VerticalStackLayout HorizontalOptions="CenterAndExpand">
-
-            <HorizontalStackLayout>
-
-                <ImageButton Source="gomitas.jpg" WidthRequest="80" HeightRequest="80" CornerRadius="20" Margin="5,2,2,5"/>
-
-                <ImageButton Source="mangoverd.jpg" WidthRequest="80" HeightRequest="80" CornerRadius="20" Margin="5,2,2,5"/>
-
-                <ImageButton Source="mani.jpg" WidthRequest="80" HeightRequest="80" CornerRadius="20" Margin="5,2,2,5"/>
-
-                <ImageButton Source="kiwi.jpg" WidthRequest="80" HeightRequest="80" CornerRadius="20" Margin="5,2,2,5"/>
-
-            </HorizontalStackLayout>
-
-        </VerticalStackLayout>
-
-        <VerticalStackLayout HorizontalOptions="CenterAndExpand">
-
-            <HorizontalStackLayout>
-
-                <Label FontSize="10" Text="Bocadillo 1"  Margin="0,0,42,0" FontAttributes="Bold"/>
-
-                <Label FontSize="10"  Text="Bocadillo 2"  Margin="0,0,30,0" FontAttributes="Bold" />
-
-                <Label FontSize="10"  Text="Bocadillo 3"  Margin="7,0,0,0" FontAttributes="Bold"/>
-
-                <Label FontSize="10"  Text="Bocadillo 4"  Margin="45,0,0,0" FontAttributes="Bold"/>
-
-            </HorizontalStackLayout>
-
-        </VerticalStackLayout>
-
-        <VerticalStackLayout HorizontalOptions="CenterAndExpand">
-
-            <HorizontalStackLayout>
-
-                <Label FontSize="10"  Text="$:"  Margin="10,0,0,0" FontAttributes="Bold"/>
-
-                <Label FontSize="10"  Text="00.00"  Margin="2,0,0,0" FontAttributes="Bold"/>
-
-                <Label FontSize="10"  Text="$:"  Margin="60,0,0,0" FontAttributes="Bold"/>
-
-                <Label FontSize="10"  Text="00.00"  Margin="2,0,0,0" FontAttributes="Bold"/>
-
-                <Label FontSize="10"  Text="$:"  Margin="60,0,0,0" FontAttributes="Bold"/>
-
-                <Label FontSize="10"  Text="00.00"  Margin="2,0,0,0" FontAttributes="Bold"/>
-
-                <Label FontSize="10"  Text="$:"  Margin="50,0,0,0" FontAttributes="Bold"/>
-
-                <Label FontSize="10"  Text="00.00"  Margin="2,0,0,0" FontAttributes="Bold" />
-
-            </HorizontalStackLayout>
-
-        </VerticalStackLayout>
-
-        <VerticalStackLayout>
-
-            <HorizontalStackLayout HorizontalOptions="CenterAndExpand" Margin="0,40,0,0">
-
-                <Button FontFamily="raleway-boldf" x:Name="Orden"  Margin="10,10,10,10" Text="AGREGAR A LA ORDEN" HeightRequest="45" WidthRequest="190" CornerRadius="30"/>
-
-                <Button FontFamily="raleway-boldf" x:Name="Mas" Margin="0,0,0,0" Text="+" HeightRequest="40" WidthRequest="40" CornerRadius="60" FontAttributes="Bold"/>
-
-                <Label Margin="10,0,10,0" HorizontalOptions="Center" VerticalOptions="Center" Text="0" FontAttributes="Bold"/>
-
-                <Button FontFamily="raleway-boldf" x:Name="Menos" Margin="0,0,10,0" Text="-" HeightRequest="40" WidthRequest="40" CornerRadius="60" FontAttributes="Bold"/>
-
-
-            </HorizontalStackLayout>
-
-        </VerticalStackLayout>
+            </Grid>
 
     </VerticalStackLayout>
 

@@ -20,9 +20,9 @@
 
                     <RowDefinition/>
 
-                    <RowDefinition/>
+                    <RowDefinition Height="350"/>
 
-                    <RowDefinition/>
+                    <RowDefinition />
 
                     <RowDefinition/>
 
@@ -37,19 +37,28 @@
                     <ColumnDefinition/>
 
                 </Grid.ColumnDefinitions>
+                
+                <!-- Fila 0 -->
 
                 <Image       Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Source="logo.png" HeightRequest="100" WidthRequest="100" HorizontalOptions="Start"/>
 
                 <Label       Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" FontSize="40" FontAttributes="Bold" Text="Bienvenid@" VerticalOptions="Center" HorizontalOptions="End"/>
 
-                <ImageButton Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" HorizontalOptions="Center" x:Name="Pasteldefresa" Source="titi.jpg" CornerRadius="25"/>
+                <!-- Fila 1 -->
 
+                <ImageButton  Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" HorizontalOptions="Center" x:Name="Pasteldefresa" Source="titi.png" Aspect="AspectFit" Padding="0,20,0,5"/>
+
+                <!-- Fila 2 -->
+                
                 <Label       Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" HorizontalOptions="Center" FontSize="20" Text="Categorias"  FontAttributes="Bold" Padding="2,2,2,2"/>
 
+                <!-- Fila 3 -->
                 <Button      Grid.Row="3" Grid.Column="0" x:Name="ButtonPlatillos"  Clicked="ButtonPlatillos_Clicked"   Text="Platillos"   CornerRadius="25"/>
                                                                                                                                                          
                 <Button      Grid.Row="3" Grid.Column="1" x:Name="ButtonBebidas"    Clicked="ButtonBebidas_Clicked"     Text="Bebidas"     CornerRadius="25"/>
-                                                                                                                                                         
+
+                <!-- Fila 4 -->
+
                 <Button      Grid.Row="4" Grid.Column="0" x:Name="ButtonPostres"    Clicked="ButtonPostres_Clicked"     Text="Postres"     CornerRadius="25"/>
                                                                                                                                                          
                 <Button      Grid.Row="4" Grid.Column="1" x:Name="ButtonBocadillos" Clicked="ButtonBocadillos_Clicked"  Text="Bocadillos"  CornerRadius="25"/>
