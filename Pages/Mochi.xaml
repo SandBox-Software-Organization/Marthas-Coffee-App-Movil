@@ -1,62 +1,78 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             
              x:Class="Marthas_Coffee_App_Movil.Pages.Categorias.Postres.Mochi"
+             
              Title="Mochi">
 
     <ScrollView>
-    <!-- Definimos el color de fondo de nuestra pagina -->
 
-    <VerticalStackLayout Padding="5,5,5,5">
+        <VerticalStackLayout Padding="10,10,10,10">
 
+            <Grid RowSpacing="5" ColumnSpacing="5">
 
-        <!-- Definimos la orientacion y el margin de nuestro VerticalStackLayout -->
+                <Grid.RowDefinitions>
 
-        <VerticalStackLayout HorizontalOptions="StartAndExpand" Margin="5,5,5,5">
+                    <RowDefinition/>
 
-            <HorizontalStackLayout>
+                    <RowDefinition Height="350"/>
 
-                    <Button Clicked="RegeresoInicio_Clicked" x:Name="RegeresoInicio"  Margin="10,10,10,10" Text="↩"  FontSize="20" VerticalOptions="Center" CornerRadius="60" FontAttributes="Bold" />
+                    <RowDefinition />
 
-                    <!-- Agregamos un label y definimos su color,fuente,tamaño,su margen,orientacion, sus atributos, y su propiedad text -->
+                    <RowDefinition/>
 
-                <Label FontSize="30"  Margin="40,2,0,0" VerticalOptions="Center" HeightRequest="35" FontAttributes="Bold" Text="Mochi"/>
+                    <RowDefinition/>
 
-            </HorizontalStackLayout>
+                    <RowDefinition/>
+
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+
+                    <ColumnDefinition/>
+
+                    <ColumnDefinition Width="50"/>
+
+                    <ColumnDefinition/>
+
+                </Grid.ColumnDefinitions>
+
+                <!-- Fila 0 -->
+
+                <Button Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" Clicked="RegeresoInicio_Clicked" x:Name="RegeresoInicio" Text="↩"  FontSize="20" CornerRadius="60" FontAttributes="Bold" HorizontalOptions="Start"/>
+
+                <Label  Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" FontSize="40" FontAttributes="Bold" Text="Mochi" VerticalOptions="Center" HorizontalOptions="Center"/>
+
+                <!-- Fila 1 -->
+
+                <Image  Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3" Source="mochi.png"/>
+
+                <!-- Fila 2 -->
+
+                <Label       Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="3" HorizontalOptions="Center" FontSize="20" Text="Descripcion"  FontAttributes="Bold" Padding="2,2,2,2"/>
+
+                <!-- Fila 3 -->
+
+                <Label       Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="3" HorizontalOptions="Center" FontSize="20" Text="---------"  FontAttributes="Bold" Padding="2,2,2,2" VerticalOptions="Center"/>
+
+                <!-- Fila 4 -->
+
+                <Button Grid.Row="4" Grid.Column="0"  HorizontalOptions="End" x:Name="Mas"       Text="+"  CornerRadius="60" FontAttributes="Bold"/>
+
+                <Label  Grid.Row="4" Grid.Column="1"  HorizontalOptions="Center" VerticalOptions="Center" Text="0" FontAttributes="Bold"/>
+
+                <Button Grid.Row="4" Grid.Column="2" HorizontalOptions="Start" x:Name="Menos"    Text="-" CornerRadius="60" FontAttributes="Bold"/>
+
+                <!-- Fila 5 -->
+
+                <Button Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="3" x:Name="Orden" Text="Agregar a la orden"  CornerRadius="25"/>
+
+            </Grid>
 
         </VerticalStackLayout>
-        <HorizontalStackLayout HorizontalOptions="CenterAndExpand">
-            <ImageButton HeightRequest="250" WidthRequest="500" 
-                         CornerRadius="50" Margin="10,10,10,10" />
-        </HorizontalStackLayout>
-
-        <VerticalStackLayout>
-            <Label Text="INGREDIENTES" FontSize="Title" FontAttributes="Bold" HorizontalOptions="Center"/>
-            <Label Text="Ingrediente 1" FontAttributes="Bold" HorizontalOptions="Center" FontSize="Subtitle" Margin="0,10,0,10"/>
-            <Label Text="Ingrediente 2" FontAttributes="Bold" HorizontalOptions="Center" FontSize="Subtitle"  Margin="0,10,0,10"/>
-            <Label Text="Ingrediente 3" FontAttributes="Bold" HorizontalOptions="Center" FontSize="Subtitle"  Margin="0,10,0,10"/>
-            <Label Text="Ingrediente 4" FontAttributes="Bold" HorizontalOptions="Center" FontSize="Subtitle"  Margin="0,10,0,10"/>
-
-        </VerticalStackLayout>
-
-        <VerticalStackLayout>
-
-            <HorizontalStackLayout HorizontalOptions="CenterAndExpand" Margin="0,40,0,0">
-
-                <Button FontFamily="raleway-boldf" x:Name="Orden"    Margin="10,10,10,10" Text="AGREGAR A LA ORDEN" HeightRequest="45" WidthRequest="190" CornerRadius="30"/>
-                                                                    
-                <Button FontFamily="raleway-boldf" x:Name="Mas"      Margin="0,0,0,0" Text="+" HeightRequest="40" WidthRequest="40" CornerRadius="60" FontAttributes="Bold"/>
-                                                                    
-                <Label Margin="10,0,10,0" HorizontalOptions="Center" VerticalOptions="Center" Text="0" FontAttributes="Bold"/>
-                                                                    
-                <Button FontFamily="raleway-boldf" x:Name="Menos"    Margin="0,0,10,0" Text="-" HeightRequest="40" WidthRequest="40" CornerRadius="60" FontAttributes="Bold"/>
-
-
-            </HorizontalStackLayout>
-
-        </VerticalStackLayout>
-    </VerticalStackLayout>
 
     </ScrollView>
-    
+
 </ContentPage>
