@@ -68,60 +68,6 @@
 
             </Grid>
 
-
-
-
-
-            <Grid HorizontalOptions="Center">
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="Auto"/>
-                    <RowDefinition Height="Auto"/>
-                </Grid.RowDefinitions>
-                <ListView ItemsSource="{Binding ListProducts}"
-                         SeparatorVisibility="Default"
-                                  Grid.Row="1" HorizontalOptions="Center">
-                    <ListView.Header>
-                        <Grid HorizontalOptions="Center">
-                            <Grid.ColumnDefinitions>
-
-
-                                <ColumnDefinition Width="70"/>
-                                <ColumnDefinition Width="70"/>
-                                <ColumnDefinition Width="70"/>
-                                <ColumnDefinition Width="70"/>
-
-                            </Grid.ColumnDefinitions>
-                            <Label FontSize="11" Text="PLATILLOS"    VerticalOptions="Center" FontAttributes="Bold"  Grid.Column="0"/>
-                            <Label FontSize="11" Text="BEBIDAS"     FontAttributes="Bold"   VerticalOptions="Center" Grid.Column="1"/>
-                            <Label FontSize="11" Text="POSTRES"    FontAttributes="Bold"   VerticalOptions="Center" Grid.Column="2"/>
-                            <Label FontSize="11" Text="BOCADILLOS"  FontAttributes="Bold"  VerticalOptions="Center" Grid.Column="3"/>
-                        </Grid>
-                    </ListView.Header>
-                    <ListView.ItemTemplate>
-                        <DataTemplate>
-                            <ViewCell>
-                                <Grid HorizontalOptions="Center">
-                                    <Grid.RowDefinitions HorizontalOptions="Center">
-                                        <RowDefinition Height="auto"/>
-                                    </Grid.RowDefinitions>
-                                    <Grid.ColumnDefinitions>
-                                        <ColumnDefinition Width="70"/>
-                                        <ColumnDefinition Width="70"/>
-                                        <ColumnDefinition Width="70"/>
-                                        <ColumnDefinition Width="70"/>
-                                    </Grid.ColumnDefinitions>
-                                    <Label FontSize="11"  Text="{Binding Platillos}"  Grid.Column="0"/>
-                                    <Label FontSize="11"  Text="{Binding Bebidas}"    Grid.Column="1"/>
-                                    <Label FontSize="11"  Text="{Binding Postres}"    Grid.Column="2"/>
-                                    <Label FontSize="11"  Text="{Binding Bocadillos}" Grid.Column="3"/>
-                                </Grid>
-                            </ViewCell>
-                        </DataTemplate>
-                    </ListView.ItemTemplate>
-                </ListView>
-            </Grid>
-
-
         </VerticalStackLayout>
 
     </ScrollView>

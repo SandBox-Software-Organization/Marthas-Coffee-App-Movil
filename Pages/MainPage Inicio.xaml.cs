@@ -16,7 +16,7 @@ public partial class MainPage_Inicio : ContentPage
 
     {
 
-        Navigation.PushAsync(new Platillos());
+       Navigation.PushAsync(new Pages.Categorias.MainPage_Platillos ());
 
     }
 

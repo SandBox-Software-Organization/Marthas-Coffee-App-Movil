@@ -4,12 +4,10 @@
              
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              
-             x:Class="Marthas_Coffee_App_Movil.Pages.Platillos"
+             x:Class="Marthas_Coffee_App_Movil.Pages.Categorias.MainPage_Platillos"
              
-             NavigationPage.HasNavigationBar="false"
-             
-             Title="Platillos">
-
+             NavigationPage.HasNavigationBar="false">
+    
     <ScrollView>
 
         <VerticalStackLayout Padding="10,10,10,10">
@@ -25,7 +23,7 @@
                     <RowDefinition Height="200"/>
 
                     <RowDefinition Height="20"/>
- 
+
                     <RowDefinition Height="20"/>
 
                     <RowDefinition/>
@@ -57,7 +55,7 @@
                     <ColumnDefinition/>
 
                 </Grid.ColumnDefinitions>
-                
+
                 <!-- Fila 0 -->
 
                 <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" FontSize="30" VerticalOptions="Center" HorizontalOptions="Center" FontAttributes="Bold" Text="Platillos"/>
@@ -95,7 +93,7 @@
                 <Label Grid.Row="4" Grid.Column="2" HorizontalOptions="Start" FontSize="10"  Text="$:"     FontAttributes="Bold"/>
 
                 <Label Grid.Row="4" Grid.Column="2" HorizontalOptions="Center" FontSize="10"  Text="00.00"  FontAttributes="Bold"/>
-              
+
                 <!-- Fila 5 -->
 
                 <Label Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="4" HorizontalOptions="Center" FontSize="20" FontAttributes="Bold" Text="Entradas"/>
@@ -119,17 +117,17 @@
                 <!-- Fila 8 -->
 
                 <Label Grid.Row="8" Grid.Column="0" HorizontalOptions="Start" FontSize="10"  Text="$:" FontAttributes="Bold"/>
-                                 
+
                 <Label Grid.Row="8" Grid.Column="0" HorizontalOptions="Center" FontSize="10"  Text="00.00"  FontAttributes="Bold"/>
-                                 
+
                 <Label Grid.Row="8" Grid.Column="1" HorizontalOptions="Start" FontSize="10"  Text="$:"     FontAttributes="Bold"/>
-                                 
+
                 <Label Grid.Row="8" Grid.Column="1" HorizontalOptions="Center" FontSize="10"  Text="00.00"  FontAttributes="Bold"/>
-                                 
+
                 <Label Grid.Row="8" Grid.Column="2" HorizontalOptions="Start" FontSize="10"  Text="$:"     FontAttributes="Bold"/>
-                                 
+
                 <Label Grid.Row="8" Grid.Column="2" HorizontalOptions="Center" FontSize="10"  Text="00.00"  FontAttributes="Bold"/>
-            
+
                 <!-- Fila 9 -->
 
                 <Label Grid.Row="9" Grid.Column="0" Grid.ColumnSpan="4" VerticalOptions="Center" HorizontalOptions="Center" FontSize="20" FontAttributes="Bold" Text="Platos fuertes"/>
@@ -145,29 +143,29 @@
                 <!-- Fila 11 -->
 
                 <Label Grid.Row="11" Grid.Column="0" HorizontalOptions="Center" FontSize="10" Text="Plato 1"  FontAttributes="Bold"/>
-                
+
                 <Label Grid.Row="11" Grid.Column="1" HorizontalOptions="Center" FontSize="10"  Text="Plato 2" FontAttributes="Bold" />
 
                 <Label Grid.Row="11" Grid.Column="2" HorizontalOptions="Center" FontSize="10"  Text="Plato 3"  FontAttributes="Bold"/>
-                
+
                 <!-- Fila 12 -->
 
                 <Label Grid.Row="12" Grid.Column="0" HorizontalOptions="Start" FontSize="10"  Text="$:" FontAttributes="Bold"/>
-                                 
+
                 <Label Grid.Row="12" Grid.Column="0" HorizontalOptions="Center" FontSize="10"  Text="00.00"  FontAttributes="Bold"/>
-                                 
+
                 <Label Grid.Row="12" Grid.Column="1" HorizontalOptions="Start" FontSize="10"  Text="$:"     FontAttributes="Bold"/>
-                                 
+
                 <Label Grid.Row="12" Grid.Column="1" HorizontalOptions="Center" FontSize="10"  Text="00.00"  FontAttributes="Bold"/>
-                                 
+
                 <Label Grid.Row="12" Grid.Column="2" HorizontalOptions="Start" FontSize="10"  Text="$:"     FontAttributes="Bold"/>
-                                 
+
                 <Label Grid.Row="12" Grid.Column="2" HorizontalOptions="Center" FontSize="10"  Text="00.00"  FontAttributes="Bold"/>
-               
+
             </Grid>
 
-            </VerticalStackLayout>
- 
+        </VerticalStackLayout>
+
     </ScrollView>
 
 </ContentPage>

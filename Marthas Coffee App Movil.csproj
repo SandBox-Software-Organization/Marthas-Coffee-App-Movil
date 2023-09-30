@@ -124,13 +124,10 @@
 	  <MauiXaml Update="Pages\MainPage Pedidos.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Pages\Mochi.xaml">
+	  <MauiXaml Update="Pages\Categorias\Postres\Mochi.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Pages\Pedido.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Pages\Platillos.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Pages\Postre.xaml">
@@ -140,6 +137,12 @@
 
 	<ItemGroup>
 	  <None Update="Resources\AppIcon\appicon.svg" ForegroundFile="Resources\AppIcon\appiconfg.svg" Color="#512BD4" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Pages\Categorias\Bebidas\" />
+	  <Folder Include="Pages\Categorias\Bocadillos\" />
+	  <Folder Include="Pages\Categorias\Platillos\" />
 	</ItemGroup>
 
 </Project>
