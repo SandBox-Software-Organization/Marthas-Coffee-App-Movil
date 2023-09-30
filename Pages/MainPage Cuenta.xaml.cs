@@ -9,6 +9,7 @@ public partial class MainPage_Cuenta : ContentPage
 		InitializeComponent();
 	}
 
+    [Obsolete]
     private void sesion_Clicked(object sender, EventArgs e)
     {
         var dbpath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "UsersDatabase.bd");
@@ -23,7 +24,7 @@ public partial class MainPage_Cuenta : ContentPage
         {
             Device.BeginInvokeOnMainThread(async () =>
             {
-                var result = await this.DisplayAlert("Error", "Usuario o contraseña incorrecta. Revisar datos", "Yes", "Cancel");
+                var result = await this.DisplayAlert("Datos incorrectos", "Usuario o contraseña incorrecta. Por favor verifique los datos ingresados", "Aceptar", "Cancelar");
 
                 if (result)
                     await Navigation.PushAsync(new MainPage_Cuenta());

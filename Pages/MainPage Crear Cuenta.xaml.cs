@@ -11,6 +11,7 @@ public partial class MainPage_Crear_Cuenta : ContentPage
 		InitializeComponent();
 	}
 
+    [Obsolete]
     private void Registro_Clicked(object sender, EventArgs e)
     {
         var dbpath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "UsersDatabase.bd");
