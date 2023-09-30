@@ -14,6 +14,6 @@
 
     <Pages:MainPage_Inicio/>
 
-    <Pages:Pedido/>
+    <Pages:MainPage_Pedidos/>
 
 </TabbedPage>
