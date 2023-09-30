@@ -7,14 +7,4 @@ public partial class Platillos : ContentPage
 		InitializeComponent();
 	}
 
-    private void RegresoInicio_Clicked(object sender, EventArgs e)
-    {
-
-        Navigation.PushModalAsync(new MainPage());
-    }
-
-    public static implicit operator Button(Platillos v)
-    {
-        throw new NotImplementedException();
-    }
 }

@@ -7,9 +7,4 @@ public partial class Mochi : ContentPage
 		InitializeComponent();
 	}
 
-	private void RegeresoInicio_Clicked(object sender, EventArgs e)
-	{
-
-		Navigation.PushModalAsync(new Postre());
-	}
 }

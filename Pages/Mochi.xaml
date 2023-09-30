@@ -5,6 +5,8 @@
              
              x:Class="Marthas_Coffee_App_Movil.Pages.Categorias.Postres.Mochi"
              
+             NavigationPage.HasNavigationBar="false"
+             
              Title="Mochi">
 
     <ScrollView>
@@ -40,8 +42,6 @@
                 </Grid.ColumnDefinitions>
 
                 <!-- Fila 0 -->
-
-                <Button Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" Clicked="RegeresoInicio_Clicked" x:Name="RegeresoInicio" Text="↩"  FontSize="20" CornerRadius="60" FontAttributes="Bold" HorizontalOptions="Start"/>
 
                 <Label  Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" FontSize="40" FontAttributes="Bold" Text="Mochi" VerticalOptions="Center" HorizontalOptions="Center"/>
 

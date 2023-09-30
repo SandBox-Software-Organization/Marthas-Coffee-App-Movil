@@ -6,6 +6,8 @@
              
              x:Class="Marthas_Coffee_App_Movil.Pages.MainPage_Crear_Cuenta"
              
+             NavigationPage.HasNavigationBar="false"
+             
              Title="Crear Cuenta">
     
     <ScrollView>
@@ -39,20 +41,18 @@
                     <ColumnDefinition/>
 
                 </Grid.ColumnDefinitions>
-
-                <Button  Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Clicked="RegresoCuenta_Clicked" x:Name="RegeresoInicio" Text="↩"  FontSize="20" VerticalOptions="Center" CornerRadius="60" FontAttributes="Bold" HorizontalOptions="Start"/>
-
+               
                 <Label   Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" FontSize="30" VerticalOptions="Center" FontAttributes="Bold" Text="Crear cuenta" HorizontalOptions="Center"/>
 
                 <Label   Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" HorizontalOptions="CenterAndExpand" Text="Rellene los campos" FontSize="20" FontAttributes="Bold"/>
 
-                <Label   Grid.Row="2" Grid.Column="0" Text="Username:" FontAttributes="Bold" VerticalOptions="Center"/>
+                <Label   Grid.Row="2" Grid.Column="0" Text="Usuario:" FontAttributes="Bold" VerticalOptions="Center"/>
 
-                <Entry   Grid.Row="2" Grid.Column="1" Placeholder="Cree un nombre de usuario" x:Name="User"/>
+                <Entry   Grid.Row="2" Grid.Column="1" Placeholder="Cree un usuario" x:Name="User"/>
 
-                <Label   Grid.Row="3" Grid.Column="0" Text="Email:" FontAttributes="Bold" VerticalOptions="Center"/>
+                <Label   Grid.Row="3" Grid.Column="0" Text="Correo:" FontAttributes="Bold" VerticalOptions="Center"/>
 
-                <Entry   Grid.Row="3" Grid.Column="1" Placeholder="Ingrese su Email" x:Name="email"/>
+                <Entry   Grid.Row="3" Grid.Column="1" Placeholder="Ingrese su correo" x:Name="email"/>
 
                 <Label   Grid.Row="4" Grid.Column="0" Text="Contraseña:" FontAttributes="Bold" VerticalOptions="CenterAndExpand"/>
 
@@ -60,7 +60,7 @@
 
                 <Label   Grid.Row="5" Grid.Column="0" Text="Número telefónico:" FontAttributes="Bold" VerticalOptions="Center"/>
 
-                <Entry   Grid.Row="5" Grid.Column="1" Placeholder="Ingrese su número" x:Name="telefono"/>
+                <Entry   Grid.Row="5" Grid.Column="1" Placeholder="Ingrese su número teléfonico" x:Name="telefono"/>
 
                 <Button  Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="2" Text="Crear cuenta" FontAttributes="Bold" CornerRadius="25" Clicked="Registro_Clicked"/>
 

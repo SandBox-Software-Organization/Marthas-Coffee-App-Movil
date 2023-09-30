@@ -17,7 +17,7 @@ public partial class MainPage_Cuenta : ContentPage
 
         if(myquery != null)
         {
-            App.Current.MainPage = new NavigationPage(new Inicio());
+            App.Current.MainPage = new NavigationPage(new MainPage());
         }
         else
         {
@@ -38,6 +38,6 @@ public partial class MainPage_Cuenta : ContentPage
 
     private void Crear_Clicked(object sender, EventArgs e)
     {
-        Navigation.PushModalAsync(new MainPage_Crear_Cuenta());
+        Navigation.PushAsync(new MainPage_Crear_Cuenta());
     }
 }

@@ -18,7 +18,7 @@ public partial class Inicio : ContentPage
 
     {
 
-        Navigation.PushModalAsync(new Platillos());
+        Navigation.PushAsync(new Platillos());
 
     }
 
@@ -26,7 +26,7 @@ public partial class Inicio : ContentPage
 
     {
 
-        Navigation.PushModalAsync(new Bebidas());
+        Navigation.PushAsync(new Bebidas());
 
     }
 
@@ -34,7 +34,7 @@ public partial class Inicio : ContentPage
 
     {
 
-        Navigation.PushModalAsync(new Postre());
+        Navigation.PushAsync(new Postre());
 
     }
 
@@ -42,7 +42,7 @@ public partial class Inicio : ContentPage
 
     {
 
-        Navigation.PushModalAsync(new Bocadillos());
+        Navigation.PushAsync(new Bocadillos());
 
     }
 

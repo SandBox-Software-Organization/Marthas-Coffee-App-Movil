@@ -8,6 +8,8 @@
              
              IconImageSource="pedidoicono"
              
+             NavigationPage.HasNavigationBar="false"
+             
              Title="Pedido">
 
     <ScrollView>
@@ -60,7 +62,7 @@
 
                 </Grid.ColumnDefinitions>
 
-                <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" FontSize="40" FontAttributes="Bold" Text="Pedido"/>
+                <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" FontSize="40" FontAttributes="Bold" Text="Pedido" HorizontalOptions="Center"/>
 
                 <Label Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="4" HorizontalOptions="Center" FontSize="20" FontAttributes="Bold" Text="Estado actual de la orden"/>
 

@@ -8,6 +8,8 @@
              
              IconImageSource="cuentaicono"
              
+             NavigationPage.HasNavigationBar="false"
+             
              Title="Cuenta">
     
     <ScrollView>
@@ -17,6 +19,8 @@
             <Grid RowSpacing="20" ColumnSpacing="20">
 
                 <Grid.RowDefinitions>
+
+                    <RowDefinition Height="200"/>
 
                     <RowDefinition/>
 
@@ -43,26 +47,28 @@
                     <ColumnDefinition/>
 
                 </Grid.ColumnDefinitions>
+                
+                <Image Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Source="logo.png" />
 
-                <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" FontSize="40" FontAttributes="Bold" Text="Cuenta"/>
+                <Label Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" FontSize="40" FontAttributes="Bold" Text="Cuenta" HorizontalOptions="Center"/>
 
-                <Label Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" HorizontalOptions="Center" Text="Rellene los campos" FontSize="20" FontAttributes="Bold"/>
+                <Label Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" HorizontalOptions="Center" Text="Rellene los campos" FontSize="20" FontAttributes="Bold"/>
 
-                <Label Grid.Row="2" Grid.Column="0" Text="Username" FontAttributes="Bold" VerticalOptions="CenterAndExpand"/>
+                <Label Grid.Row="3" Grid.Column="0" Text="Usuario" FontAttributes="Bold" VerticalOptions="CenterAndExpand"/>
 
-                <Entry Grid.Row="2" Grid.Column="1" x:Name="credenciales" Placeholder="Ingrese username"/>
+                <Entry Grid.Row="3" Grid.Column="1" x:Name="credenciales" Placeholder="Ingrese su usuario"/>
 
-                <Label Grid.Row="3" Grid.Column="0" Text="Contraseña" FontAttributes="Bold" VerticalOptions="Center"/>
+                <Label Grid.Row="4" Grid.Column="0" Text="Contraseña" FontAttributes="Bold" VerticalOptions="Center"/>
 
-                <Entry Grid.Row="3" Grid.Column="1" x:Name="contra" VerticalOptions="EndAndExpand" Placeholder="Ingrese su contraseña"/>
+                <Entry Grid.Row="4" Grid.Column="1" x:Name="contra" VerticalOptions="EndAndExpand" Placeholder="Ingrese su contraseña"/>
 
-                <Label Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2" HorizontalOptions="Center" Text="Restablecer contraseña" FontAttributes="Bold" FontSize="15"/>
+                <Label Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="2" HorizontalOptions="Center" Text="Restablecer contraseña" FontAttributes="Bold" FontSize="15"/>
 
-                <Button Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="2" Text="Iniciar sesion" x:Name="sesion" FontAttributes="Bold" CornerRadius="25" Clicked="sesion_Clicked"/>
+                <Button Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="2" Text="Iniciar sesion" x:Name="sesion" FontAttributes="Bold" CornerRadius="25" Clicked="sesion_Clicked"/>
 
-                <Label  Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="2" HorizontalOptions="Center" Text="¿No tienes una cuenta?" FontAttributes="Bold"/>
+                <Label  Grid.Row="7" Grid.Column="0" Grid.ColumnSpan="2" HorizontalOptions="Center" Text="¿No tienes una cuenta?" FontAttributes="Bold"/>
 
-                <Button Grid.Row="7" Grid.Column="0" Grid.ColumnSpan="2" Text="Crear cuenta"  x:Name="Crear" FontAttributes="Bold" CornerRadius="25" Clicked="Crear_Clicked"/>
+                <Button Grid.Row="8" Grid.Column="0" Grid.ColumnSpan="2" Text="Crear cuenta"  x:Name="Crear" FontAttributes="Bold" CornerRadius="25" Clicked="Crear_Clicked"/>
 
             </Grid>
 

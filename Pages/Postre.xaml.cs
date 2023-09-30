@@ -14,25 +14,11 @@ public partial class Postre : ContentPage
 
     }
 
-    private void RegresoInicio_Clicked(object sender, EventArgs e)
-    {
-
-        Navigation.PushModalAsync(new MainPage());
-    }
-
-    private void ImageButtonPastel_Clicked(object sender, EventArgs e)
-
-    {
-
-
-
-    }
-
     private void ImageButtonMochi_Clicked(object sender, EventArgs e)
 
     {
 
-        Navigation.PushModalAsync(new Mochi());
+        Navigation.PushAsync(new Mochi());
 
     }
 }

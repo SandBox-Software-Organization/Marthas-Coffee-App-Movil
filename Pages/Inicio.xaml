@@ -8,6 +8,8 @@
              
              IconImageSource="iconoinicio"
              
+             NavigationPage.HasNavigationBar="false"
+             
              Title="Inicio">
 
     <ScrollView>
@@ -40,9 +42,7 @@
                 
                 <!-- Fila 0 -->
 
-                <Image       Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Source="logo.png" HeightRequest="100" WidthRequest="100" HorizontalOptions="Start"/>
-
-                <Label       Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" FontSize="40" FontAttributes="Bold" Text="Bienvenid@" VerticalOptions="Center" HorizontalOptions="End"/>
+                <Label       Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" FontSize="40" FontAttributes="Bold" Text="Bienvenid@" VerticalOptions="Center" HorizontalOptions="Center"/>
 
                 <!-- Fila 1 -->
 

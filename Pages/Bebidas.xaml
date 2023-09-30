@@ -6,6 +6,8 @@
              
              x:Class="Marthas_Coffee_App_Movil.Pages.Bebidas"
              
+             NavigationPage.HasNavigationBar="false"
+             
              Title="Bebidas">
 
     <ScrollView>
@@ -57,8 +59,6 @@
                 </Grid.ColumnDefinitions>
 
                 <!-- Fila 0 -->
-
-                <Button Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" Clicked="RegresoInicio_Clicked" x:Name="RegeresoInicio" Text="↩"  FontSize="20" VerticalOptions="Center" HorizontalOptions="Start" CornerRadius="60" FontAttributes="Bold" />
 
                 <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" FontSize="30" VerticalOptions="Center" HorizontalOptions="Center" FontAttributes="Bold" Text="Bebidas"/>
 

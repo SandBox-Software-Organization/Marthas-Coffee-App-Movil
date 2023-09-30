@@ -11,12 +11,6 @@ public partial class MainPage_Crear_Cuenta : ContentPage
 		InitializeComponent();
 	}
 
-    private async void RegresoCuenta_Clicked(object sender, EventArgs e)
-    {
-
-        await Navigation.PushModalAsync(new MainPage_Cuenta());
-    }
-
     private void Registro_Clicked(object sender, EventArgs e)
     {
         var dbpath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "UsersDatabase.bd");
@@ -25,7 +19,7 @@ public partial class MainPage_Crear_Cuenta : ContentPage
 
         var u = new RegistrarUsuario(){
             Username = User.Text,
-                Password = contrase�a.Text,
+                Password = contraseña.Text,
                 Email = email.Text,
                 NPhone = telefono.Text
 
@@ -34,7 +28,7 @@ public partial class MainPage_Crear_Cuenta : ContentPage
         Device.BeginInvokeOnMainThread(async () =>
         {
 
-            var result = await this.DisplayAlert("Bienvenido!", "se ha registrado correctamente", "Yes", "Cancelar");
+            var result = await this.DisplayAlert("¡Bienvenid@!", "se ha registrado correctamente", "Aceptar", "Cancelar");
 
             if (result)
                 await Navigation.PushAsync(new MainPage_Cuenta());
