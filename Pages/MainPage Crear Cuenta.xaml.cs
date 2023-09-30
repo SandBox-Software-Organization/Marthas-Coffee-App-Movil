@@ -1,5 +1,5 @@
 using Marthas_Coffee_App_Movil.Tables;
-using Network;
+
 using SQLite;
 
 namespace Marthas_Coffee_App_Movil.Pages;
@@ -23,9 +23,21 @@ public partial class MainPage_Crear_Cuenta : ContentPage
         var db = new SQLiteConnection(dbpath);
         db.CreateTable<RegistrarUsuario>();
 
-        var u = RegistrarUsuario(){
+        var u = new RegistrarUsuario(){
             Username = User.Text,
+                Password = contraseña.Text,
+                Email = email.Text,
+                NPhone = telefono.Text
 
-        }
+        };
+        db.Insert(u);
+        Device.BeginInvokeOnMainThread(async () =>
+        {
+
+            var result = await this.DisplayAlert("Bienvenido!", "se ha registrado correctamente", "Yes", "Cancelar");
+
+            if (result)
+                await Navigation.PushAsync(new MainPage_Cuenta());
+        });
     }
 }

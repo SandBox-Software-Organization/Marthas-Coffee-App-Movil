@@ -48,19 +48,19 @@
 
                 <Label   Grid.Row="2" Grid.Column="0" Text="Username:" FontAttributes="Bold" VerticalOptions="Center"/>
 
-                <Entry   Grid.Row="2" Grid.Column="1" Placeholder="Ingrese sus nombres" x:Name="User"/>
+                <Entry   Grid.Row="2" Grid.Column="1" Placeholder="Cree un nombre de usuario" x:Name="User"/>
 
-                <Label   Grid.Row="3" Grid.Column="0" Text="Apellidos:" FontAttributes="Bold" VerticalOptions="Center"/>
+                <Label   Grid.Row="3" Grid.Column="0" Text="Email:" FontAttributes="Bold" VerticalOptions="Center"/>
 
-                <Entry   Grid.Row="3" Grid.Column="1" Placeholder="Ingrese sus apellidos"/>
+                <Entry   Grid.Row="3" Grid.Column="1" Placeholder="Ingrese su Email" x:Name="email"/>
 
-                <Label   Grid.Row="4" Grid.Column="0" Text="Correo electronico:" FontAttributes="Bold" VerticalOptions="CenterAndExpand"/>
+                <Label   Grid.Row="4" Grid.Column="0" Text="Contraseña:" FontAttributes="Bold" VerticalOptions="CenterAndExpand"/>
 
-                <Entry   Grid.Row="4" Grid.Column="1" Placeholder="Ingrese su correo"/>
+                <Entry   Grid.Row="4" Grid.Column="1" Placeholder="Ingrese una contraseña" x:Name="contraseña"/>
 
                 <Label   Grid.Row="5" Grid.Column="0" Text="Número telefónico:" FontAttributes="Bold" VerticalOptions="Center"/>
 
-                <Entry   Grid.Row="5" Grid.Column="1" Placeholder="Ingrese su número"/>
+                <Entry   Grid.Row="5" Grid.Column="1" Placeholder="Ingrese su número" x:Name="telefono"/>
 
                 <Button  Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="2" Text="Crear cuenta" FontAttributes="Bold" CornerRadius="25" Clicked="Registro_Clicked"/>
 

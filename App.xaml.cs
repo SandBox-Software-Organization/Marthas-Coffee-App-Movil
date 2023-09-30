@@ -1,4 +1,6 @@
-﻿namespace Marthas_Coffee_App_Movil;
+﻿using Marthas_Coffee_App_Movil.Pages;
+
+namespace Marthas_Coffee_App_Movil;
 
 public partial class App : Application
 {
@@ -6,6 +8,6 @@ public partial class App : Application
 	{
 		InitializeComponent();
 
-		MainPage = new MainPage();
+		MainPage = new NavigationPage(new MainPage_Cuenta());
 	}
 }

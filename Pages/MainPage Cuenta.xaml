@@ -48,9 +48,9 @@
 
                 <Label Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" HorizontalOptions="Center" Text="Rellene los campos" FontSize="20" FontAttributes="Bold"/>
 
-                <Label Grid.Row="2" Grid.Column="0" Text="Credenciales" FontAttributes="Bold" VerticalOptions="CenterAndExpand"/>
+                <Label Grid.Row="2" Grid.Column="0" Text="Username" FontAttributes="Bold" VerticalOptions="CenterAndExpand"/>
 
-                <Entry Grid.Row="2" Grid.Column="1" x:Name="credenciales" Placeholder="Ingrese sus credenciales"/>
+                <Entry Grid.Row="2" Grid.Column="1" x:Name="credenciales" Placeholder="Ingrese username"/>
 
                 <Label Grid.Row="3" Grid.Column="0" Text="Contraseña" FontAttributes="Bold" VerticalOptions="Center"/>
 
