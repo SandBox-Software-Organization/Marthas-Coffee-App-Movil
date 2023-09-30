@@ -32,7 +32,7 @@ public partial class MainPage_Inicio : ContentPage
 
     {
 
-        Navigation.PushAsync(new Postre());
+        Navigation.PushAsync(new Pages.Categorias.MainPage_Postres ());
 
     }
 
@@ -40,7 +40,7 @@ public partial class MainPage_Inicio : ContentPage
 
     {
 
-        Navigation.PushAsync(new Bocadillos());
+        Navigation.PushAsync(new Pages.Categorias.MainPage_Bocadillos ());
 
     }
 

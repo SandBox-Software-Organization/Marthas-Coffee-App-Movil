@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
-
+    
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              
-             x:Class="Marthas_Coffee_App_Movil.Pages.Postre"
+             x:Class="Marthas_Coffee_App_Movil.Pages.Categorias.MainPage_Bocadillos"
              
-             NavigationPage.HasNavigationBar="false"
-             
-             Title="Postres">
-
+             NavigationPage.HasNavigationBar="false">
+    
     <ScrollView>
 
         <VerticalStackLayout Padding="10,10,10,10">
@@ -60,30 +58,30 @@
 
                 <!-- Fila 0 -->
 
-                <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" FontSize="30" VerticalOptions="Center" HorizontalOptions="Center" FontAttributes="Bold" Text="Postres"/>
+                <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" FontSize="30" VerticalOptions="Center" HorizontalOptions="Center" FontAttributes="Bold" Text="Bocadillos"/>
 
                 <!-- Fila 1 -->
 
-                <Label Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="4" HorizontalOptions="Center" FontSize="20" FontAttributes="Bold" Text="Frios"/>
+                <Label Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="4" HorizontalOptions="Center" FontSize="20" FontAttributes="Bold" Text="Dulces"/>
 
                 <!-- Fila 2 -->
 
-                <ImageButton Grid.Row="2" Grid.Column="0" x:Name="Pastel" Source="pastel.png"/>
+                <ImageButton Grid.Row="2" Grid.Column="0" x:Name="chocolat"  Source="chocolat.png"/>
 
-                <ImageButton Grid.Row="2" Grid.Column="1" x:Name="Mochi"  Clicked="ImageButtonMochi_Clicked" Source="mochi.png"/>
+                <ImageButton Grid.Row="2" Grid.Column="1" x:Name="coco"  Source="coco.png"/>
 
-                <ImageButton Grid.Row="2" Grid.Column="2" x:Name="Sandwich" Source="sandwich.png"/>
+                <ImageButton Grid.Row="2" Grid.Column="2" x:Name="tartaleta" Source="tartaleta.png"/>
 
                 <!-- Fila 3 -->
 
-                <Label Grid.Row="3" Grid.Column="0"  FontSize="10" HorizontalOptions="Center" Text="Postre 1"  FontAttributes="Bold"/>
-                                                                                                   
-                <Label Grid.Row="3" Grid.Column="1"  FontSize="10" HorizontalOptions="Center" Text="Postre 2"  FontAttributes="Bold"/>
+                <Label Grid.Row="3" Grid.Column="0"  FontSize="10" HorizontalOptions="Center" Text="Bocadillo 1"  FontAttributes="Bold"/>
 
-                <Label Grid.Row="3" Grid.Column="2"  FontSize="10" HorizontalOptions="Center" Text="Postre 3"  FontAttributes="Bold"/>
-                
+                <Label Grid.Row="3" Grid.Column="1"  FontSize="10" HorizontalOptions="Center" Text="Bocadillo 2"  FontAttributes="Bold"/>
+
+                <Label Grid.Row="3" Grid.Column="2"  FontSize="10" HorizontalOptions="Center" Text="Bocadillo 3"  FontAttributes="Bold"/>
+
                 <!-- Fila 4 -->
-                
+
                 <Label Grid.Row="4" Grid.Column="0" HorizontalOptions="Start" FontSize="10"  Text="$:" FontAttributes="Bold"/>
 
                 <Label Grid.Row="4" Grid.Column="0" HorizontalOptions="Center" FontSize="10"  Text="00.00"  FontAttributes="Bold"/>
@@ -98,23 +96,23 @@
 
                 <!-- Fila 5 -->
 
-                <Label Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="4" HorizontalOptions="Center" FontSize="20" FontAttributes="Bold" Text="Calientes"/>
+                <Label Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="4" HorizontalOptions="Center" FontSize="20" FontAttributes="Bold" Text="Salados"/>
 
                 <!-- Fila 6 -->
 
-                <ImageButton Grid.Row="6" Grid.Column="0" Source="empanadas.png"/>
+                <ImageButton Grid.Row="6" Grid.Column="0" Source="deditos.png"/>
 
-                <ImageButton Grid.Row="6" Grid.Column="1" Source="arle.png"/>
+                <ImageButton Grid.Row="6" Grid.Column="1" Source="mangoverd.png"/>
 
-                <ImageButton Grid.Row="6" Grid.Column="2" Source="pie.png"/>
+                <ImageButton Grid.Row="6" Grid.Column="2" Source="galletas.png"/>
 
                 <!-- Fila 7 -->
 
-                <Label Grid.Row="7" Grid.Column="0" FontSize="10" Text="Postre 1"   HorizontalOptions="Center" FontAttributes="Bold"/>
+                <Label Grid.Row="7" Grid.Column="0" FontSize="10" Text="Bocadillo 1"   HorizontalOptions="Center" FontAttributes="Bold"/>
 
-                <Label Grid.Row="7" Grid.Column="1" FontSize="10"  Text="Postre 2"  HorizontalOptions="Center" FontAttributes="Bold"/>
+                <Label Grid.Row="7" Grid.Column="1" FontSize="10"  Text="Bocadillo 2"  HorizontalOptions="Center" FontAttributes="Bold"/>
 
-                <Label Grid.Row="7" Grid.Column="2" FontSize="10"  Text="Postre 3" HorizontalOptions="Center" FontAttributes="Bold"/>
+                <Label Grid.Row="7" Grid.Column="2" FontSize="10"  Text="Bocadillo 3" HorizontalOptions="Center" FontAttributes="Bold"/>
 
                 <!-- Fila 8 -->
 
@@ -132,23 +130,23 @@
 
                 <!-- Fila 9 -->
 
-                <Label Grid.Row="9" Grid.Column="0" Grid.ColumnSpan="4" VerticalOptions="Center" HorizontalOptions="Center" FontSize="20" FontAttributes="Bold" Text="Dulces"/>
+                <Label Grid.Row="9" Grid.Column="0" Grid.ColumnSpan="4" VerticalOptions="Center" HorizontalOptions="Center" FontSize="20" FontAttributes="Bold" Text="Acidos"/>
 
                 <!-- Fila 10 -->
 
-                <ImageButton Grid.Row="10" Grid.Column="0" Source="choco.png"/>
+                <ImageButton Grid.Row="10" Grid.Column="0" Source="gomitas.png"/>
 
-                <ImageButton Grid.Row="10" Grid.Column="1" Source="dulcemilk.png"/>
+                <ImageButton Grid.Row="10" Grid.Column="1" Source="mani.png"/>
 
-                <ImageButton Grid.Row="10" Grid.Column="2" Source="alfajores.png"/>
+                <ImageButton Grid.Row="10" Grid.Column="2" Source="kiwi.png"/>
 
                 <!-- Fila 11 -->
 
-                <Label Grid.Row="11" Grid.Column="0" HorizontalOptions="Center" FontSize="10" Text="Postre 1"  FontAttributes="Bold"/>
+                <Label Grid.Row="11" Grid.Column="0" HorizontalOptions="Center" FontSize="10" Text="Bocadillo 1"  FontAttributes="Bold"/>
 
-                <Label Grid.Row="11" Grid.Column="1" HorizontalOptions="Center" FontSize="10"  Text="Postre 2" FontAttributes="Bold" />
+                <Label Grid.Row="11" Grid.Column="1" HorizontalOptions="Center" FontSize="10"  Text="Bocadillo 2" FontAttributes="Bold" />
 
-                <Label Grid.Row="11" Grid.Column="2" HorizontalOptions="Center" FontSize="10"  Text="Postre 3"  FontAttributes="Bold"/>
+                <Label Grid.Row="11" Grid.Column="2" HorizontalOptions="Center" FontSize="10"  Text="Bocadillo 3"  FontAttributes="Bold"/>
 
                 <!-- Fila 12 -->
 
@@ -166,7 +164,7 @@
 
             </Grid>
 
-    </VerticalStackLayout>
+        </VerticalStackLayout>
 
     </ScrollView>
 
