@@ -133,6 +133,33 @@
 	  <MauiXaml Update="Pages\Categorias\Bebidas\Naturales\NaturalesBebida3.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Pages\Categorias\Bocadillos\Acidos\BocadillosAcido1.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\Categorias\Bocadillos\Acidos\BocadillosAcido2.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\Categorias\Bocadillos\Acidos\BocadillosAcido3.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\Categorias\Bocadillos\Dulces\BocadillosDulces1.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\Categorias\Bocadillos\Dulces\BocadillosDulces2.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\Categorias\Bocadillos\Dulces\BocadillosDulces3.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\Categorias\Bocadillos\Salados\BocadillosSalados1.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\Categorias\Bocadillos\Salados\BocadillosSalados2.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\Categorias\Bocadillos\Salados\BocadillosSalados3.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Pages\Categorias\MainPage Bebidas.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
@@ -140,6 +167,60 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Pages\Categorias\MainPage Postres.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\Categorias\Platillos\Ensaladas\PlatillosEnsaladas1.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\Categorias\Platillos\Ensaladas\PlatillosEnsaladas2.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\Categorias\Platillos\Ensaladas\PlatillosEnsaladas3.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\Categorias\Platillos\Entradas\PlatillosEntradas1.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\Categorias\Platillos\Entradas\PlatillosEntradas2.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\Categorias\Platillos\Entradas\PlatillosEntradas3.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\Categorias\Platillos\Platos Fuertes\PlatillosPlatosFuertes1.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\Categorias\Platillos\Platos Fuertes\PlatillosPlatosFuertes2.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\Categorias\Platillos\Platos Fuertes\PlatillosPlatosFuertes3.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\Categorias\Postres\Calientes\PostresCalientes1.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\Categorias\Postres\Calientes\PostresCalientes2.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\Categorias\Postres\Calientes\PostresCalientes3.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\Categorias\Postres\Dulces\PostresDulces1.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\Categorias\Postres\Dulces\PostresDulces2.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\Categorias\Postres\Dulces\PostresDulces3.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\Categorias\Postres\Frios\PostresFrios1.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\Categorias\Postres\Frios\PostresFrios2.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\Categorias\Postres\Frios\PostresFrios3.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Pages\MainPage Crear Cuenta.xaml">
@@ -161,12 +242,6 @@
 
 	<ItemGroup>
 	  <None Update="Resources\AppIcon\appicon.svg" ForegroundFile="Resources\AppIcon\appiconfg.svg" Color="#512BD4" />
-	</ItemGroup>
-
-	<ItemGroup>
-	  <Folder Include="Pages\Categorias\Bocadillos\" />
-	  <Folder Include="Pages\Categorias\Platillos\" />
-	  <Folder Include="Pages\Categorias\Postres\" />
 	</ItemGroup>
 
 </Project>

@@ -66,11 +66,11 @@
 
                 <!-- Fila 2 -->
 
-                <ImageButton Grid.Row="2" Grid.Column="0" x:Name="Pastel" Source="pastel.png"/>
+                <ImageButton Grid.Row="2" Grid.Column="0" x:Name="Pastel" Source="pastel.png" Clicked="PostresFrios1_Clicked"/>
 
-                <ImageButton Grid.Row="2" Grid.Column="1" x:Name="Mochi"  Clicked="ImageButtonMochi_Clicked" Source="mochi.png"/>
+                <ImageButton Grid.Row="2" Grid.Column="1" x:Name="Mochi"  Source="mochi.png" Clicked="PostresFrios2_Clicked"/>
 
-                <ImageButton Grid.Row="2" Grid.Column="2" x:Name="Sandwich" Source="sandwich.png"/>
+                <ImageButton Grid.Row="2" Grid.Column="2" x:Name="Sandwich" Source="sandwich.png" Clicked="PostresFrios3_Clicked"/>
 
                 <!-- Fila 3 -->
 
@@ -100,11 +100,11 @@
 
                 <!-- Fila 6 -->
 
-                <ImageButton Grid.Row="6" Grid.Column="0" Source="empanadas.png"/>
+                <ImageButton Grid.Row="6" Grid.Column="0" Source="empanadas.png" Clicked="PostresCalientes1_Clicked"/>
 
-                <ImageButton Grid.Row="6" Grid.Column="1" Source="arle.png"/>
+                <ImageButton Grid.Row="6" Grid.Column="1" Source="arle.png" Clicked="PostresCalientes2_Clicked"/>
 
-                <ImageButton Grid.Row="6" Grid.Column="2" Source="pie.png"/>
+                <ImageButton Grid.Row="6" Grid.Column="2" Source="pie.png" Clicked="PostresCalientes3_Clicked"/>
 
                 <!-- Fila 7 -->
 
@@ -134,11 +134,11 @@
 
                 <!-- Fila 10 -->
 
-                <ImageButton Grid.Row="10" Grid.Column="0" Source="choco.png"/>
+                <ImageButton Grid.Row="10" Grid.Column="0" Source="choco.png" Clicked="PostresDulces1_Clicked"/>
 
-                <ImageButton Grid.Row="10" Grid.Column="1" Source="dulcemilk.png"/>
+                <ImageButton Grid.Row="10" Grid.Column="1" Source="dulcemilk.png" Clicked="PostresDulces2_Clicked"/>
 
-                <ImageButton Grid.Row="10" Grid.Column="2" Source="alfajores.png"/>
+                <ImageButton Grid.Row="10" Grid.Column="2" Source="alfajores.png" Clicked="PostresDulces3_Clicked"/>
 
                 <!-- Fila 11 -->
 

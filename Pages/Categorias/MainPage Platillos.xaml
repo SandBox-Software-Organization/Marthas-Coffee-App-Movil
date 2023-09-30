@@ -66,11 +66,11 @@
 
                 <!-- Fila 2 -->
 
-                <ImageButton Grid.Row="2" Grid.Column="0" x:Name="Pastel"  Source="ensaladapollo.png"/>
+                <ImageButton Grid.Row="2" Grid.Column="0" x:Name="Pastel"  Source="ensaladapollo.png" Clicked="PlatillosEnsaladas1_Clicked"/>
 
-                <ImageButton Grid.Row="2" Grid.Column="1" x:Name="Mochi"  Source="sasa.png"  />
+                <ImageButton Grid.Row="2" Grid.Column="1" x:Name="Mochi"  Source="sasa.png" Clicked="PlatillosEnsaladas2_Clicked" />
 
-                <ImageButton Grid.Row="2" Grid.Column="2" x:Name="Sandwich" Source="ensa.png"/>
+                <ImageButton Grid.Row="2" Grid.Column="2" x:Name="Sandwich" Source="ensa.png" Clicked="PlatillosEnsaladas3_Clicked"/>
 
                 <!-- Fila 3 -->
 
@@ -100,11 +100,11 @@
 
                 <!-- Fila 6 -->
 
-                <ImageButton Grid.Row="6" Grid.Column="0" Source="rollitos.png"/>
+                <ImageButton Grid.Row="6" Grid.Column="0" Source="rollitos.png" Clicked="PlatillosEntradas1_Clicked"/>
 
-                <ImageButton Grid.Row="6" Grid.Column="1" Source="crema.png"/>
+                <ImageButton Grid.Row="6" Grid.Column="1" Source="crema.png" Clicked="PlatillosEntradas2_Clicked"/>
 
-                <ImageButton Grid.Row="6" Grid.Column="2" Source="pan.png"/>
+                <ImageButton Grid.Row="6" Grid.Column="2" Source="pan.png" Clicked="PlatillosEntradas3_Clicked"/>
 
                 <!-- Fila 7 -->
 
@@ -134,11 +134,11 @@
 
                 <!-- Fila 10 -->
 
-                <ImageButton Grid.Row="10" Grid.Column="0" Source="bibimbap.png"/>
+                <ImageButton Grid.Row="10" Grid.Column="0" Source="bibimbap.png" Clicked="PlatillosPlatosFuertes1_Clicked"/>
 
-                <ImageButton Grid.Row="10" Grid.Column="1" Source="sushi.png"/>
+                <ImageButton Grid.Row="10" Grid.Column="1" Source="sushi.png" Clicked="PlatillosPlatosFuertes2_Clicked"/>
 
-                <ImageButton Grid.Row="10" Grid.Column="2" Source="carne.png"   />
+                <ImageButton Grid.Row="10" Grid.Column="2" Source="carne.png" Clicked="PlatillosPlatosFuertes3_Clicked"  />
 
                 <!-- Fila 11 -->
 
