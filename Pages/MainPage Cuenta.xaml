@@ -8,6 +8,8 @@
              
              IconImageSource="cuentaicono"
              
+             NavigationPage.HasBackButton="False"
+             
              NavigationPage.HasNavigationBar="false"
              
              Title="Cuenta">

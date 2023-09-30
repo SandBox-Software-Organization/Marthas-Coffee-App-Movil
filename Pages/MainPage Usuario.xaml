@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             
+             x:Class="Marthas_Coffee_App_Movil.Pages.MainPage_Usuario"
+             
+             IconImageSource="cuentaicono.svg"
+             
+             NavigationPage.HasNavigationBar="False"
+             
+             Title="Cuenta">
+
+    <ScrollView>
+
+        <VerticalStackLayout Padding="10,10,10,10">
+
+            <Grid RowSpacing="5" ColumnSpacing="5">
+
+                <Grid.RowDefinitions>
+
+                    <RowDefinition/>
+
+                    <RowDefinition />
+
+                    <RowDefinition/>
+
+                    <RowDefinition/>
+
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+
+                    <ColumnDefinition/>
+
+                    <ColumnDefinition/>
+
+                </Grid.ColumnDefinitions>
+
+                <!-- Fila 0 -->
+
+                <Label       Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" FontSize="40" FontAttributes="Bold" Text="Cuenta" VerticalOptions="Center" HorizontalOptions="Center"/>
+
+                <!-- Fila 1 -->
+
+                <Label       Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" HorizontalOptions="Center" FontSize="20" Text="Aca iria el nombre de usuario"  FontAttributes="Bold" Padding="2,2,2,2"/>
+
+                <!-- Fila 2 -->
+                
+                <Button      Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" x:Name="ButtonPlatillos"  Clicked="CerrarSesion_Clicked"   Text="Cerrar sesión"   CornerRadius="25"/>
+ 
+            </Grid>
+
+        </VerticalStackLayout>
+
+    </ScrollView>
+
+</ContentPage>

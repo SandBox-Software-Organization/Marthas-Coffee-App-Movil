@@ -235,6 +235,9 @@
 	  <MauiXaml Update="Pages\MainPage Pedidos.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Pages\MainPage Usuario.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Pages\Pedido.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

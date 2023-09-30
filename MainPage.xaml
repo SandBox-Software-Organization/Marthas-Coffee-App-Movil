@@ -16,4 +16,6 @@
 
     <Pages:MainPage_Pedidos/>
 
+    <Pages:MainPage_Usuario/>
+
 </TabbedPage>
