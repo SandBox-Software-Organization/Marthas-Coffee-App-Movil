@@ -4,12 +4,10 @@
              
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              
-             x:Class="Marthas_Coffee_App_Movil.Pages.Bebidas"
+             x:Class="Marthas_Coffee_App_Movil.Pages.Categorias.MainPage_Bebidas"
              
-             NavigationPage.HasNavigationBar="false"
-             
-             Title="Bebidas">
-
+              NavigationPage.HasNavigationBar="false">
+    
     <ScrollView>
 
         <VerticalStackLayout Padding="10,10,10,10">
@@ -77,9 +75,9 @@
                 <!-- Fila 3 -->
 
                 <Label Grid.Row="3" Grid.Column="0"  FontSize="10" HorizontalOptions="Center" Text="Bebida 1"  FontAttributes="Bold"/>
-                                                                                                   
+
                 <Label Grid.Row="3" Grid.Column="1"  FontSize="10" HorizontalOptions="Center" Text="Bebida 2"  FontAttributes="Bold"/>
-                                                                                                
+
                 <Label Grid.Row="3" Grid.Column="2"  FontSize="10" HorizontalOptions="Center" Text="Bebida 3"  FontAttributes="Bold"/>
 
                 <!-- Fila 4 -->
@@ -166,7 +164,7 @@
 
             </Grid>
 
-    </VerticalStackLayout>
+        </VerticalStackLayout>
 
     </ScrollView>
 

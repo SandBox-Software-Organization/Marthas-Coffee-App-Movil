@@ -24,7 +24,7 @@ public partial class MainPage_Inicio : ContentPage
 
     {
 
-        Navigation.PushAsync(new Bebidas());
+        Navigation.PushAsync(new Pages.Categorias.MainPage_Bebidas ());
 
     }
 

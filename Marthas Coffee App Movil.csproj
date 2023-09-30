@@ -106,10 +106,10 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="Pages\Bebidas.xaml">
+	  <MauiXaml Update="Pages\Bocadillos.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Pages\Bocadillos.xaml">
+	  <MauiXaml Update="Pages\Categorias\MainPage Bebidas.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Pages\MainPage Crear Cuenta.xaml">
