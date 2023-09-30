@@ -12,7 +12,7 @@
             
              xmlns:android="clr-namespace:Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific;assembly=Microsoft.Maui.Controls" android:TabbedPage.ToolbarPlacement="Bottom">
 
-    <Pages:Inicio/>
+    <Pages:MainPage_Inicio/>
 
     <Pages:Pedido/>
 
