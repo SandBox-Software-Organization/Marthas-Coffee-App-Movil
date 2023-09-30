@@ -66,11 +66,11 @@
 
                 <!-- Fila 2 -->
 
-                <ImageButton Grid.Row="2" Grid.Column="0" x:Name="Horchata" Source="horchata.png"/>
+                <ImageButton Grid.Row="2" Grid.Column="0" x:Name="Horchata" Source="horchata.png" Clicked="FriasBebida1_Clicked"/>
 
-                <ImageButton Grid.Row="2" Grid.Column="1" x:Name="Frape" Source="Frape.png"/>
+                <ImageButton Grid.Row="2" Grid.Column="1" x:Name="Frape" Source="Frape.png" Clicked="CalientesBebida2_Clicked"/>
 
-                <ImageButton Grid.Row="2" Grid.Column="2" x:Name="Limonada"  Source="limonada.png"/>
+                <ImageButton Grid.Row="2" Grid.Column="2" x:Name="Limonada"  Source="limonada.png" Clicked="CalientesBebida3_Clicked"/>
 
                 <!-- Fila 3 -->
 
@@ -100,33 +100,33 @@
 
                 <!-- Fila 6 -->
 
-                <ImageButton Grid.Row="6" Grid.Column="0" Source="capu.png"/>
+                <ImageButton Grid.Row="6" Grid.Column="0" Source="calientesbebida1capuchino.png" Clicked="CalientesBebida1_Clicked"/>
 
-                <ImageButton Grid.Row="6" Grid.Column="1" Source="moca.png"/>
+                <ImageButton Grid.Row="6" Grid.Column="1" Source="calientesbebida2moca.png" Clicked="CalientesBebida2_Clicked"/>
 
-                <ImageButton Grid.Row="6" Grid.Column="2" Source="atol.png"/>
+                <ImageButton Grid.Row="6" Grid.Column="2" Source="calientesbebida3atol.png" Clicked="CalientesBebida3_Clicked"/>
 
                 <!-- Fila 7 -->
 
-                <Label Grid.Row="7" Grid.Column="0" FontSize="10" Text="Bebida 1"   HorizontalOptions="Center" FontAttributes="Bold"/>
+                <Label Grid.Row="7" Grid.Column="0" FontSize="10" Text="Capuchino"   HorizontalOptions="Center" FontAttributes="Bold"/>
 
-                <Label Grid.Row="7" Grid.Column="1" FontSize="10"  Text="Bebida 2"  HorizontalOptions="Center" FontAttributes="Bold"/>
+                <Label Grid.Row="7" Grid.Column="1" FontSize="10"  Text="Moca"  HorizontalOptions="Center" FontAttributes="Bold"/>
 
-                <Label Grid.Row="7" Grid.Column="2" FontSize="10"  Text="Bebida 3" HorizontalOptions="Center" FontAttributes="Bold"/>
+                <Label Grid.Row="7" Grid.Column="2" FontSize="10"  Text="Atol" HorizontalOptions="Center" FontAttributes="Bold"/>
 
                 <!-- Fila 8 -->
 
                 <Label Grid.Row="8" Grid.Column="0" HorizontalOptions="Start" FontSize="10"  Text="$:" FontAttributes="Bold"/>
 
-                <Label Grid.Row="8" Grid.Column="0" HorizontalOptions="Center" FontSize="10"  Text="00.00"  FontAttributes="Bold"/>
+                <Label Grid.Row="8" Grid.Column="0" HorizontalOptions="Center" FontSize="10"  Text="1.00"  FontAttributes="Bold"/>
 
                 <Label Grid.Row="8" Grid.Column="1" HorizontalOptions="Start" FontSize="10"  Text="$:"     FontAttributes="Bold"/>
 
-                <Label Grid.Row="8" Grid.Column="1" HorizontalOptions="Center" FontSize="10"  Text="00.00"  FontAttributes="Bold"/>
+                <Label Grid.Row="8" Grid.Column="1" HorizontalOptions="Center" FontSize="10"  Text="1.00"  FontAttributes="Bold"/>
 
                 <Label Grid.Row="8" Grid.Column="2" HorizontalOptions="Start" FontSize="10"  Text="$:"     FontAttributes="Bold"/>
 
-                <Label Grid.Row="8" Grid.Column="2" HorizontalOptions="Center" FontSize="10"  Text="00.00"  FontAttributes="Bold"/>
+                <Label Grid.Row="8" Grid.Column="2" HorizontalOptions="Center" FontSize="10"  Text="1.00"  FontAttributes="Bold"/>
 
                 <!-- Fila 9 -->
 
@@ -134,11 +134,11 @@
 
                 <!-- Fila 10 -->
 
-                <ImageButton Grid.Row="10" Grid.Column="0" Source="mandarinas.png"/>
+                <ImageButton Grid.Row="10" Grid.Column="0" Source="mandarinas.png" Clicked="NaturalesBebida1_Clicked"/>
 
-                <ImageButton Grid.Row="10" Grid.Column="1" Source="jamaica.png"/>
+                <ImageButton Grid.Row="10" Grid.Column="1" Source="jamaica.png" Clicked="NaturalesBebida2_Clicked"/>
 
-                <ImageButton Grid.Row="10" Grid.Column="2" Source="mango.png"/>
+                <ImageButton Grid.Row="10" Grid.Column="2" Source="mango.png" Clicked="NaturalesBebida3_Clicked"/>
 
                 <!-- Fila 11 -->
 

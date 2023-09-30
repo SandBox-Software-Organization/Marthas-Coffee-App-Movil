@@ -106,6 +106,33 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Update="Pages\Categorias\Bebidas\Calientes\CalientesBebida1.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\Categorias\Bebidas\Calientes\CalientesBebida2.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\Categorias\Bebidas\Calientes\CalientesBebida3.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\Categorias\Bebidas\Frias\FriasBebida1.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\Categorias\Bebidas\Frias\FriasBebida2.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\Categorias\Bebidas\Frias\FriasBebida3.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\Categorias\Bebidas\Naturales\NaturalesBebida1.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\Categorias\Bebidas\Naturales\NaturalesBebida2.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\Categorias\Bebidas\Naturales\NaturalesBebida3.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Pages\Categorias\MainPage Bebidas.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
@@ -127,9 +154,6 @@
 	  <MauiXaml Update="Pages\MainPage Pedidos.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Pages\Categorias\Postres\Mochi.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
 	  <MauiXaml Update="Pages\Pedido.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
@@ -140,9 +164,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="Pages\Categorias\Bebidas\" />
 	  <Folder Include="Pages\Categorias\Bocadillos\" />
 	  <Folder Include="Pages\Categorias\Platillos\" />
+	  <Folder Include="Pages\Categorias\Postres\" />
 	</ItemGroup>
 
 </Project>

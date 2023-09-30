@@ -11,7 +11,7 @@ public partial class MainPage_Postres : ContentPage
 
     {
 
-        Navigation.PushAsync(new Pages.Categorias.Postres.Mochi());
+        Navigation.PushAsync(new ());
 
     }
 }
