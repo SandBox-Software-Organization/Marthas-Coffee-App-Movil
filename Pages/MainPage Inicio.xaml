@@ -45,9 +45,21 @@
                 <Label       Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" FontSize="40" FontAttributes="Bold" Text="Bienvenid@" VerticalOptions="Center" HorizontalOptions="Center"/>
 
                 <!-- Fila 1 -->
+                
+                <CarouselView  Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2"  x:Name="carouselView">
+                    
+                <CarouselView.ItemTemplate>
+                    
+                <DataTemplate>
 
-                <ImageButton  Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" HorizontalOptions="Center" x:Name="Pasteldefresa" Source="titi.png" Aspect="AspectFit" Padding="0,20,0,5"/>
+                <Image Source="{Binding Imagen}" Margin="20,0,0,20"/>
 
+                </DataTemplate>
+                    
+                </CarouselView.ItemTemplate>
+                    
+                </CarouselView>
+                
                 <!-- Fila 2 -->
 
                 <Label       Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" HorizontalOptions="Center" FontSize="20" Text="Categorias"  FontAttributes="Bold" Padding="2,2,2,2"/>

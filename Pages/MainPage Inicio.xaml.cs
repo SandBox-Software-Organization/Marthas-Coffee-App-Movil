@@ -4,13 +4,30 @@ public partial class MainPage_Inicio : ContentPage
 
 {
 
-	public MainPage_Inicio()
+    //Carrusel//
+    public class CollectionItem
+    {
+        public string Imagen { get; set; }
+    }
+
+    public MainPage_Inicio()
 
 	{
 
 		InitializeComponent();
 
-	}
+        var items = new List<CollectionItem>
+        {
+            new CollectionItem{Imagen ="calientesbebida1capuchino.png"},
+
+            new CollectionItem{Imagen ="calientesbebida2moca.png"},
+
+            new CollectionItem{Imagen = "calientesbebida3atol.png"}
+
+        };
+        carouselView.ItemsSource = items;
+
+    }
 
     private void ButtonPlatillos_Clicked(object sender, EventArgs e)
 
