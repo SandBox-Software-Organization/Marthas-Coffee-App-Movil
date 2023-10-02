@@ -1,12 +1,77 @@
 <?xml version="1.0" encoding="utf-8" ?>
+    
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             
              x:Class="Marthas_Coffee_App_Movil.Pages.Categorias.Bocadillos.Acidos.BocadillosAcido3"
-             Title="BocadillosAcido3">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+             
+             NavigationPage.HasNavigationBar="false">
+
+    <ScrollView>
+
+        <VerticalStackLayout Padding="10,10,10,10">
+
+            <Grid RowSpacing="5" ColumnSpacing="5">
+
+                <Grid.RowDefinitions>
+
+                    <RowDefinition/>
+
+                    <RowDefinition Height="350"/>
+
+                    <RowDefinition />
+
+                    <RowDefinition/>
+
+                    <RowDefinition/>
+
+                    <RowDefinition/>
+
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+
+                    <ColumnDefinition/>
+
+                    <ColumnDefinition Width="50"/>
+
+                    <ColumnDefinition/>
+
+                </Grid.ColumnDefinitions>
+
+                <!-- Fila 0 -->
+
+                <Label  Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" FontSize="40" FontAttributes="Bold" Text="Capuchino" VerticalOptions="Center" HorizontalOptions="Center"/>
+
+                <!-- Fila 1 -->
+
+                <Image  Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3" Source="calientesbebida1capuchino.png"/>
+
+                <!-- Fila 2 -->
+
+                <Label       Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="3" HorizontalOptions="Center" FontSize="20" Text="Descripcion"  FontAttributes="Bold" Padding="2,2,2,2"/>
+
+                <!-- Fila 3 -->
+
+                <Label       Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="3" HorizontalOptions="Center" FontSize="20" Text="---------"  FontAttributes="Bold" Padding="2,2,2,2" VerticalOptions="Center"/>
+
+                <!-- Fila 4 -->
+
+                <Button Grid.Row="4" Grid.Column="0"  HorizontalOptions="End" x:Name="Mas"       Text="+"  CornerRadius="60" FontAttributes="Bold"/>
+
+                <Label  Grid.Row="4" Grid.Column="1"  HorizontalOptions="Center" VerticalOptions="Center" Text="0" FontAttributes="Bold"/>
+
+                <Button Grid.Row="4" Grid.Column="2" HorizontalOptions="Start" x:Name="Menos"    Text="-" CornerRadius="60" FontAttributes="Bold"/>
+
+                <!-- Fila 5 -->
+
+                <Button Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="3" x:Name="Orden" Text="Agregar a la orden"  CornerRadius="25"/>
+
+            </Grid>
+
+        </VerticalStackLayout>
+
+    </ScrollView>
+
 </ContentPage>

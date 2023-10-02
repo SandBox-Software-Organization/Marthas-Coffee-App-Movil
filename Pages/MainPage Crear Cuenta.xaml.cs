@@ -12,7 +12,7 @@ public partial class MainPage_Crear_Cuenta : ContentPage
 	}
 
     [Obsolete]
-    private void Registro_Clicked(object sender, EventArgs e)
+    public void Registro_Clicked(object sender, EventArgs e)
     {
         var dbpath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "UsersDatabase.bd");
         var db = new SQLiteConnection(dbpath);
