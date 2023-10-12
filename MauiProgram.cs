@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.Logging;
+﻿using Marthas_Coffee_App_Movil.DataAccess;
+using Microsoft.Extensions.Logging;
 
 namespace Marthas_Coffee_App_Movil;
 
@@ -15,8 +16,10 @@ public static class MauiProgram
 				fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
 			});
 
+       // Agregar el contexto a la base de datos y la pagina
+        builder.Services.AddDbContext<MarthasCoffeDbContext>();
 #if DEBUG
-		builder.Logging.AddDebug();
+        builder.Logging.AddDebug();
 #endif
 
 		return builder.Build();
